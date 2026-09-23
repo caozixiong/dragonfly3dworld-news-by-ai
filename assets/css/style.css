@@ -100,3 +100,27 @@ footer.site {
   font-size: .82rem;
 }
 a { color: var(--accent); }
+
+/* ---- bilingual ---- */
+html[data-lang="zh"] .t-en { display: none !important; }
+html[data-lang="en"] .t-zh { display: none !important; }
+header.site { position: relative; }
+.lang-toggle {
+  position: absolute;
+  top: 28px;
+  right: 0;
+  font-family: inherit;
+  font-size: .82rem;
+  font-weight: 600;
+  padding: 6px 16px;
+  border-radius: 999px;
+  border: 1px solid var(--border);
+  background: var(--surface);
+  color: var(--accent);
+  cursor: pointer;
+}
+.lang-toggle:hover { border-color: var(--accent); }
+@media (max-width: 560px) {
+  .lang-toggle { top: 20px; padding: 5px 12px; }
+  header.site h1 { font-size: 1.35rem; padding-right: 76px; }
+}
