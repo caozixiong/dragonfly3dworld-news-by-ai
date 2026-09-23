@@ -1,1 +1,168 @@
-{"days":[{"count":8,"date":"2026-09-23","items":[{"category":"学术论文","date":"2025-10-13","source":"Frontiers in Dental Medicine","summary":"研究用 micro-CT 扫描 36 颗经三种方式涂布封闭剂的离体前磨牙，数据导入 Dragonfly 3D World 2024.1 做阈值分割与 ROI Painter 手动修正，再用 Basic Properties 面板自动计算各材料层体积，间接得出封闭剂层孔隙率。结果显示新型压电 Vibrospiral 涂布的孔隙体积百分比最低（3.5%），显著优于 K-file（22.01%）和 Lentulo 螺旋（19.21%）。","tags":["根管治疗","孔隙定量","micro-CT"],"title":"Dragonfly 定量根管封闭剂孔隙：新型压电 Vibrospiral 表现最佳","url":"https://www.frontiersin.org/journals/dental-medicine/articles/10.3389/fdmed.2025.1695090/full"},{"category":"学术论文","date":"2026-09-11","source":"Frontiers in Bioengineering and Biotechnology","summary":"研究将鼠类骨骼的高分辨率 micro-CT 数据按比例放大，探索生成保留骨小梁解剖结构的可打印 3D 模型。作者把原始 .stl 网格载入 Dragonfly 3D World 2024.1，以软件测得的总体积、表面积与长宽高为基准，系统对比了不同网格算法、编码与单位导出条件下的文件体积与网格误差，选定最优导出方案后用 FDM 与 SLA 成功打印出模型。","tags":["骨科","3D 打印","网格化"],"title":"从 micro-CT 骨扫描到可打印 3D 骨模型：保留骨小梁保真度的工作流","url":"https://www.frontiersin.org/journals/bioengineering-and-biotechnology/articles/10.3389/fbioe.2026.1836815/full"},{"category":"版本前瞻","date":"2026-09-04","source":"Metrology and Quality News","summary":"2027 版主打汽车 CT 检测：基于 Meta SAM 的 AI 实例分割一键分离孔隙、夹杂等目标；新增亚体素多重网格做定量分析，另有 CAD 对比与集成报告。","tags":["2027 新版","AI 分割","汽车 CT"],"title":"Dragonfly 3D World 2027 前瞻：AI 实例分割与亚体素测量","url":"https://metrology.news/dragonfly-3d-world-2027-adds-ai-segmentation-and-advanced-ct-measurement-tools/"},{"category":"应用案例","date":"2026-01-12","source":"Dragonfly 官方博客","summary":"官方应用笔记：AI 分割能检出 Otsu 阈值法漏掉的窄缝状孔隙和低对比度缩松，在新样品上泛化依然可靠。","tags":["孔隙率","深度学习","铸件检测"],"title":"AI 增强的铸件孔隙率分析：超越传统阈值分割","url":"https://dragonfly.comet.tech/en/blog/ai-enhanced-casting-porosity-analysis-in-dragonfly-3d-world"},{"category":"功能介绍","date":"2026","source":"Dragonfly 官网","summary":"亚体素多重网格实现可重复精确测量；名义 vs 实际 CAD 对比一键化；Fast Split GPU 实例分割；报告生成器导出 Word/PDF/HTML。","tags":["计量","CAD 对比","报告"],"title":"Dragonfly 新功能一览：多重网格、名义对比与报告生成器","url":"https://dragonfly.comet.tech/en/what-s-new-in-dragonfly"},{"category":"技术解析","date":"2026","source":"Dragonfly 官方博客","summary":"官方长文：集成 Meta SAM 与 Cellpose-SAM，开箱即用的一键分割减少人工修正，加速标注数据训练专用模型。","tags":["CT 分析","SAM","Cellpose"],"title":"为什么 Dragonfly 3D World 引领现代 CT 分析软件市场","url":"https://dragonfly.comet.tech/en/blog/why-dragonfly-3d-world-leads-the-modern-modern-computed-tomography-ct-analysis-software-market"},{"category":"用户故事","date":"2026-03-12","source":"Dragonfly 官方博客","summary":"马普所生物材料部门负责人谈使用 3D World 的历程与科研影响，生命科学用户值得一看。","tags":["生命科学","用户访谈"],"title":"实验室访谈：Max Planck 研究所的 Dr. Emeline Raguin","url":"https://dragonfly.comet.tech/en/blog"},{"category":"版本发布","date":"2025-11","source":"Metal Additive Manufacturing","summary":"2025 版引入 SAM 一键标注、亚体素表面重建、GPU 加速滤波（最高快 100 倍），可对照了解 2027 版演进路线。","tags":["2025 版","GPU 加速","增材制造"],"title":"回顾：Dragonfly 3D World 2025 发布——SAM 集成与 GPU 加速","url":"https://www.metal-am.com/comet-launches-dragonfly-3d-world-2025-with-smart-ai-tools-fast-visualisation/"}],"page":"news/2026-09-23.html"}],"site":"Dragonfly 3D World News by AI","updated":"2026-09-23"}
+{
+  "days": [
+    {
+      "count": 8,
+      "date": "2026-09-23",
+      "items": [
+        {
+          "category": "学术论文",
+          "date": "2025-10-13",
+          "source": "Frontiers in Dental Medicine",
+          "summary": "研究用 micro-CT 扫描 36 颗经三种方式涂布封闭剂的离体前磨牙，数据导入 Dragonfly 3D World 2024.1 做阈值分割与 ROI Painter 手动修正，再用 Basic Properties 面板自动计算各材料层体积，间接得出封闭剂层孔隙率。结果显示新型压电 Vibrospiral 涂布的孔隙体积百分比最低（3.5%），显著优于 K-file（22.01%）和 Lentulo 螺旋（19.21%）。",
+          "tags": [
+            "根管治疗",
+            "孔隙定量",
+            "micro-CT"
+          ],
+          "title": "Dragonfly 定量根管封闭剂孔隙：新型压电 Vibrospiral 表现最佳",
+          "url": "https://www.frontiersin.org/journals/dental-medicine/articles/10.3389/fdmed.2025.1695090/full"
+        },
+        {
+          "category": "学术论文",
+          "date": "2026-09-11",
+          "source": "Frontiers in Bioengineering and Biotechnology",
+          "summary": "研究将鼠类骨骼的高分辨率 micro-CT 数据按比例放大，探索生成保留骨小梁解剖结构的可打印 3D 模型。作者把原始 .stl 网格载入 Dragonfly 3D World 2024.1，以软件测得的总体积、表面积与长宽高为基准，系统对比了不同网格算法、编码与单位导出条件下的文件体积与网格误差，选定最优导出方案后用 FDM 与 SLA 成功打印出模型。",
+          "tags": [
+            "骨科",
+            "3D 打印",
+            "网格化"
+          ],
+          "title": "从 micro-CT 骨扫描到可打印 3D 骨模型：保留骨小梁保真度的工作流",
+          "url": "https://www.frontiersin.org/journals/bioengineering-and-biotechnology/articles/10.3389/fbioe.2026.1836815/full"
+        },
+        {
+          "category": "版本前瞻",
+          "date": "2026-09-04",
+          "source": "Metrology and Quality News",
+          "summary": "2027 版主打汽车 CT 检测：基于 Meta SAM 的 AI 实例分割一键分离孔隙、夹杂等目标；新增亚体素多重网格做定量分析，另有 CAD 对比与集成报告。",
+          "tags": [
+            "2027 新版",
+            "AI 分割",
+            "汽车 CT"
+          ],
+          "title": "Dragonfly 3D World 2027 前瞻：AI 实例分割与亚体素测量",
+          "url": "https://metrology.news/dragonfly-3d-world-2027-adds-ai-segmentation-and-advanced-ct-measurement-tools/"
+        },
+        {
+          "category": "应用案例",
+          "date": "2026-01-12",
+          "source": "Dragonfly 官方博客",
+          "summary": "官方应用笔记：AI 分割能检出 Otsu 阈值法漏掉的窄缝状孔隙和低对比度缩松，在新样品上泛化依然可靠。",
+          "tags": [
+            "孔隙率",
+            "深度学习",
+            "铸件检测"
+          ],
+          "title": "AI 增强的铸件孔隙率分析：超越传统阈值分割",
+          "url": "https://dragonfly.comet.tech/en/blog/ai-enhanced-casting-porosity-analysis-in-dragonfly-3d-world"
+        },
+        {
+          "category": "功能介绍",
+          "date": "2026",
+          "source": "Dragonfly 官网",
+          "summary": "亚体素多重网格实现可重复精确测量；名义 vs 实际 CAD 对比一键化；Fast Split GPU 实例分割；报告生成器导出 Word/PDF/HTML。",
+          "tags": [
+            "计量",
+            "CAD 对比",
+            "报告"
+          ],
+          "title": "Dragonfly 新功能一览：多重网格、名义对比与报告生成器",
+          "url": "https://dragonfly.comet.tech/en/what-s-new-in-dragonfly"
+        },
+        {
+          "category": "技术解析",
+          "date": "2026",
+          "source": "Dragonfly 官方博客",
+          "summary": "官方长文：集成 Meta SAM 与 Cellpose-SAM，开箱即用的一键分割减少人工修正，加速标注数据训练专用模型。",
+          "tags": [
+            "CT 分析",
+            "SAM",
+            "Cellpose"
+          ],
+          "title": "为什么 Dragonfly 3D World 引领现代 CT 分析软件市场",
+          "url": "https://dragonfly.comet.tech/en/blog/why-dragonfly-3d-world-leads-the-modern-modern-computed-tomography-ct-analysis-software-market"
+        },
+        {
+          "category": "用户故事",
+          "date": "2026-03-12",
+          "source": "Dragonfly 官方博客",
+          "summary": "马普所生物材料部门负责人谈使用 3D World 的历程与科研影响，生命科学用户值得一看。",
+          "tags": [
+            "生命科学",
+            "用户访谈"
+          ],
+          "title": "实验室访谈：Max Planck 研究所的 Dr. Emeline Raguin",
+          "url": "https://dragonfly.comet.tech/en/blog"
+        },
+        {
+          "category": "版本发布",
+          "date": "2025-11",
+          "source": "Metal Additive Manufacturing",
+          "summary": "2025 版引入 SAM 一键标注、亚体素表面重建、GPU 加速滤波（最高快 100 倍），可对照了解 2027 版演进路线。",
+          "tags": [
+            "2025 版",
+            "GPU 加速",
+            "增材制造"
+          ],
+          "title": "回顾：Dragonfly 3D World 2025 发布——SAM 集成与 GPU 加速",
+          "url": "https://www.metal-am.com/comet-launches-dragonfly-3d-world-2025-with-smart-ai-tools-fast-visualisation/"
+        },
+        {
+          "category": "学术论文",
+          "date": "2026-09-15",
+          "source": "PLOS Biology",
+          "title": "Atlastin-2 介导的内质网膜栓系是黄病毒复制的关键",
+          "url": "https://doi.org/10.1371/journal.pbio.3003556",
+          "summary": "黄病毒在宿主内质网形成的病毒复制细胞器（vROs）中复制。研究用 Dragonfly 3D World 对三维显微图像做分割与可视化，揭示 Atlastin-2 介导的内质网膜栓系对黄病毒复制的关键作用。",
+          "tags": [
+            "病毒学",
+            "显微成像",
+            "三维分割"
+          ]
+        },
+        {
+          "category": "学术论文",
+          "date": "2026-09-01",
+          "source": "Journal of Morphology",
+          "title": "灵长类背鞍孔的演化信号与发育研究",
+          "url": "https://doi.org/10.1002/jmor.70164",
+          "summary": "对 114 例人类与 1468 例 30 属非人灵长类标本的蝶鞍形态做比较研究，文中用 Dragonfly 3D World 处理 micro-CT 三维数据，分析鞍背新描述的背鞍孔的演化信号与发育特征。",
+          "tags": [
+            "形态学",
+            "micro-CT",
+            "灵长类"
+          ]
+        },
+        {
+          "category": "学术论文",
+          "date": "2026-08-28",
+          "source": "Advanced Science",
+          "title": "冻干多模态工作流：同一标本的 micro-CT、组织学与分子检测",
+          "url": "https://doi.org/10.1002/advs.77406",
+          "summary": "针对肝纤维化评估建立冻干多模态工作流，让同一标本依次完成 micro-CT 成像、组织学与分子检测。研究用 Dragonfly 3D World 做 micro-CT 三维重建与定量分析，兼顾无损 3D 成像与下游分析。",
+          "tags": [
+            "肝纤维化",
+            "micro-CT",
+            "多模态"
+          ]
+        },
+        {
+          "category": "学术论文",
+          "date": "2026-08-26",
+          "source": "Nature Communications",
+          "title": "双顶端甲基转移酶调控顶复门寄生虫的运动启动",
+          "url": "https://doi.org/10.1038/s41467-026-77078-y",
+          "summary": "揭示弓形虫等顶复门寄生虫通过双甲基转移酶机制启动运动。研究用 Dragonfly 3D World 对三维显微成像数据做分割与可视化，解析顶端细胞骨架的空间激活过程。",
+          "tags": [
+            "寄生虫学",
+            "显微成像",
+            "三维分割"
+          ]
+        }
+      ],
+      "page": "news/2026-09-23.html"
+    }
+  ],
+  "site": "Dragonfly 3D World News by AI",
+  "updated": "2026-09-23"
+}
