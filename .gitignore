@@ -2,3 +2,4 @@
 .cnblogs.json
 __pycache__/
 *.pyc
+.cnblogs_synced.json
