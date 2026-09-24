@@ -1,0 +1,4 @@
+# 本机凭据与缓存，不进 git
+.cnblogs.json
+__pycache__/
+*.pyc
