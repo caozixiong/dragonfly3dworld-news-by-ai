@@ -25,3 +25,19 @@ dragonfly3dworld-news-by-ai/
 - Dragonfly 官方博客与官网（dragonfly.comet.tech）
 - 行业媒体：Metal AM、Metrology News、AZoM 等
 - 学术出版物中提及 Dragonfly 3D World 的论文
+
+## 学术检索脚本
+
+`bin/paper_search.py` 聚合 6 个免费学术 API 定向检索提及 Dragonfly 3D World 的论文（无需 key）：
+
+| 数据源 | 特点 |
+|---|---|
+| arXiv | 预印本，全字段短语检索 |
+| OpenAlex | 跨出版社元数据 |
+| Crossref | 出版商元数据 |
+| Semantic Scholar | 标题/摘要检索 |
+| Europe PMC | 开放获取全文检索（能抓到方法章节的提及），含 PubMed 与 bioRxiv/medRxiv |
+| OpenAIRE | 欧洲开放获取聚合 |
+
+用法：`python3 bin/paper_search.py --since 2026-08-24 --out results.json`
+脚本自带跨源去重（DOI/标题）、噪音过滤（排除蜻蜓昆虫、dragonfly 算法等）与失败重试，单个源失败不影响其他源。
