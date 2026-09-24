@@ -1,6 +1,79 @@
 {
   "days": [
     {
+      "date": "2026-09-24",
+      "count": 3,
+      "page": "news/2026-09-24.html",
+      "items": [
+        {
+          "category": "会议动态",
+          "category_en": "Event update",
+          "date": "2026-08-28",
+          "source": "Dragonfly 官方博客",
+          "source_en": "Dragonfly official blog",
+          "title": "M&M 2026 回顾：Dragonfly 3D World 2027 首次公开展示，下一届定档 Pittsburgh",
+          "title_en": "M&M 2026 Recap: Dragonfly 3D World 2027 First Public Preview, Next Stop Pittsburgh",
+          "url": "https://dragonfly.comet.tech/en/blog/mm-2027-looking-ahead",
+          "summary": "Dragonfly 团队回顾了 M&M 2026（Milwaukee）一周的参会见闻，并首次公开展示了 Dragonfly 3D World 2027：新功能覆盖 Grid-Based SAM、Fast Split、Subvoxel Multi-Mesh、表面粗糙度分析、Report Builder、扩展的网格与 CAD 能力；团队还在每晚的厂商培训上深入讲解了深度学习分割与 2027 工作流。官方同时宣布 M&M 2027 将于 2027 年 8 月 2–5 日在 Pittsburgh 举行。",
+          "summary_en": "The Dragonfly team recaps a week at M&M 2026 in Milwaukee and gives the first public preview of Dragonfly 3D World 2027: new capabilities include Grid-Based SAM, Fast Split, Subvoxel Multi-Mesh, surface roughness analysis, Report Builder, and expanded mesh and CAD tools, plus evening vendor tutorials on deep learning segmentation and 2027 workflows. M&M 2027 is announced for August 2-5, 2027, in Pittsburgh, PA.",
+          "tags": [
+            "会议",
+            "2027",
+            "新版预告"
+          ],
+          "tags_en": [
+            "Conference",
+            "2027",
+            "Release preview"
+          ]
+        },
+        {
+          "category": "应用案例",
+          "category_en": "Application note",
+          "date": "2026-08-28",
+          "source": "Dragonfly 官方博客",
+          "source_en": "Dragonfly official blog",
+          "title": "电池制造的 3D 图像分析：从电极几何测量到生产变异分析",
+          "title_en": "Transforming Battery Manufacturing with 3D Image Processing",
+          "url": "https://dragonfly.comet.tech/en/blog/ct-image-processing-battery-manufacturing",
+          "summary": "官方应用指南介绍了如何用 Dragonfly 3D World 分析电池 CT 数据：AI 辅助分割定位电极层、夹杂与孔隙，精确测量阳极-阴极 overhang 距离，并通过可复用的深度学习模型与宏把单样品检查扩展为跨批次的生产变异分析。文中还介绍了 2027 版专为圆柱电池设计的 Rotational Views 旋转切片和 Report Builder 报告生成功能。",
+          "summary_en": "The official application guide shows how Dragonfly 3D World supports battery CT analysis: AI-assisted segmentation locates electrode layers, inclusions, and voids; anode-cathode overhang distances are measured precisely; and reusable deep-learning models plus macros extend single-sample inspection into cross-batch production-variability analysis. It also introduces 2027's Rotational Views for cylindrical cells and the Report Builder.",
+          "tags": [
+            "电池检测",
+            "深度学习",
+            "重复性工作流"
+          ],
+          "tags_en": [
+            "Battery inspection",
+            "Deep learning",
+            "Repeatable workflows"
+          ]
+        },
+        {
+          "category": "版本前瞻",
+          "category_en": "Release preview",
+          "date": "2026-07-31",
+          "source": "Dragonfly 官方博客",
+          "source_en": "Dragonfly official blog",
+          "title": "官方详解 Dragonfly 3D World 2027 十大新功能",
+          "title_en": "10 New Features Coming to Dragonfly 3D World 2027",
+          "url": "https://dragonfly.comet.tech/en/blog/dragonfly-3d-world-2027-new-features",
+          "summary": "官方逐条拆解了 2027 版的十个亮点：基于 Meta SAM 的 AI 实例分割（一键分离颗粒、孔隙、纤维等）；亚体素多重网格（Subvoxel Multi-Mesh）做可重复孔隙定量；GPU 加速的 Fast Split 秒级分离粘连物体；Rotational Views 旋转切片检视圆柱形结构；表面粗糙度分析、增强的网格与 CAD 工具（含布尔运算与 STEP 导入）、Report Builder 报告生成器，以及免费的 Session Viewer 共享工具。",
+          "summary_en": "The official post walks through ten highlights of the 2027 release: SAM-based AI instance segmentation (one-click separation of grains, pores, fibers); Subvoxel Multi-Mesh for repeatable porosity quantification; GPU-accelerated Fast Split to separate touching objects in seconds; Rotational Views for cylindrical structures; surface roughness analysis; enhanced mesh and CAD tools (Boolean ops, STEP import); the Report Builder; and the free Session Viewer for sharing.",
+          "tags": [
+            "2027",
+            "AI 分割",
+            "功能详解"
+          ],
+          "tags_en": [
+            "2027",
+            "AI segmentation",
+            "Feature tour"
+          ]
+        }
+      ]
+    },
+    {
       "count": 8,
       "date": "2026-09-23",
       "items": [
@@ -164,5 +237,5 @@
     }
   ],
   "site": "Dragonfly 3D World News by AI",
-  "updated": "2026-09-23"
+  "updated": "2026-09-24"
 }
