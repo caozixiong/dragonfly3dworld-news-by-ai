@@ -1,6 +1,11 @@
 {
   "days": [
     {
+      "date": "2026-09-25",
+      "items": [],
+      "note": "过去 24 小时内未发现新的 Dragonfly 3D World 相关新闻与论文。学术检索 6 个 API 中 Semantic Scholar 暂时不可用，其余 4 条结果均为已收录条目。官方博客最新文章仍为 2026-08-28（已收录）。"
+    },
+    {
       "date": "2026-09-24",
       "count": 3,
       "page": "news/2026-09-24.html",
@@ -237,5 +242,5 @@
     }
   ],
   "site": "Dragonfly 3D World News",
-  "updated": "2026-09-24"
+  "updated": "2026-09-25"
 }
