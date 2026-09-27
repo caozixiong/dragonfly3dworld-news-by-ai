@@ -1,4 +1,4 @@
-// Dragonfly 3D World News by AI — 双语切换 + 关键词过滤
+// Dragonfly 3D World News — 双语切换 + 关键词过滤
 (function () {
   var root = document.documentElement;
 
