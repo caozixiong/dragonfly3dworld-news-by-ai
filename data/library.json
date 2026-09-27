@@ -1,7 +1,7 @@
 {
- "updated": "2026-09-26",
+ "updated": "2026-09-27",
  "site": "Dragonfly 3D World News",
- "count": 17,
+ "count": 18,
  "topics": [
   {
    "key": "life-sciences",
@@ -35,6 +35,49 @@
   }
  ],
  "entries": [
+  {
+   "id": "url:https://www.mdpi.com/1996-1944/19/19/4076",
+   "title": "牙科新材料：Dragonfly 定量纳米氟磷灰石改性正畸水门汀内部孔隙，2 wt.% 配方粘接强度最优",
+   "title_en": "Dental Materials: Dragonfly Quantifies Internal Porosity of Nanofluorapatite-Modified Orthodontic Cement; 2 wt.% Formulation Shows Best Bond Strength",
+   "summary": "波兰弗罗茨瓦夫的研究团队用 SkyScan 1172 micro-CT 扫描了掺入纳米氟磷灰石（nFAp）的 GC Fuji Ortho LC 正畸树脂改性玻璃离子水门汀，并借助 Dragonfly 3D World 2025.1 的 Upper Otsu 分割与 Porosity Segmentation 算法定量分析内部孔隙与孔形貌：nFAp 的加入提高了材料孔隙率和可解析的孔隙数密度，孔隙尺寸变化不大；改性组的剪切粘接强度从 12.47 MPa 显著提升至约 17 MPa，其中 2 wt.% nFAp 配方综合机械性能最优，而压痕硬度与弹性模量无显著差异。",
+   "summary_en": "A Polish research team scanned nanofluorapatite (nFAp)-modified GC Fuji Ortho LC orthodontic resin-modified glass ionomer cement with a SkyScan 1172 micro-CT and quantified internal porosity and pore morphology using Dragonfly 3D World 2025.1 (Upper Otsu segmentation and the Porosity Segmentation with AO Fields algorithm): nFAp incorporation increased volumetric porosity and resolved pore number density while pore dimensions changed only modestly; shear bond strength rose significantly from 12.47 MPa to about 17 MPa in the modified groups, with the 2 wt.% nFAp formulation showing the most favorable overall mechanical profile and no significant change in indentation hardness or modulus.",
+   "url": "https://www.mdpi.com/1996-1944/19/19/4076",
+   "doi": "",
+   "date": "2026-09-23",
+   "digest_date": "2026-09-27",
+   "digest_page": "news/2026-09-27.html",
+   "source": "Materials（MDPI）",
+   "source_en": "Materials (MDPI)",
+   "category": "学术论文",
+   "category_en": "Research paper",
+   "tags": [
+    "牙科",
+    "micro-CT",
+    "孔隙分析"
+   ],
+   "tags_en": [
+    "Dental",
+    "micro-CT",
+    "Porosity analysis"
+   ],
+   "topics": [
+    {
+     "key": "life-sciences",
+     "zh": "生命科学",
+     "en": "Life Sciences"
+    },
+    {
+     "key": "materials-manufacturing",
+     "zh": "材料与制造",
+     "en": "Materials & Manufacturing"
+    },
+    {
+     "key": "releases-features",
+     "zh": "版本与功能",
+     "en": "Releases & Features"
+    }
+   ]
+  },
   {
    "id": "url:https://dragonfly.comet.tech/en/events",
    "title": "官方网络研讨会：Dragonfly 3D World 2027 新功能速览（9 月 23 日举行）",
