@@ -1,6 +1,59 @@
 {
   "days": [
     {
+      "date": "2026-09-28",
+      "count": 2,
+      "page": "news/2026-09-28.html",
+      "items": [
+        {
+          "category": "学术论文",
+          "category_en": "Research paper",
+          "date": "2026-03-27",
+          "source": "Materials（MDPI）",
+          "source_en": "Materials (MDPI)",
+          "title": "氢致延性裂纹扩展的 3D 可视化：Dragonfly 定量 P355NH 钢裂纹尖端空隙演化",
+          "title_en": "3D Visualization of Hydrogen-Assisted Ductile Crack Growth: Dragonfly Quantifies Void Evolution at the Crack Tip in P355NH Steel",
+          "url": "https://www.mdpi.com/1996-1944/19/7/1335",
+          "summary": "德国萨尔兰大学与 Fraunhofer IZFP 的研究团队对氢预充的 P355NH 压力容器钢紧凑拉伸试样做了 micro-CT 裂纹前沿全厚度扫描，并从中加工出 ROI 小样进行小于 10 微米体素的高分辨扫描；空隙网络借助 Dragonfly 3D World 2025.1 的各向异性扩散滤波去噪与阈值分割提取。结果表明氢致裂纹扩展伴随裂纹尖端附近空隙形成与二次开裂增多；但连续的氢解吸叠加了测量结果，作者建议后续开展带氢充载的原位实验。",
+          "summary_en": "A German team (Saarland University / Fraunhofer IZFP) imaged crack fronts in hydrogen-precharged P355NH compact-tension specimens with micro-CT, combining full-thickness scans with high-resolution ROI volumes below 10 µm voxel size, and extracted the internal void network in Dragonfly 3D World 2025.1 using anisotropic-diffusion denoising followed by threshold segmentation. Hydrogen-assisted crack propagation was associated with increased void formation and secondary cracking near the crack tip; the authors note continuous hydrogen desorption superimposed on the results and recommend in-situ hydrogen-charged testing as the next step.",
+          "tags": [
+            "金属材料",
+            "氢脆",
+            "micro-CT",
+            "空隙分析"
+          ],
+          "tags_en": [
+            "Metallic materials",
+            "Hydrogen embrittlement",
+            "micro-CT",
+            "Void analysis"
+          ]
+        },
+        {
+          "category": "学术论文",
+          "category_en": "Research paper",
+          "date": "2026-02-24",
+          "source": "Reproductive Toxicology",
+          "source_en": "Reproductive Toxicology",
+          "title": "胎儿发育毒理学的 micro-CT 数字化流程：Dragonfly 辅助分割大鼠胎儿颅脑结构",
+          "title_en": "Fetal Imaging with Micro-CT in the Age of AI: A Digital Pipeline with Dragonfly-Assisted Segmentation of Rat Fetal Cranium and Brain",
+          "url": "https://doi.org/10.1016/j.reprotox.2026.109199",
+          "summary": "工业与监管界团队为替代传统的 Wilson–Staples 致畸检查建立了一套胎儿数字化成像流程：妊娠 21 天的大鼠胎儿经碘剂染色、琼脂包埋后用 ZEISS Xradia Versa micro-CT 扫描，颅骨与脑的三维图像用 Slicer 与 Dragonfly 3D World 重建分割，并由训练有素的胎儿形态学家对照传统标本确认准确性。卢戈液浸泡 72–96 小时可获得均匀的软组织对比，外部与内脏评估质量堪比传统方法；结合可解释 AI 框架，该流程有望以可定量、可复现的方式精简发育毒理学评估并减少动物使用。",
+          "summary_en": "An industry–regulatory team built a digital imaging pipeline as a replacement for the conventional Wilson–Staples teratology examination: gestation-day-21 rat fetuses were iodine-stained, agarose-embedded, and scanned with a ZEISS Xradia Versa micro-CT, and 3D images of the cranium and brain were reconstructed and segmented with Slicer and Dragonfly 3D World, verified against conventionally prepared specimens by a trained fetal morphologist. Lugol immersion for 72–96 h produced uniform soft-tissue contrast, and external and visceral assessments compared favorably with traditional methods; combined with an explainable AI framework, the pipeline promises quantitative, reproducible developmental-toxicology assessment with reduced animal use.",
+          "tags": [
+            "发育毒理学",
+            "micro-CT",
+            "生命科学"
+          ],
+          "tags_en": [
+            "Developmental toxicology",
+            "micro-CT",
+            "Life sciences"
+          ]
+        }
+      ]
+    },
+    {
       "date": "2026-09-27",
       "count": 1,
       "page": "news/2026-09-27.html",
