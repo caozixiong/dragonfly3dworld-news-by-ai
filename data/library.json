@@ -1,7 +1,7 @@
 {
- "updated": "2026-09-27",
+ "updated": "2026-09-29",
  "site": "Dragonfly 3D World News",
- "count": 20,
+ "count": 21,
  "topics": [
   {
    "key": "life-sciences",
@@ -35,6 +35,54 @@
   }
  ],
  "entries": [
+  {
+   "id": "url:https://www.microwavejournal.com/articles/46220-whats-new-in-dragonfly-3d-world-2027-for-additive-manufacturing",
+   "title": "增材制造视角：Dragonfly 3D World 2027 十大新功能详解",
+   "title_en": "What's New in Dragonfly 3D World 2027 for Additive Manufacturing",
+   "summary": "Microwave Journal 从增材制造应用视角梳理了即将发布的 Dragonfly 3D World 2027 十大功能：基于 Meta SAM 的 AI 实例分割可一键分离粉末颗粒、孔隙与缺熔缺陷；亚体素多重网格（Subvoxel Multi-Mesh）实现可重复的孔隙定量；还有 GPU 加速的 Fast Split、Rotational Views 旋转切片、可以直接对标触针仪的表面粗糙度分析，以及 Report Builder 报告生成器和免费的 Session Viewer 共享工具。产品经理 Zixiong Cao 在文中点评了新版本从数据探索到报告的端到端体验改进。",
+   "summary_en": "Microwave Journal reviews ten highlights of the upcoming Dragonfly 3D World 2027 from an additive-manufacturing perspective: SAM-based AI instance segmentation that separates powder particles, pores and lack-of-fusion defects in one click; Subvoxel Multi-Mesh for repeatable porosity quantification; plus GPU-accelerated Fast Split, Rotational Views, stylus-comparable surface roughness analysis, the Report Builder, and the free Session Viewer for sharing. Product Manager Zixiong Cao comments on the release's end-to-end experience improvements, from data exploration to reporting.",
+   "url": "https://www.microwavejournal.com/articles/46220-whats-new-in-dragonfly-3d-world-2027-for-additive-manufacturing",
+   "doi": "",
+   "date": "2026-09-28",
+   "digest_date": "2026-09-29",
+   "digest_page": "news/2026-09-29.html",
+   "source": "Microwave Journal",
+   "source_en": "Microwave Journal",
+   "category": "版本前瞻",
+   "category_en": "Release preview",
+   "tags": [
+    "增材制造",
+    "2027",
+    "功能详解"
+   ],
+   "tags_en": [
+    "Additive manufacturing",
+    "2027",
+    "Feature tour"
+   ],
+   "topics": [
+    {
+     "key": "materials-manufacturing",
+     "zh": "材料与制造",
+     "en": "Materials & Manufacturing"
+    },
+    {
+     "key": "ai-deep-learning",
+     "zh": "AI 与深度学习",
+     "en": "AI & Deep Learning"
+    },
+    {
+     "key": "metrology-inspection",
+     "zh": "计量与检测",
+     "en": "Metrology & Inspection"
+    },
+    {
+     "key": "releases-features",
+     "zh": "版本与功能",
+     "en": "Releases & Features"
+    }
+   ]
+  },
   {
    "id": "url:https://www.mdpi.com/1996-1944/19/7/1335",
    "title": "氢致延性裂纹扩展的 3D 可视化：Dragonfly 定量 P355NH 钢裂纹尖端空隙演化",
