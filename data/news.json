@@ -1,6 +1,37 @@
 {
   "days": [
     {
+      "date": "2026-09-30",
+      "count": 1,
+      "page": "news/2026-09-30.html",
+      "items": [
+        {
+          "title": "生物炭替代石油焦：Dragonfly 定量铬铁矿直接还原的合金颗粒粒度与形态",
+          "title_en": "Bio-Carbon vs. Petroleum Coke: Dragonfly Quantifies Alloy Particle Size and Morphology in Chromite Direct Reduction",
+          "url": "https://www.mdpi.com/1996-1944/19/18/3840",
+          "source": "Materials（MDPI）",
+          "source_en": "Materials (MDPI)",
+          "date": "2026-09-09",
+          "category": "学术论文",
+          "category_en": "Research paper",
+          "summary": "加拿大 CanmetMINING 团队（Natural Resources Canada）比较了生物炭与石油焦作为 CaCl₂ 助熔剂辅助铬铁矿直接还原（DRC）制取铬铁的还原剂性能，考察还原动力学、合金特性与残余相演化。还原产物的 3D X 射线显微断层扫描图像在 Dragonfly 3D World 2025.1 中完成分割与颗粒分离，并计算合金颗粒的体积、表面积与平均 Feret 直径，用于粒径分布与球形度分析。结果表明，生物炭因脱挥发分形成多孔结构而显著加快还原动力学，所得铬铁颗粒更细、成分符合高碳铬铁标准（ISO 5448），证明生物炭可作为 DRC 工艺的低碳替代还原剂。",
+          "summary_en": "A CanmetMINING team (Natural Resources Canada) compared bio-carbon and petroleum coke as reductants in CaCl₂-assisted direct reduction of chromite (DRC) for ferrochrome production, studying reduction kinetics, alloy characteristics and residual-phase evolution. 3D X-ray microtomography volumes of the reduction products were segmented and separated into individual particles in Dragonfly 3D World 2025.1, computing each alloy particle's volume, surface area and mean Feret diameter for particle-size-distribution and sphericity analysis. Bio-carbon's devolatilization created a porous structure that significantly accelerated reduction kinetics, yielding finer ferrochrome particles that meet high-carbon ferrochrome standards (ISO 5448) — a viable low-carbon alternative reductant for DRC.",
+          "tags": [
+            "金属材料",
+            "铬铁",
+            "micro-CT",
+            "颗粒分析"
+          ],
+          "tags_en": [
+            "Metallic materials",
+            "Ferrochrome",
+            "micro-CT",
+            "Particle analysis"
+          ]
+        }
+      ]
+    },
+    {
       "date": "2026-09-29",
       "count": 1,
       "page": "news/2026-09-29.html",
