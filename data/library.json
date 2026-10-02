@@ -78,13 +78,13 @@
    ]
   },
   {
-   "id": "url:https://www.mdpi.com/1996-1944/19/18/3840",
+   "id": "doi:10.3390/ma19183840",
    "title": "生物炭替代石油焦：Dragonfly 定量铬铁矿直接还原的合金颗粒粒度与形态",
    "title_en": "Bio-Carbon vs. Petroleum Coke: Dragonfly Quantifies Alloy Particle Size and Morphology in Chromite Direct Reduction",
    "summary": "加拿大 CanmetMINING 团队（Natural Resources Canada）比较了生物炭与石油焦作为 CaCl₂ 助熔剂辅助铬铁矿直接还原（DRC）制取铬铁的还原剂性能，考察还原动力学、合金特性与残余相演化。还原产物的 3D X 射线显微断层扫描图像在 Dragonfly 3D World 2025.1 中完成分割与颗粒分离，并计算合金颗粒的体积、表面积与平均 Feret 直径，用于粒径分布与球形度分析。结果表明，生物炭因脱挥发分形成多孔结构而显著加快还原动力学，所得铬铁颗粒更细、成分符合高碳铬铁标准（ISO 5448），证明生物炭可作为 DRC 工艺的低碳替代还原剂。",
    "summary_en": "A CanmetMINING team (Natural Resources Canada) compared bio-carbon and petroleum coke as reductants in CaCl₂-assisted direct reduction of chromite (DRC) for ferrochrome production, studying reduction kinetics, alloy characteristics and residual-phase evolution. 3D X-ray microtomography volumes of the reduction products were segmented and separated into individual particles in Dragonfly 3D World 2025.1, computing each alloy particle's volume, surface area and mean Feret diameter for particle-size-distribution and sphericity analysis. Bio-carbon's devolatilization created a porous structure that significantly accelerated reduction kinetics, yielding finer ferrochrome particles that meet high-carbon ferrochrome standards (ISO 5448) — a viable low-carbon alternative reductant for DRC.",
    "url": "https://www.mdpi.com/1996-1944/19/18/3840",
-   "doi": "",
+   "doi": "10.3390/ma19183840",
    "date": "2026-09-09",
    "digest_date": "2026-09-30",
    "digest_page": "news/2026-09-30.html",
@@ -550,13 +550,13 @@
    ]
   },
   {
-   "id": "url:https://www.frontiersin.org/journals/bioengineering-and-biotechnology/articles/10.3389/fbioe.2026.1836815/full",
+   "id": "doi:10.3389/fbioe.2026.1836815",
    "title": "从 micro-CT 骨扫描到可打印 3D 骨模型：保留骨小梁保真度的工作流",
    "title_en": "从 micro-CT 骨扫描到可打印 3D 骨模型：保留骨小梁保真度的工作流",
    "summary": "研究将鼠类骨骼的高分辨率 micro-CT 数据按比例放大，探索生成保留骨小梁解剖结构的可打印 3D 模型。作者把原始 .stl 网格载入 Dragonfly 3D World 2024.1，以软件测得的总体积、表面积与长宽高为基准，系统对比了不同网格算法、编码与单位导出条件下的文件体积与网格误差，选定最优导出方案后用 FDM 与 SLA 成功打印出模型。",
    "summary_en": "研究将鼠类骨骼的高分辨率 micro-CT 数据按比例放大，探索生成保留骨小梁解剖结构的可打印 3D 模型。作者把原始 .stl 网格载入 Dragonfly 3D World 2024.1，以软件测得的总体积、表面积与长宽高为基准，系统对比了不同网格算法、编码与单位导出条件下的文件体积与网格误差，选定最优导出方案后用 FDM 与 SLA 成功打印出模型。",
    "url": "https://www.frontiersin.org/journals/bioengineering-and-biotechnology/articles/10.3389/fbioe.2026.1836815/full",
-   "doi": "",
+   "doi": "10.3389/fbioe.2026.1836815",
    "date": "2026-09-11",
    "digest_date": "2026-09-23",
    "digest_page": "news/2026-09-23.html",
