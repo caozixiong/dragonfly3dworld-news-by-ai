@@ -1,6 +1,12 @@
 {
  "days": [
   {
+   "date": "2026-10-02",
+   "count": 0,
+   "page": "news/2026-10-02.html",
+   "items": []
+  },
+  {
    "date": "2026-10-01",
    "count": 1,
    "page": "news/2026-10-01.html",
@@ -61,7 +67,8 @@
       "Ferrochrome",
       "micro-CT",
       "Particle analysis"
-     ]
+     ],
+     "doi": "10.3390/ma19183840"
     }
    ]
   },
@@ -334,7 +341,8 @@
       "网格化"
      ],
      "title": "从 micro-CT 骨扫描到可打印 3D 骨模型：保留骨小梁保真度的工作流",
-     "url": "https://www.frontiersin.org/journals/bioengineering-and-biotechnology/articles/10.3389/fbioe.2026.1836815/full"
+     "url": "https://www.frontiersin.org/journals/bioengineering-and-biotechnology/articles/10.3389/fbioe.2026.1836815/full",
+     "doi": "10.3389/fbioe.2026.1836815"
     },
     {
      "category": "版本前瞻",
