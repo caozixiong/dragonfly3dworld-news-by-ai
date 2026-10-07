@@ -1,6 +1,39 @@
 {
  "days": [
   {
+   "date": "2026-10-07",
+   "count": 1,
+   "page": "news/2026-10-07.html",
+   "items": [
+    {
+     "title": "官方研究亮点：冻融循环下聚酯纤维增强水泥基复合材料的微观结构损伤（micro-CT 研究）",
+     "title_en": "Official Publication Spotlight: Freeze–Thaw Damage in Fiber-Reinforced Cementitious Composites (Micro-CT Study)",
+     "url": "https://dragonfly.comet.tech/en/resources/publication-spotlight/freeze-thaw-induced-microstructural-damage-in-polyester-fiber-reinforced-cementitious-composites-rev",
+     "doi": "10.1016/j.matdes.2025.115256",
+     "source": "Dragonfly 官方研究亮点",
+     "source_en": "Dragonfly official publication spotlight",
+     "date": "2026-10-06",
+     "category": "官方动态",
+     "category_en": "Official update",
+     "summary": "Dragonfly 官网新增研究亮点专栏，推介发表于 Materials & Design 的开放获取论文：研究团队用时间序列 micro-CT（11 微米体素）对聚酯纤维增强水泥基复合材料做了 100 次冻融循环跟踪扫描，在 Dragonfly 3D World 中用深度学习分割实现灰度重叠的非均质材料的可靠相分离，并定量追踪了孔隙与裂纹网络的演化。100 次循环后，孔隙加裂纹的体积分数从百分之十升至百分之二十一，纤维与基体的界面因应力集中放大了局部开裂；热机械分析认为冰与水泥基体的热膨胀失配是主导开裂机制。论文全文开放获取（DOI: 10.1016/j.matdes.2025.115256）。",
+     "summary_en": "The official Dragonfly site spotlights a new open-access paper in Materials & Design: the team tracked a polyester fiber-reinforced cementitious composite across 100 freeze–thaw cycles with time-lapse micro-CT (11 µm voxel), using Dragonfly 3D World's deep-learning segmentation to achieve reliable phase separation in a heterogeneous material with overlapping gray levels, and quantified how pore/crack networks evolve. After 100 cycles, pore-plus-crack volume fraction rose from 10.0% to 21.0%; fiber–matrix interfaces amplified local cracking through stress concentration, and a thermo-mechanical interpretation identifies thermal-expansion mismatch between ice and the cement matrix as the dominant cracking mechanism. The paper is open access (DOI: 10.1016/j.matdes.2025.115256).",
+     "tags": [
+      "研究亮点",
+      "冻融损伤",
+      "深度学习分割",
+      "水泥基复合材料"
+     ],
+     "tags_en": [
+      "Publication spotlight",
+      "Freeze-thaw damage",
+      "Deep-learning segmentation",
+      "Cementitious composites"
+     ]
+    }
+   ],
+   "note": "学术检索 6 个 API 中 Semantic Scholar 与 OpenAIRE 暂时不可用，其余 4 条结果均为已收录条目。官方博客最新文章仍为 2026-08-28（已收录）。新增 1 条：官网 publication-spotlight 专栏新推介的冻融损伤研究亮点（底层论文发表于 Materials & Design，DOI 10.1016/j.matdes.2025.115256）。"
+  },
+  {
    "date": "2026-10-06",
    "count": 0,
    "page": "news/2026-10-06.html",
@@ -485,5 +518,5 @@
   }
  ],
  "site": "Dragonfly 3D World News",
- "updated": "2026-10-06"
+ "updated": "2026-10-07T09:39:00+08:00"
 }
