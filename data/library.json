@@ -1,7 +1,7 @@
 {
- "updated": "2026-10-06",
+ "updated": "2026-10-07T09:39:00+08:00",
  "site": "Dragonfly 3D World News",
- "count": 23,
+ "count": 24,
  "topics": [
   {
    "key": "life-sciences",
@@ -35,6 +35,56 @@
   }
  ],
  "entries": [
+  {
+   "id": "doi:10.1016/j.matdes.2025.115256",
+   "title": "官方研究亮点：冻融循环下聚酯纤维增强水泥基复合材料的微观结构损伤（micro-CT 研究）",
+   "title_en": "Official Publication Spotlight: Freeze–Thaw Damage in Fiber-Reinforced Cementitious Composites (Micro-CT Study)",
+   "summary": "Dragonfly 官网新增研究亮点专栏，推介发表于 Materials & Design 的开放获取论文：研究团队用时间序列 micro-CT（11 微米体素）对聚酯纤维增强水泥基复合材料做了 100 次冻融循环跟踪扫描，在 Dragonfly 3D World 中用深度学习分割实现灰度重叠的非均质材料的可靠相分离，并定量追踪了孔隙与裂纹网络的演化。100 次循环后，孔隙加裂纹的体积分数从百分之十升至百分之二十一，纤维与基体的界面因应力集中放大了局部开裂；热机械分析认为冰与水泥基体的热膨胀失配是主导开裂机制。论文全文开放获取（DOI: 10.1016/j.matdes.2025.115256）。",
+   "summary_en": "The official Dragonfly site spotlights a new open-access paper in Materials & Design: the team tracked a polyester fiber-reinforced cementitious composite across 100 freeze–thaw cycles with time-lapse micro-CT (11 µm voxel), using Dragonfly 3D World's deep-learning segmentation to achieve reliable phase separation in a heterogeneous material with overlapping gray levels, and quantified how pore/crack networks evolve. After 100 cycles, pore-plus-crack volume fraction rose from 10.0% to 21.0%; fiber–matrix interfaces amplified local cracking through stress concentration, and a thermo-mechanical interpretation identifies thermal-expansion mismatch between ice and the cement matrix as the dominant cracking mechanism. The paper is open access (DOI: 10.1016/j.matdes.2025.115256).",
+   "url": "https://dragonfly.comet.tech/en/resources/publication-spotlight/freeze-thaw-induced-microstructural-damage-in-polyester-fiber-reinforced-cementitious-composites-rev",
+   "doi": "10.1016/j.matdes.2025.115256",
+   "date": "2026-10-06",
+   "digest_date": "2026-10-07",
+   "digest_page": "news/2026-10-07.html",
+   "source": "Dragonfly 官方研究亮点",
+   "source_en": "Dragonfly official publication spotlight",
+   "category": "官方动态",
+   "category_en": "Official update",
+   "tags": [
+    "研究亮点",
+    "冻融损伤",
+    "深度学习分割",
+    "水泥基复合材料"
+   ],
+   "tags_en": [
+    "Publication spotlight",
+    "Freeze-thaw damage",
+    "Deep-learning segmentation",
+    "Cementitious composites"
+   ],
+   "topics": [
+    {
+     "key": "materials-manufacturing",
+     "zh": "材料与制造",
+     "en": "Materials & Manufacturing"
+    },
+    {
+     "key": "ai-deep-learning",
+     "zh": "AI 与深度学习",
+     "en": "AI & Deep Learning"
+    },
+    {
+     "key": "releases-features",
+     "zh": "版本与功能",
+     "en": "Releases & Features"
+    },
+    {
+     "key": "official",
+     "zh": "官方动态",
+     "en": "Official Updates"
+    }
+   ]
+  },
   {
    "id": "doi:10.31399/asm.cp.istfa2026p0587",
    "title": "微电子封装 CT 数字去翘曲：Dragonfly 实现 RBF 曲面拟合的层对齐可视化工作流",
