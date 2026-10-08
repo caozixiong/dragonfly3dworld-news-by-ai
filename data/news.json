@@ -1,522 +1,528 @@
 {
- "days": [
-  {
-   "date": "2026-10-07",
-   "count": 1,
-   "page": "news/2026-10-07.html",
-   "items": [
+  "days": [
     {
-     "title": "官方研究亮点：冻融循环下聚酯纤维增强水泥基复合材料的微观结构损伤（micro-CT 研究）",
-     "title_en": "Official Publication Spotlight: Freeze–Thaw Damage in Fiber-Reinforced Cementitious Composites (Micro-CT Study)",
-     "url": "https://dragonfly.comet.tech/en/resources/publication-spotlight/freeze-thaw-induced-microstructural-damage-in-polyester-fiber-reinforced-cementitious-composites-rev",
-     "doi": "10.1016/j.matdes.2025.115256",
-     "source": "Dragonfly 官方研究亮点",
-     "source_en": "Dragonfly official publication spotlight",
-     "date": "2026-10-06",
-     "category": "官方动态",
-     "category_en": "Official update",
-     "summary": "Dragonfly 官网新增研究亮点专栏，推介发表于 Materials & Design 的开放获取论文：研究团队用时间序列 micro-CT（11 微米体素）对聚酯纤维增强水泥基复合材料做了 100 次冻融循环跟踪扫描，在 Dragonfly 3D World 中用深度学习分割实现灰度重叠的非均质材料的可靠相分离，并定量追踪了孔隙与裂纹网络的演化。100 次循环后，孔隙加裂纹的体积分数从百分之十升至百分之二十一，纤维与基体的界面因应力集中放大了局部开裂；热机械分析认为冰与水泥基体的热膨胀失配是主导开裂机制。论文全文开放获取（DOI: 10.1016/j.matdes.2025.115256）。",
-     "summary_en": "The official Dragonfly site spotlights a new open-access paper in Materials & Design: the team tracked a polyester fiber-reinforced cementitious composite across 100 freeze–thaw cycles with time-lapse micro-CT (11 µm voxel), using Dragonfly 3D World's deep-learning segmentation to achieve reliable phase separation in a heterogeneous material with overlapping gray levels, and quantified how pore/crack networks evolve. After 100 cycles, pore-plus-crack volume fraction rose from 10.0% to 21.0%; fiber–matrix interfaces amplified local cracking through stress concentration, and a thermo-mechanical interpretation identifies thermal-expansion mismatch between ice and the cement matrix as the dominant cracking mechanism. The paper is open access (DOI: 10.1016/j.matdes.2025.115256).",
-     "tags": [
-      "研究亮点",
-      "冻融损伤",
-      "深度学习分割",
-      "水泥基复合材料"
-     ],
-     "tags_en": [
-      "Publication spotlight",
-      "Freeze-thaw damage",
-      "Deep-learning segmentation",
-      "Cementitious composites"
-     ]
+      "date": "2026-10-08",
+      "count": 0,
+      "page": "news/2026-10-08.html",
+      "items": []
+    },
+    {
+      "date": "2026-10-07",
+      "count": 1,
+      "page": "news/2026-10-07.html",
+      "items": [
+        {
+          "title": "官方研究亮点：冻融循环下聚酯纤维增强水泥基复合材料的微观结构损伤（micro-CT 研究）",
+          "title_en": "Official Publication Spotlight: Freeze–Thaw Damage in Fiber-Reinforced Cementitious Composites (Micro-CT Study)",
+          "url": "https://dragonfly.comet.tech/en/resources/publication-spotlight/freeze-thaw-induced-microstructural-damage-in-polyester-fiber-reinforced-cementitious-composites-rev",
+          "doi": "10.1016/j.matdes.2025.115256",
+          "source": "Dragonfly 官方研究亮点",
+          "source_en": "Dragonfly official publication spotlight",
+          "date": "2026-10-06",
+          "category": "官方动态",
+          "category_en": "Official update",
+          "summary": "Dragonfly 官网新增研究亮点专栏，推介发表于 Materials & Design 的开放获取论文：研究团队用时间序列 micro-CT（11 微米体素）对聚酯纤维增强水泥基复合材料做了 100 次冻融循环跟踪扫描，在 Dragonfly 3D World 中用深度学习分割实现灰度重叠的非均质材料的可靠相分离，并定量追踪了孔隙与裂纹网络的演化。100 次循环后，孔隙加裂纹的体积分数从百分之十升至百分之二十一，纤维与基体的界面因应力集中放大了局部开裂；热机械分析认为冰与水泥基体的热膨胀失配是主导开裂机制。论文全文开放获取（DOI: 10.1016/j.matdes.2025.115256）。",
+          "summary_en": "The official Dragonfly site spotlights a new open-access paper in Materials & Design: the team tracked a polyester fiber-reinforced cementitious composite across 100 freeze–thaw cycles with time-lapse micro-CT (11 µm voxel), using Dragonfly 3D World's deep-learning segmentation to achieve reliable phase separation in a heterogeneous material with overlapping gray levels, and quantified how pore/crack networks evolve. After 100 cycles, pore-plus-crack volume fraction rose from 10.0% to 21.0%; fiber–matrix interfaces amplified local cracking through stress concentration, and a thermo-mechanical interpretation identifies thermal-expansion mismatch between ice and the cement matrix as the dominant cracking mechanism. The paper is open access (DOI: 10.1016/j.matdes.2025.115256).",
+          "tags": [
+            "研究亮点",
+            "冻融损伤",
+            "深度学习分割",
+            "水泥基复合材料"
+          ],
+          "tags_en": [
+            "Publication spotlight",
+            "Freeze-thaw damage",
+            "Deep-learning segmentation",
+            "Cementitious composites"
+          ]
+        }
+      ],
+      "note": "学术检索 6 个 API 中 Semantic Scholar 与 OpenAIRE 暂时不可用，其余 4 条结果均为已收录条目。官方博客最新文章仍为 2026-08-28（已收录）。新增 1 条：官网 publication-spotlight 专栏新推介的冻融损伤研究亮点（底层论文发表于 Materials & Design，DOI 10.1016/j.matdes.2025.115256）。"
+    },
+    {
+      "date": "2026-10-06",
+      "count": 0,
+      "page": "news/2026-10-06.html",
+      "items": [],
+      "note": "过去 24 小时内未发现新的 Dragonfly 3D World 相关新闻与论文。学术检索 6 个 API 中 Semantic Scholar 暂时不可用，其余 4 条结果均为已收录条目。官方博客最新文章仍为 2026-08-28（已收录）。"
+    },
+    {
+      "date": "2026-10-02",
+      "count": 0,
+      "page": "news/2026-10-02.html",
+      "items": []
+    },
+    {
+      "date": "2026-10-01",
+      "count": 1,
+      "page": "news/2026-10-01.html",
+      "items": [
+        {
+          "title": "微电子封装 CT 数字去翘曲：Dragonfly 实现 RBF 曲面拟合的层对齐可视化工作流",
+          "title_en": "Digital De-warping of X-ray CT Data for Layer-Aligned Visualization in Advanced Microelectronic Packages",
+          "url": "https://doi.org/10.31399/asm.cp.istfa2026p0587",
+          "doi": "10.31399/asm.cp.istfa2026p0587",
+          "source": "ISTFA 2026 会议论文集（ASM International）",
+          "source_en": "ISTFA 2026 Conference Proceedings (ASM International)",
+          "date": "2026-10-04",
+          "category": "学术论文",
+          "category_en": "Research paper",
+          "summary": "英特尔的 Jose A. Perez Vacalla 与 Comet Technologies 的 Luke Hunter、Scott Eckley、Hubert Taieb、Zixiong Cao、Vineeth Bastin 合作，针对先进微电子封装翘曲造成的 X 射线 CT 数据几何畸变，提出了在 Dragonfly 3D World 软件中实现的数字去翘曲工作流：采用径向基函数（RBF）曲面拟合、变形场生成与体数据变换，将 CT 数据平面化，实现精确的层对齐分析。在倒装芯片针栅阵列（FCPGA）封装上的应用表明，该方法有效消除了跨层混合，显著提升了电源走线与互连等布线特征的可见度，为后续分割、特征提取与结构解读提供了更可靠的预处理步骤，同时强调了足够的体素分辨率的重要性。",
+          "summary_en": "Jose A. Perez Vacalla (Intel) together with Luke Hunter, Scott Eckley, Hubert Taieb, Zixiong Cao, and Vineeth Bastin (Comet Technologies) present a digital de-warping workflow implemented in Dragonfly 3D World software to address geometric distortion in X-ray CT datasets of warped advanced microelectronic packages. Using radial basis function (RBF)-based surface fitting, deformation field generation, and volumetric transformation, the workflow planarizes CT volumes for accurate layer-aligned analysis. Applied to flip-chip pin grid array (FCPGA) packages, it eliminated cross-layer mixing and markedly improved the visibility of routing features such as power rails and interconnects, establishing an effective preprocessing step for more reliable segmentation, feature extraction, and downstream structural interpretation while emphasizing the importance of adequate voxel resolution.",
+          "tags": [
+            "微电子封装",
+            "X-ray CT",
+            "去翘曲",
+            "层对齐",
+            "RBF 曲面拟合"
+          ],
+          "tags_en": [
+            "Microelectronic packaging",
+            "X-ray CT",
+            "De-warping",
+            "Layer alignment",
+            "RBF surface fitting"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-09-30",
+      "count": 1,
+      "page": "news/2026-09-30.html",
+      "items": [
+        {
+          "title": "生物炭替代石油焦：Dragonfly 定量铬铁矿直接还原的合金颗粒粒度与形态",
+          "title_en": "Bio-Carbon vs. Petroleum Coke: Dragonfly Quantifies Alloy Particle Size and Morphology in Chromite Direct Reduction",
+          "url": "https://www.mdpi.com/1996-1944/19/18/3840",
+          "source": "Materials（MDPI）",
+          "source_en": "Materials (MDPI)",
+          "date": "2026-09-09",
+          "category": "学术论文",
+          "category_en": "Research paper",
+          "summary": "加拿大 CanmetMINING 团队（Natural Resources Canada）比较了生物炭与石油焦作为 CaCl₂ 助熔剂辅助铬铁矿直接还原（DRC）制取铬铁的还原剂性能，考察还原动力学、合金特性与残余相演化。还原产物的 3D X 射线显微断层扫描图像在 Dragonfly 3D World 2025.1 中完成分割与颗粒分离，并计算合金颗粒的体积、表面积与平均 Feret 直径，用于粒径分布与球形度分析。结果表明，生物炭因脱挥发分形成多孔结构而显著加快还原动力学，所得铬铁颗粒更细、成分符合高碳铬铁标准（ISO 5448），证明生物炭可作为 DRC 工艺的低碳替代还原剂。",
+          "summary_en": "A CanmetMINING team (Natural Resources Canada) compared bio-carbon and petroleum coke as reductants in CaCl₂-assisted direct reduction of chromite (DRC) for ferrochrome production, studying reduction kinetics, alloy characteristics and residual-phase evolution. 3D X-ray microtomography volumes of the reduction products were segmented and separated into individual particles in Dragonfly 3D World 2025.1, computing each alloy particle's volume, surface area and mean Feret diameter for particle-size-distribution and sphericity analysis. Bio-carbon's devolatilization created a porous structure that significantly accelerated reduction kinetics, yielding finer ferrochrome particles that meet high-carbon ferrochrome standards (ISO 5448) — a viable low-carbon alternative reductant for DRC.",
+          "tags": [
+            "金属材料",
+            "铬铁",
+            "micro-CT",
+            "颗粒分析"
+          ],
+          "tags_en": [
+            "Metallic materials",
+            "Ferrochrome",
+            "micro-CT",
+            "Particle analysis"
+          ],
+          "doi": "10.3390/ma19183840"
+        }
+      ]
+    },
+    {
+      "date": "2026-09-29",
+      "count": 1,
+      "page": "news/2026-09-29.html",
+      "items": [
+        {
+          "title": "增材制造视角：Dragonfly 3D World 2027 十大新功能详解",
+          "title_en": "What's New in Dragonfly 3D World 2027 for Additive Manufacturing",
+          "url": "https://www.microwavejournal.com/articles/46220-whats-new-in-dragonfly-3d-world-2027-for-additive-manufacturing",
+          "source": "Microwave Journal",
+          "source_en": "Microwave Journal",
+          "date": "2026-09-28",
+          "category": "版本前瞻",
+          "category_en": "Release preview",
+          "summary": "Microwave Journal 从增材制造应用视角梳理了即将发布的 Dragonfly 3D World 2027 十大功能：基于 Meta SAM 的 AI 实例分割可一键分离粉末颗粒、孔隙与缺熔缺陷；亚体素多重网格（Subvoxel Multi-Mesh）实现可重复的孔隙定量；还有 GPU 加速的 Fast Split、Rotational Views 旋转切片、可以直接对标触针仪的表面粗糙度分析，以及 Report Builder 报告生成器和免费的 Session Viewer 共享工具。产品经理 Zixiong Cao 在文中点评了新版本从数据探索到报告的端到端体验改进。",
+          "summary_en": "Microwave Journal reviews ten highlights of the upcoming Dragonfly 3D World 2027 from an additive-manufacturing perspective: SAM-based AI instance segmentation that separates powder particles, pores and lack-of-fusion defects in one click; Subvoxel Multi-Mesh for repeatable porosity quantification; plus GPU-accelerated Fast Split, Rotational Views, stylus-comparable surface roughness analysis, the Report Builder, and the free Session Viewer for sharing. Product Manager Zixiong Cao comments on the release's end-to-end experience improvements, from data exploration to reporting.",
+          "tags": [
+            "增材制造",
+            "2027",
+            "功能详解"
+          ],
+          "tags_en": [
+            "Additive manufacturing",
+            "2027",
+            "Feature tour"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-09-28",
+      "count": 2,
+      "page": "news/2026-09-28.html",
+      "items": [
+        {
+          "category": "学术论文",
+          "category_en": "Research paper",
+          "date": "2026-03-27",
+          "source": "Materials（MDPI）",
+          "source_en": "Materials (MDPI)",
+          "title": "氢致延性裂纹扩展的 3D 可视化：Dragonfly 定量 P355NH 钢裂纹尖端空隙演化",
+          "title_en": "3D Visualization of Hydrogen-Assisted Ductile Crack Growth: Dragonfly Quantifies Void Evolution at the Crack Tip in P355NH Steel",
+          "url": "https://www.mdpi.com/1996-1944/19/7/1335",
+          "summary": "德国萨尔兰大学与 Fraunhofer IZFP 的研究团队对氢预充的 P355NH 压力容器钢紧凑拉伸试样做了 micro-CT 裂纹前沿全厚度扫描，并从中加工出 ROI 小样进行小于 10 微米体素的高分辨扫描；空隙网络借助 Dragonfly 3D World 2025.1 的各向异性扩散滤波去噪与阈值分割提取。结果表明氢致裂纹扩展伴随裂纹尖端附近空隙形成与二次开裂增多；但连续的氢解吸叠加了测量结果，作者建议后续开展带氢充载的原位实验。",
+          "summary_en": "A German team (Saarland University / Fraunhofer IZFP) imaged crack fronts in hydrogen-precharged P355NH compact-tension specimens with micro-CT, combining full-thickness scans with high-resolution ROI volumes below 10 µm voxel size, and extracted the internal void network in Dragonfly 3D World 2025.1 using anisotropic-diffusion denoising followed by threshold segmentation. Hydrogen-assisted crack propagation was associated with increased void formation and secondary cracking near the crack tip; the authors note continuous hydrogen desorption superimposed on the results and recommend in-situ hydrogen-charged testing as the next step.",
+          "tags": [
+            "金属材料",
+            "氢脆",
+            "micro-CT",
+            "空隙分析"
+          ],
+          "tags_en": [
+            "Metallic materials",
+            "Hydrogen embrittlement",
+            "micro-CT",
+            "Void analysis"
+          ]
+        },
+        {
+          "category": "学术论文",
+          "category_en": "Research paper",
+          "date": "2026-02-24",
+          "source": "Reproductive Toxicology",
+          "source_en": "Reproductive Toxicology",
+          "title": "胎儿发育毒理学的 micro-CT 数字化流程：Dragonfly 辅助分割大鼠胎儿颅脑结构",
+          "title_en": "Fetal Imaging with Micro-CT in the Age of AI: A Digital Pipeline with Dragonfly-Assisted Segmentation of Rat Fetal Cranium and Brain",
+          "url": "https://doi.org/10.1016/j.reprotox.2026.109199",
+          "summary": "工业与监管界团队为替代传统的 Wilson–Staples 致畸检查建立了一套胎儿数字化成像流程：妊娠 21 天的大鼠胎儿经碘剂染色、琼脂包埋后用 ZEISS Xradia Versa micro-CT 扫描，颅骨与脑的三维图像用 Slicer 与 Dragonfly 3D World 重建分割，并由训练有素的胎儿形态学家对照传统标本确认准确性。卢戈液浸泡 72–96 小时可获得均匀的软组织对比，外部与内脏评估质量堪比传统方法；结合可解释 AI 框架，该流程有望以可定量、可复现的方式精简发育毒理学评估并减少动物使用。",
+          "summary_en": "An industry–regulatory team built a digital imaging pipeline as a replacement for the conventional Wilson–Staples teratology examination: gestation-day-21 rat fetuses were iodine-stained, agarose-embedded, and scanned with a ZEISS Xradia Versa micro-CT, and 3D images of the cranium and brain were reconstructed and segmented with Slicer and Dragonfly 3D World, verified against conventionally prepared specimens by a trained fetal morphologist. Lugol immersion for 72–96 h produced uniform soft-tissue contrast, and external and visceral assessments compared favorably with traditional methods; combined with an explainable AI framework, the pipeline promises quantitative, reproducible developmental-toxicology assessment with reduced animal use.",
+          "tags": [
+            "发育毒理学",
+            "micro-CT",
+            "生命科学"
+          ],
+          "tags_en": [
+            "Developmental toxicology",
+            "micro-CT",
+            "Life sciences"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-09-27",
+      "count": 1,
+      "page": "news/2026-09-27.html",
+      "items": [
+        {
+          "category": "学术论文",
+          "category_en": "Research paper",
+          "date": "2026-09-23",
+          "source": "Materials（MDPI）",
+          "source_en": "Materials (MDPI)",
+          "title": "牙科新材料：Dragonfly 定量纳米氟磷灰石改性正畸水门汀内部孔隙，2 wt.% 配方粘接强度最优",
+          "title_en": "Dental Materials: Dragonfly Quantifies Internal Porosity of Nanofluorapatite-Modified Orthodontic Cement; 2 wt.% Formulation Shows Best Bond Strength",
+          "url": "https://www.mdpi.com/1996-1944/19/19/4076",
+          "summary": "波兰弗罗茨瓦夫的研究团队用 SkyScan 1172 micro-CT 扫描了掺入纳米氟磷灰石（nFAp）的 GC Fuji Ortho LC 正畸树脂改性玻璃离子水门汀，并借助 Dragonfly 3D World 2025.1 的 Upper Otsu 分割与 Porosity Segmentation 算法定量分析内部孔隙与孔形貌：nFAp 的加入提高了材料孔隙率和可解析的孔隙数密度，孔隙尺寸变化不大；改性组的剪切粘接强度从 12.47 MPa 显著提升至约 17 MPa，其中 2 wt.% nFAp 配方综合机械性能最优，而压痕硬度与弹性模量无显著差异。",
+          "summary_en": "A Polish research team scanned nanofluorapatite (nFAp)-modified GC Fuji Ortho LC orthodontic resin-modified glass ionomer cement with a SkyScan 1172 micro-CT and quantified internal porosity and pore morphology using Dragonfly 3D World 2025.1 (Upper Otsu segmentation and the Porosity Segmentation with AO Fields algorithm): nFAp incorporation increased volumetric porosity and resolved pore number density while pore dimensions changed only modestly; shear bond strength rose significantly from 12.47 MPa to about 17 MPa in the modified groups, with the 2 wt.% nFAp formulation showing the most favorable overall mechanical profile and no significant change in indentation hardness or modulus.",
+          "tags": [
+            "牙科",
+            "micro-CT",
+            "孔隙分析"
+          ],
+          "tags_en": [
+            "Dental",
+            "micro-CT",
+            "Porosity analysis"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-09-26",
+      "count": 2,
+      "page": "news/2026-09-26.html",
+      "items": [
+        {
+          "category": "官方动态",
+          "category_en": "Official update",
+          "date": "2026-09-23",
+          "source": "Dragonfly 官网活动",
+          "source_en": "Dragonfly official events",
+          "title": "官方网络研讨会：Dragonfly 3D World 2027 新功能速览（9 月 23 日举行）",
+          "title_en": "Webinar — Dragonfly 3D World 2027: Discover What's New (held September 23)",
+          "url": "https://dragonfly.comet.tech/en/events",
+          "summary": "Comet 官方于 9 月 23 日举办线上研讨会，演示即将发布的 Dragonfly 3D World 2027 的新功能，包括基于 Meta SAM 的 AI 实例分割、Subvoxel Multi-Mesh 亚体素多重网格、Fast Split 快速实例分离、Report Builder 报告生成器等。官网 Events 页面还公布了后续活动：9 月 28 日 France Volume-EM Scientific Days（Bordeaux）、10 月 4 日 MS&T 2026（Pittsburgh）、10 月 12 日 ASNT 2026（Columbus）。",
+          "summary_en": "Comet hosted an online webinar on September 23 introducing Dragonfly 3D World 2027: SAM-based AI instance segmentation, Subvoxel Multi-Mesh, Fast Split, Report Builder and more. The Events page also lists upcoming appearances — France Volume-EM Scientific Days on Sep 28 (Bordeaux), MS&T 2026 on Oct 4 (Pittsburgh), and ASNT 2026 on Oct 12 (Columbus).",
+          "tags": [
+            "官方活动",
+            "2027",
+            "新版预告"
+          ],
+          "tags_en": [
+            "Official event",
+            "2027",
+            "Release preview"
+          ]
+        },
+        {
+          "category": "学术论文",
+          "category_en": "Research paper",
+          "date": "2026-09-13",
+          "source": "Scientific Reports（Nature）",
+          "source_en": "Scientific Reports (Nature)",
+          "title": "新泡泡糖珊瑚物种：研究团队用 Dragonfly 3D World 做 micro-XCT 卵母细胞分割，首次在八放珊瑚中发现甲壳素骨架",
+          "title_en": "New bubblegum coral species: Dragonfly 3D World used for micro-XCT oocyte segmentation, first chitin scaffold found in octocorals",
+          "url": "https://www.nature.com/articles/s41598-026-71127-8",
+          "doi": "10.1038/s41598-026-71127-8",
+          "summary": "研究团队在纳斯卡海脊（670 米深）发现泡泡糖珊瑚新物种 Paragorgia quitinosa，并首次在八放珊瑚组织中确认甲壳素（chitin）是无轴骨骼群体的结构支架。团队把 micro-XCT 扫描的珊瑚碎片（Zeiss Xradia 620 Versa，5.05 μm 体素）导入 Dragonfly 3D World，对 10 个随机选取的虹吸水螅体 ROI 沿 z 轴手动勾画并插值分割卵母细胞，进而计算每个 ROI 的 Feret 直径。",
+          "summary_en": "A new bubblegum coral species, Paragorgia quitinosa, collected at 670 m depth on the Nazca Ridge, provides the first analytical evidence of chitin as a structural scaffold in octocoral tissues. The team segmented oocytes in Dragonfly 3D World from micro-XCT scans (Zeiss Xradia 620 Versa, 5.05 μm voxels) by manually outlining and interpolating ROIs along z in 10 haphazardly selected siphonozoids, then calculated Feret diameters for each ROI.",
+          "tags": [
+            "生命科学",
+            "micro-XCT",
+            "珊瑚研究"
+          ],
+          "tags_en": [
+            "Life sciences",
+            "micro-XCT",
+            "Coral research"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-09-25",
+      "items": [],
+      "note": "过去 24 小时内未发现新的 Dragonfly 3D World 相关新闻与论文。学术检索 6 个 API 中 Semantic Scholar 暂时不可用，其余 4 条结果均为已收录条目。官方博客最新文章仍为 2026-08-28（已收录）。"
+    },
+    {
+      "date": "2026-09-24",
+      "count": 3,
+      "page": "news/2026-09-24.html",
+      "items": [
+        {
+          "category": "会议动态",
+          "category_en": "Event update",
+          "date": "2026-08-28",
+          "source": "Dragonfly 官方博客",
+          "source_en": "Dragonfly official blog",
+          "title": "M&M 2026 回顾：Dragonfly 3D World 2027 首次公开展示，下一届定档 Pittsburgh",
+          "title_en": "M&M 2026 Recap: Dragonfly 3D World 2027 First Public Preview, Next Stop Pittsburgh",
+          "url": "https://dragonfly.comet.tech/en/blog/mm-2027-looking-ahead",
+          "summary": "Dragonfly 团队回顾了 M&M 2026（Milwaukee）一周的参会见闻，并首次公开展示了 Dragonfly 3D World 2027：新功能覆盖 Grid-Based SAM、Fast Split、Subvoxel Multi-Mesh、表面粗糙度分析、Report Builder、扩展的网格与 CAD 能力；团队还在每晚的厂商培训上深入讲解了深度学习分割与 2027 工作流。官方同时宣布 M&M 2027 将于 2027 年 8 月 2–5 日在 Pittsburgh 举行。",
+          "summary_en": "The Dragonfly team recaps a week at M&M 2026 in Milwaukee and gives the first public preview of Dragonfly 3D World 2027: new capabilities include Grid-Based SAM, Fast Split, Subvoxel Multi-Mesh, surface roughness analysis, Report Builder, and expanded mesh and CAD tools, plus evening vendor tutorials on deep learning segmentation and 2027 workflows. M&M 2027 is announced for August 2-5, 2027, in Pittsburgh, PA.",
+          "tags": [
+            "会议",
+            "2027",
+            "新版预告"
+          ],
+          "tags_en": [
+            "Conference",
+            "2027",
+            "Release preview"
+          ]
+        },
+        {
+          "category": "应用案例",
+          "category_en": "Application note",
+          "date": "2026-08-28",
+          "source": "Dragonfly 官方博客",
+          "source_en": "Dragonfly official blog",
+          "title": "电池制造的 3D 图像分析：从电极几何测量到生产变异分析",
+          "title_en": "Transforming Battery Manufacturing with 3D Image Processing",
+          "url": "https://dragonfly.comet.tech/en/blog/ct-image-processing-battery-manufacturing",
+          "summary": "官方应用指南介绍了如何用 Dragonfly 3D World 分析电池 CT 数据：AI 辅助分割定位电极层、夹杂与孔隙，精确测量阳极-阴极 overhang 距离，并通过可复用的深度学习模型与宏把单样品检查扩展为跨批次的生产变异分析。文中还介绍了 2027 版专为圆柱电池设计的 Rotational Views 旋转切片和 Report Builder 报告生成功能。",
+          "summary_en": "The official application guide shows how Dragonfly 3D World supports battery CT analysis: AI-assisted segmentation locates electrode layers, inclusions, and voids; anode-cathode overhang distances are measured precisely; and reusable deep-learning models plus macros extend single-sample inspection into cross-batch production-variability analysis. It also introduces 2027's Rotational Views for cylindrical cells and the Report Builder.",
+          "tags": [
+            "电池检测",
+            "深度学习",
+            "重复性工作流"
+          ],
+          "tags_en": [
+            "Battery inspection",
+            "Deep learning",
+            "Repeatable workflows"
+          ]
+        },
+        {
+          "category": "版本前瞻",
+          "category_en": "Release preview",
+          "date": "2026-07-31",
+          "source": "Dragonfly 官方博客",
+          "source_en": "Dragonfly official blog",
+          "title": "官方详解 Dragonfly 3D World 2027 十大新功能",
+          "title_en": "10 New Features Coming to Dragonfly 3D World 2027",
+          "url": "https://dragonfly.comet.tech/en/blog/dragonfly-3d-world-2027-new-features",
+          "summary": "官方逐条拆解了 2027 版的十个亮点：基于 Meta SAM 的 AI 实例分割（一键分离颗粒、孔隙、纤维等）；亚体素多重网格（Subvoxel Multi-Mesh）做可重复孔隙定量；GPU 加速的 Fast Split 秒级分离粘连物体；Rotational Views 旋转切片检视圆柱形结构；表面粗糙度分析、增强的网格与 CAD 工具（含布尔运算与 STEP 导入）、Report Builder 报告生成器，以及免费的 Session Viewer 共享工具。",
+          "summary_en": "The official post walks through ten highlights of the 2027 release: SAM-based AI instance segmentation (one-click separation of grains, pores, fibers); Subvoxel Multi-Mesh for repeatable porosity quantification; GPU-accelerated Fast Split to separate touching objects in seconds; Rotational Views for cylindrical structures; surface roughness analysis; enhanced mesh and CAD tools (Boolean ops, STEP import); the Report Builder; and the free Session Viewer for sharing.",
+          "tags": [
+            "2027",
+            "AI 分割",
+            "功能详解"
+          ],
+          "tags_en": [
+            "2027",
+            "AI segmentation",
+            "Feature tour"
+          ]
+        }
+      ]
+    },
+    {
+      "count": 8,
+      "date": "2026-09-23",
+      "items": [
+        {
+          "category": "学术论文",
+          "date": "2025-10-13",
+          "source": "Frontiers in Dental Medicine",
+          "summary": "研究用 micro-CT 扫描 36 颗经三种方式涂布封闭剂的离体前磨牙，数据导入 Dragonfly 3D World 2024.1 做阈值分割与 ROI Painter 手动修正，再用 Basic Properties 面板自动计算各材料层体积，间接得出封闭剂层孔隙率。结果显示新型压电 Vibrospiral 涂布的孔隙体积百分比最低（3.5%），显著优于 K-file（22.01%）和 Lentulo 螺旋（19.21%）。",
+          "tags": [
+            "根管治疗",
+            "孔隙定量",
+            "micro-CT"
+          ],
+          "title": "Dragonfly 定量根管封闭剂孔隙：新型压电 Vibrospiral 表现最佳",
+          "url": "https://www.frontiersin.org/journals/dental-medicine/articles/10.3389/fdmed.2025.1695090/full"
+        },
+        {
+          "category": "学术论文",
+          "date": "2026-09-11",
+          "source": "Frontiers in Bioengineering and Biotechnology",
+          "summary": "研究将鼠类骨骼的高分辨率 micro-CT 数据按比例放大，探索生成保留骨小梁解剖结构的可打印 3D 模型。作者把原始 .stl 网格载入 Dragonfly 3D World 2024.1，以软件测得的总体积、表面积与长宽高为基准，系统对比了不同网格算法、编码与单位导出条件下的文件体积与网格误差，选定最优导出方案后用 FDM 与 SLA 成功打印出模型。",
+          "tags": [
+            "骨科",
+            "3D 打印",
+            "网格化"
+          ],
+          "title": "从 micro-CT 骨扫描到可打印 3D 骨模型：保留骨小梁保真度的工作流",
+          "url": "https://www.frontiersin.org/journals/bioengineering-and-biotechnology/articles/10.3389/fbioe.2026.1836815/full",
+          "doi": "10.3389/fbioe.2026.1836815"
+        },
+        {
+          "category": "版本前瞻",
+          "date": "2026-09-04",
+          "source": "Metrology and Quality News",
+          "summary": "2027 版主打汽车 CT 检测：基于 Meta SAM 的 AI 实例分割一键分离孔隙、夹杂等目标；新增亚体素多重网格做定量分析，另有 CAD 对比与集成报告。",
+          "tags": [
+            "2027 新版",
+            "AI 分割",
+            "汽车 CT"
+          ],
+          "title": "Dragonfly 3D World 2027 前瞻：AI 实例分割与亚体素测量",
+          "url": "https://metrology.news/dragonfly-3d-world-2027-adds-ai-segmentation-and-advanced-ct-measurement-tools/"
+        },
+        {
+          "category": "应用案例",
+          "date": "2026-01-12",
+          "source": "Dragonfly 官方博客",
+          "summary": "官方应用笔记：AI 分割能检出 Otsu 阈值法漏掉的窄缝状孔隙和低对比度缩松，在新样品上泛化依然可靠。",
+          "tags": [
+            "孔隙率",
+            "深度学习",
+            "铸件检测"
+          ],
+          "title": "AI 增强的铸件孔隙率分析：超越传统阈值分割",
+          "url": "https://dragonfly.comet.tech/en/blog/ai-enhanced-casting-porosity-analysis-in-dragonfly-3d-world"
+        },
+        {
+          "category": "功能介绍",
+          "date": "2026",
+          "source": "Dragonfly 官网",
+          "summary": "亚体素多重网格实现可重复精确测量；名义 vs 实际 CAD 对比一键化；Fast Split GPU 实例分割；报告生成器导出 Word/PDF/HTML。",
+          "tags": [
+            "计量",
+            "CAD 对比",
+            "报告"
+          ],
+          "title": "Dragonfly 新功能一览：多重网格、名义对比与报告生成器",
+          "url": "https://dragonfly.comet.tech/en/what-s-new-in-dragonfly"
+        },
+        {
+          "category": "技术解析",
+          "date": "2026",
+          "source": "Dragonfly 官方博客",
+          "summary": "官方长文：集成 Meta SAM 与 Cellpose-SAM，开箱即用的一键分割减少人工修正，加速标注数据训练专用模型。",
+          "tags": [
+            "CT 分析",
+            "SAM",
+            "Cellpose"
+          ],
+          "title": "为什么 Dragonfly 3D World 引领现代 CT 分析软件市场",
+          "url": "https://dragonfly.comet.tech/en/blog/why-dragonfly-3d-world-leads-the-modern-modern-computed-tomography-ct-analysis-software-market"
+        },
+        {
+          "category": "用户故事",
+          "date": "2026-03-12",
+          "source": "Dragonfly 官方博客",
+          "summary": "马普所生物材料部门负责人谈使用 3D World 的历程与科研影响，生命科学用户值得一看。",
+          "tags": [
+            "生命科学",
+            "用户访谈"
+          ],
+          "title": "实验室访谈：Max Planck 研究所的 Dr. Emeline Raguin",
+          "url": "https://dragonfly.comet.tech/en/blog"
+        },
+        {
+          "category": "版本发布",
+          "date": "2025-11",
+          "source": "Metal Additive Manufacturing",
+          "summary": "2025 版引入 SAM 一键标注、亚体素表面重建、GPU 加速滤波（最高快 100 倍），可对照了解 2027 版演进路线。",
+          "tags": [
+            "2025 版",
+            "GPU 加速",
+            "增材制造"
+          ],
+          "title": "回顾：Dragonfly 3D World 2025 发布——SAM 集成与 GPU 加速",
+          "url": "https://www.metal-am.com/comet-launches-dragonfly-3d-world-2025-with-smart-ai-tools-fast-visualisation/"
+        },
+        {
+          "category": "学术论文",
+          "date": "2026-09-15",
+          "source": "PLOS Biology",
+          "title": "Atlastin-2 介导的内质网膜栓系是黄病毒复制的关键",
+          "url": "https://doi.org/10.1371/journal.pbio.3003556",
+          "summary": "黄病毒在宿主内质网形成的病毒复制细胞器（vROs）中复制。研究用 Dragonfly 3D World 对三维显微图像做分割与可视化，揭示 Atlastin-2 介导的内质网膜栓系对黄病毒复制的关键作用。",
+          "tags": [
+            "病毒学",
+            "显微成像",
+            "三维分割"
+          ]
+        },
+        {
+          "category": "学术论文",
+          "date": "2026-09-01",
+          "source": "Journal of Morphology",
+          "title": "灵长类背鞍孔的演化信号与发育研究",
+          "url": "https://doi.org/10.1002/jmor.70164",
+          "summary": "对 114 例人类与 1468 例 30 属非人灵长类标本的蝶鞍形态做比较研究，文中用 Dragonfly 3D World 处理 micro-CT 三维数据，分析鞍背新描述的背鞍孔的演化信号与发育特征。",
+          "tags": [
+            "形态学",
+            "micro-CT",
+            "灵长类"
+          ]
+        },
+        {
+          "category": "学术论文",
+          "date": "2026-08-28",
+          "source": "Advanced Science",
+          "title": "冻干多模态工作流：同一标本的 micro-CT、组织学与分子检测",
+          "url": "https://doi.org/10.1002/advs.77406",
+          "summary": "针对肝纤维化评估建立冻干多模态工作流，让同一标本依次完成 micro-CT 成像、组织学与分子检测。研究用 Dragonfly 3D World 做 micro-CT 三维重建与定量分析，兼顾无损 3D 成像与下游分析。",
+          "tags": [
+            "肝纤维化",
+            "micro-CT",
+            "多模态"
+          ]
+        },
+        {
+          "category": "学术论文",
+          "date": "2026-08-26",
+          "source": "Nature Communications",
+          "title": "双顶端甲基转移酶调控顶复门寄生虫的运动启动",
+          "url": "https://doi.org/10.1038/s41467-026-77078-y",
+          "summary": "揭示弓形虫等顶复门寄生虫通过双甲基转移酶机制启动运动。研究用 Dragonfly 3D World 对三维显微成像数据做分割与可视化，解析顶端细胞骨架的空间激活过程。",
+          "tags": [
+            "寄生虫学",
+            "显微成像",
+            "三维分割"
+          ]
+        }
+      ],
+      "page": "news/2026-09-23.html"
     }
-   ],
-   "note": "学术检索 6 个 API 中 Semantic Scholar 与 OpenAIRE 暂时不可用，其余 4 条结果均为已收录条目。官方博客最新文章仍为 2026-08-28（已收录）。新增 1 条：官网 publication-spotlight 专栏新推介的冻融损伤研究亮点（底层论文发表于 Materials & Design，DOI 10.1016/j.matdes.2025.115256）。"
-  },
-  {
-   "date": "2026-10-06",
-   "count": 0,
-   "page": "news/2026-10-06.html",
-   "items": [],
-   "note": "过去 24 小时内未发现新的 Dragonfly 3D World 相关新闻与论文。学术检索 6 个 API 中 Semantic Scholar 暂时不可用，其余 4 条结果均为已收录条目。官方博客最新文章仍为 2026-08-28（已收录）。"
-  },
-  {
-   "date": "2026-10-02",
-   "count": 0,
-   "page": "news/2026-10-02.html",
-   "items": []
-  },
-  {
-   "date": "2026-10-01",
-   "count": 1,
-   "page": "news/2026-10-01.html",
-   "items": [
-    {
-     "title": "微电子封装 CT 数字去翘曲：Dragonfly 实现 RBF 曲面拟合的层对齐可视化工作流",
-     "title_en": "Digital De-warping of X-ray CT Data for Layer-Aligned Visualization in Advanced Microelectronic Packages",
-     "url": "https://doi.org/10.31399/asm.cp.istfa2026p0587",
-     "doi": "10.31399/asm.cp.istfa2026p0587",
-     "source": "ISTFA 2026 会议论文集（ASM International）",
-     "source_en": "ISTFA 2026 Conference Proceedings (ASM International)",
-     "date": "2026-10-04",
-     "category": "学术论文",
-     "category_en": "Research paper",
-     "summary": "英特尔的 Jose A. Perez Vacalla 与 Comet Technologies 的 Luke Hunter、Scott Eckley、Hubert Taieb、Zixiong Cao、Vineeth Bastin 合作，针对先进微电子封装翘曲造成的 X 射线 CT 数据几何畸变，提出了在 Dragonfly 3D World 软件中实现的数字去翘曲工作流：采用径向基函数（RBF）曲面拟合、变形场生成与体数据变换，将 CT 数据平面化，实现精确的层对齐分析。在倒装芯片针栅阵列（FCPGA）封装上的应用表明，该方法有效消除了跨层混合，显著提升了电源走线与互连等布线特征的可见度，为后续分割、特征提取与结构解读提供了更可靠的预处理步骤，同时强调了足够的体素分辨率的重要性。",
-     "summary_en": "Jose A. Perez Vacalla (Intel) together with Luke Hunter, Scott Eckley, Hubert Taieb, Zixiong Cao, and Vineeth Bastin (Comet Technologies) present a digital de-warping workflow implemented in Dragonfly 3D World software to address geometric distortion in X-ray CT datasets of warped advanced microelectronic packages. Using radial basis function (RBF)-based surface fitting, deformation field generation, and volumetric transformation, the workflow planarizes CT volumes for accurate layer-aligned analysis. Applied to flip-chip pin grid array (FCPGA) packages, it eliminated cross-layer mixing and markedly improved the visibility of routing features such as power rails and interconnects, establishing an effective preprocessing step for more reliable segmentation, feature extraction, and downstream structural interpretation while emphasizing the importance of adequate voxel resolution.",
-     "tags": [
-      "微电子封装",
-      "X-ray CT",
-      "去翘曲",
-      "层对齐",
-      "RBF 曲面拟合"
-     ],
-     "tags_en": [
-      "Microelectronic packaging",
-      "X-ray CT",
-      "De-warping",
-      "Layer alignment",
-      "RBF surface fitting"
-     ]
-    }
-   ]
-  },
-  {
-   "date": "2026-09-30",
-   "count": 1,
-   "page": "news/2026-09-30.html",
-   "items": [
-    {
-     "title": "生物炭替代石油焦：Dragonfly 定量铬铁矿直接还原的合金颗粒粒度与形态",
-     "title_en": "Bio-Carbon vs. Petroleum Coke: Dragonfly Quantifies Alloy Particle Size and Morphology in Chromite Direct Reduction",
-     "url": "https://www.mdpi.com/1996-1944/19/18/3840",
-     "source": "Materials（MDPI）",
-     "source_en": "Materials (MDPI)",
-     "date": "2026-09-09",
-     "category": "学术论文",
-     "category_en": "Research paper",
-     "summary": "加拿大 CanmetMINING 团队（Natural Resources Canada）比较了生物炭与石油焦作为 CaCl₂ 助熔剂辅助铬铁矿直接还原（DRC）制取铬铁的还原剂性能，考察还原动力学、合金特性与残余相演化。还原产物的 3D X 射线显微断层扫描图像在 Dragonfly 3D World 2025.1 中完成分割与颗粒分离，并计算合金颗粒的体积、表面积与平均 Feret 直径，用于粒径分布与球形度分析。结果表明，生物炭因脱挥发分形成多孔结构而显著加快还原动力学，所得铬铁颗粒更细、成分符合高碳铬铁标准（ISO 5448），证明生物炭可作为 DRC 工艺的低碳替代还原剂。",
-     "summary_en": "A CanmetMINING team (Natural Resources Canada) compared bio-carbon and petroleum coke as reductants in CaCl₂-assisted direct reduction of chromite (DRC) for ferrochrome production, studying reduction kinetics, alloy characteristics and residual-phase evolution. 3D X-ray microtomography volumes of the reduction products were segmented and separated into individual particles in Dragonfly 3D World 2025.1, computing each alloy particle's volume, surface area and mean Feret diameter for particle-size-distribution and sphericity analysis. Bio-carbon's devolatilization created a porous structure that significantly accelerated reduction kinetics, yielding finer ferrochrome particles that meet high-carbon ferrochrome standards (ISO 5448) — a viable low-carbon alternative reductant for DRC.",
-     "tags": [
-      "金属材料",
-      "铬铁",
-      "micro-CT",
-      "颗粒分析"
-     ],
-     "tags_en": [
-      "Metallic materials",
-      "Ferrochrome",
-      "micro-CT",
-      "Particle analysis"
-     ],
-     "doi": "10.3390/ma19183840"
-    }
-   ]
-  },
-  {
-   "date": "2026-09-29",
-   "count": 1,
-   "page": "news/2026-09-29.html",
-   "items": [
-    {
-     "title": "增材制造视角：Dragonfly 3D World 2027 十大新功能详解",
-     "title_en": "What's New in Dragonfly 3D World 2027 for Additive Manufacturing",
-     "url": "https://www.microwavejournal.com/articles/46220-whats-new-in-dragonfly-3d-world-2027-for-additive-manufacturing",
-     "source": "Microwave Journal",
-     "source_en": "Microwave Journal",
-     "date": "2026-09-28",
-     "category": "版本前瞻",
-     "category_en": "Release preview",
-     "summary": "Microwave Journal 从增材制造应用视角梳理了即将发布的 Dragonfly 3D World 2027 十大功能：基于 Meta SAM 的 AI 实例分割可一键分离粉末颗粒、孔隙与缺熔缺陷；亚体素多重网格（Subvoxel Multi-Mesh）实现可重复的孔隙定量；还有 GPU 加速的 Fast Split、Rotational Views 旋转切片、可以直接对标触针仪的表面粗糙度分析，以及 Report Builder 报告生成器和免费的 Session Viewer 共享工具。产品经理 Zixiong Cao 在文中点评了新版本从数据探索到报告的端到端体验改进。",
-     "summary_en": "Microwave Journal reviews ten highlights of the upcoming Dragonfly 3D World 2027 from an additive-manufacturing perspective: SAM-based AI instance segmentation that separates powder particles, pores and lack-of-fusion defects in one click; Subvoxel Multi-Mesh for repeatable porosity quantification; plus GPU-accelerated Fast Split, Rotational Views, stylus-comparable surface roughness analysis, the Report Builder, and the free Session Viewer for sharing. Product Manager Zixiong Cao comments on the release's end-to-end experience improvements, from data exploration to reporting.",
-     "tags": [
-      "增材制造",
-      "2027",
-      "功能详解"
-     ],
-     "tags_en": [
-      "Additive manufacturing",
-      "2027",
-      "Feature tour"
-     ]
-    }
-   ]
-  },
-  {
-   "date": "2026-09-28",
-   "count": 2,
-   "page": "news/2026-09-28.html",
-   "items": [
-    {
-     "category": "学术论文",
-     "category_en": "Research paper",
-     "date": "2026-03-27",
-     "source": "Materials（MDPI）",
-     "source_en": "Materials (MDPI)",
-     "title": "氢致延性裂纹扩展的 3D 可视化：Dragonfly 定量 P355NH 钢裂纹尖端空隙演化",
-     "title_en": "3D Visualization of Hydrogen-Assisted Ductile Crack Growth: Dragonfly Quantifies Void Evolution at the Crack Tip in P355NH Steel",
-     "url": "https://www.mdpi.com/1996-1944/19/7/1335",
-     "summary": "德国萨尔兰大学与 Fraunhofer IZFP 的研究团队对氢预充的 P355NH 压力容器钢紧凑拉伸试样做了 micro-CT 裂纹前沿全厚度扫描，并从中加工出 ROI 小样进行小于 10 微米体素的高分辨扫描；空隙网络借助 Dragonfly 3D World 2025.1 的各向异性扩散滤波去噪与阈值分割提取。结果表明氢致裂纹扩展伴随裂纹尖端附近空隙形成与二次开裂增多；但连续的氢解吸叠加了测量结果，作者建议后续开展带氢充载的原位实验。",
-     "summary_en": "A German team (Saarland University / Fraunhofer IZFP) imaged crack fronts in hydrogen-precharged P355NH compact-tension specimens with micro-CT, combining full-thickness scans with high-resolution ROI volumes below 10 µm voxel size, and extracted the internal void network in Dragonfly 3D World 2025.1 using anisotropic-diffusion denoising followed by threshold segmentation. Hydrogen-assisted crack propagation was associated with increased void formation and secondary cracking near the crack tip; the authors note continuous hydrogen desorption superimposed on the results and recommend in-situ hydrogen-charged testing as the next step.",
-     "tags": [
-      "金属材料",
-      "氢脆",
-      "micro-CT",
-      "空隙分析"
-     ],
-     "tags_en": [
-      "Metallic materials",
-      "Hydrogen embrittlement",
-      "micro-CT",
-      "Void analysis"
-     ]
-    },
-    {
-     "category": "学术论文",
-     "category_en": "Research paper",
-     "date": "2026-02-24",
-     "source": "Reproductive Toxicology",
-     "source_en": "Reproductive Toxicology",
-     "title": "胎儿发育毒理学的 micro-CT 数字化流程：Dragonfly 辅助分割大鼠胎儿颅脑结构",
-     "title_en": "Fetal Imaging with Micro-CT in the Age of AI: A Digital Pipeline with Dragonfly-Assisted Segmentation of Rat Fetal Cranium and Brain",
-     "url": "https://doi.org/10.1016/j.reprotox.2026.109199",
-     "summary": "工业与监管界团队为替代传统的 Wilson–Staples 致畸检查建立了一套胎儿数字化成像流程：妊娠 21 天的大鼠胎儿经碘剂染色、琼脂包埋后用 ZEISS Xradia Versa micro-CT 扫描，颅骨与脑的三维图像用 Slicer 与 Dragonfly 3D World 重建分割，并由训练有素的胎儿形态学家对照传统标本确认准确性。卢戈液浸泡 72–96 小时可获得均匀的软组织对比，外部与内脏评估质量堪比传统方法；结合可解释 AI 框架，该流程有望以可定量、可复现的方式精简发育毒理学评估并减少动物使用。",
-     "summary_en": "An industry–regulatory team built a digital imaging pipeline as a replacement for the conventional Wilson–Staples teratology examination: gestation-day-21 rat fetuses were iodine-stained, agarose-embedded, and scanned with a ZEISS Xradia Versa micro-CT, and 3D images of the cranium and brain were reconstructed and segmented with Slicer and Dragonfly 3D World, verified against conventionally prepared specimens by a trained fetal morphologist. Lugol immersion for 72–96 h produced uniform soft-tissue contrast, and external and visceral assessments compared favorably with traditional methods; combined with an explainable AI framework, the pipeline promises quantitative, reproducible developmental-toxicology assessment with reduced animal use.",
-     "tags": [
-      "发育毒理学",
-      "micro-CT",
-      "生命科学"
-     ],
-     "tags_en": [
-      "Developmental toxicology",
-      "micro-CT",
-      "Life sciences"
-     ]
-    }
-   ]
-  },
-  {
-   "date": "2026-09-27",
-   "count": 1,
-   "page": "news/2026-09-27.html",
-   "items": [
-    {
-     "category": "学术论文",
-     "category_en": "Research paper",
-     "date": "2026-09-23",
-     "source": "Materials（MDPI）",
-     "source_en": "Materials (MDPI)",
-     "title": "牙科新材料：Dragonfly 定量纳米氟磷灰石改性正畸水门汀内部孔隙，2 wt.% 配方粘接强度最优",
-     "title_en": "Dental Materials: Dragonfly Quantifies Internal Porosity of Nanofluorapatite-Modified Orthodontic Cement; 2 wt.% Formulation Shows Best Bond Strength",
-     "url": "https://www.mdpi.com/1996-1944/19/19/4076",
-     "summary": "波兰弗罗茨瓦夫的研究团队用 SkyScan 1172 micro-CT 扫描了掺入纳米氟磷灰石（nFAp）的 GC Fuji Ortho LC 正畸树脂改性玻璃离子水门汀，并借助 Dragonfly 3D World 2025.1 的 Upper Otsu 分割与 Porosity Segmentation 算法定量分析内部孔隙与孔形貌：nFAp 的加入提高了材料孔隙率和可解析的孔隙数密度，孔隙尺寸变化不大；改性组的剪切粘接强度从 12.47 MPa 显著提升至约 17 MPa，其中 2 wt.% nFAp 配方综合机械性能最优，而压痕硬度与弹性模量无显著差异。",
-     "summary_en": "A Polish research team scanned nanofluorapatite (nFAp)-modified GC Fuji Ortho LC orthodontic resin-modified glass ionomer cement with a SkyScan 1172 micro-CT and quantified internal porosity and pore morphology using Dragonfly 3D World 2025.1 (Upper Otsu segmentation and the Porosity Segmentation with AO Fields algorithm): nFAp incorporation increased volumetric porosity and resolved pore number density while pore dimensions changed only modestly; shear bond strength rose significantly from 12.47 MPa to about 17 MPa in the modified groups, with the 2 wt.% nFAp formulation showing the most favorable overall mechanical profile and no significant change in indentation hardness or modulus.",
-     "tags": [
-      "牙科",
-      "micro-CT",
-      "孔隙分析"
-     ],
-     "tags_en": [
-      "Dental",
-      "micro-CT",
-      "Porosity analysis"
-     ]
-    }
-   ]
-  },
-  {
-   "date": "2026-09-26",
-   "count": 2,
-   "page": "news/2026-09-26.html",
-   "items": [
-    {
-     "category": "官方动态",
-     "category_en": "Official update",
-     "date": "2026-09-23",
-     "source": "Dragonfly 官网活动",
-     "source_en": "Dragonfly official events",
-     "title": "官方网络研讨会：Dragonfly 3D World 2027 新功能速览（9 月 23 日举行）",
-     "title_en": "Webinar — Dragonfly 3D World 2027: Discover What's New (held September 23)",
-     "url": "https://dragonfly.comet.tech/en/events",
-     "summary": "Comet 官方于 9 月 23 日举办线上研讨会，演示即将发布的 Dragonfly 3D World 2027 的新功能，包括基于 Meta SAM 的 AI 实例分割、Subvoxel Multi-Mesh 亚体素多重网格、Fast Split 快速实例分离、Report Builder 报告生成器等。官网 Events 页面还公布了后续活动：9 月 28 日 France Volume-EM Scientific Days（Bordeaux）、10 月 4 日 MS&T 2026（Pittsburgh）、10 月 12 日 ASNT 2026（Columbus）。",
-     "summary_en": "Comet hosted an online webinar on September 23 introducing Dragonfly 3D World 2027: SAM-based AI instance segmentation, Subvoxel Multi-Mesh, Fast Split, Report Builder and more. The Events page also lists upcoming appearances — France Volume-EM Scientific Days on Sep 28 (Bordeaux), MS&T 2026 on Oct 4 (Pittsburgh), and ASNT 2026 on Oct 12 (Columbus).",
-     "tags": [
-      "官方活动",
-      "2027",
-      "新版预告"
-     ],
-     "tags_en": [
-      "Official event",
-      "2027",
-      "Release preview"
-     ]
-    },
-    {
-     "category": "学术论文",
-     "category_en": "Research paper",
-     "date": "2026-09-13",
-     "source": "Scientific Reports（Nature）",
-     "source_en": "Scientific Reports (Nature)",
-     "title": "新泡泡糖珊瑚物种：研究团队用 Dragonfly 3D World 做 micro-XCT 卵母细胞分割，首次在八放珊瑚中发现甲壳素骨架",
-     "title_en": "New bubblegum coral species: Dragonfly 3D World used for micro-XCT oocyte segmentation, first chitin scaffold found in octocorals",
-     "url": "https://www.nature.com/articles/s41598-026-71127-8",
-     "doi": "10.1038/s41598-026-71127-8",
-     "summary": "研究团队在纳斯卡海脊（670 米深）发现泡泡糖珊瑚新物种 Paragorgia quitinosa，并首次在八放珊瑚组织中确认甲壳素（chitin）是无轴骨骼群体的结构支架。团队把 micro-XCT 扫描的珊瑚碎片（Zeiss Xradia 620 Versa，5.05 μm 体素）导入 Dragonfly 3D World，对 10 个随机选取的虹吸水螅体 ROI 沿 z 轴手动勾画并插值分割卵母细胞，进而计算每个 ROI 的 Feret 直径。",
-     "summary_en": "A new bubblegum coral species, Paragorgia quitinosa, collected at 670 m depth on the Nazca Ridge, provides the first analytical evidence of chitin as a structural scaffold in octocoral tissues. The team segmented oocytes in Dragonfly 3D World from micro-XCT scans (Zeiss Xradia 620 Versa, 5.05 μm voxels) by manually outlining and interpolating ROIs along z in 10 haphazardly selected siphonozoids, then calculated Feret diameters for each ROI.",
-     "tags": [
-      "生命科学",
-      "micro-XCT",
-      "珊瑚研究"
-     ],
-     "tags_en": [
-      "Life sciences",
-      "micro-XCT",
-      "Coral research"
-     ]
-    }
-   ]
-  },
-  {
-   "date": "2026-09-25",
-   "items": [],
-   "note": "过去 24 小时内未发现新的 Dragonfly 3D World 相关新闻与论文。学术检索 6 个 API 中 Semantic Scholar 暂时不可用，其余 4 条结果均为已收录条目。官方博客最新文章仍为 2026-08-28（已收录）。"
-  },
-  {
-   "date": "2026-09-24",
-   "count": 3,
-   "page": "news/2026-09-24.html",
-   "items": [
-    {
-     "category": "会议动态",
-     "category_en": "Event update",
-     "date": "2026-08-28",
-     "source": "Dragonfly 官方博客",
-     "source_en": "Dragonfly official blog",
-     "title": "M&M 2026 回顾：Dragonfly 3D World 2027 首次公开展示，下一届定档 Pittsburgh",
-     "title_en": "M&M 2026 Recap: Dragonfly 3D World 2027 First Public Preview, Next Stop Pittsburgh",
-     "url": "https://dragonfly.comet.tech/en/blog/mm-2027-looking-ahead",
-     "summary": "Dragonfly 团队回顾了 M&M 2026（Milwaukee）一周的参会见闻，并首次公开展示了 Dragonfly 3D World 2027：新功能覆盖 Grid-Based SAM、Fast Split、Subvoxel Multi-Mesh、表面粗糙度分析、Report Builder、扩展的网格与 CAD 能力；团队还在每晚的厂商培训上深入讲解了深度学习分割与 2027 工作流。官方同时宣布 M&M 2027 将于 2027 年 8 月 2–5 日在 Pittsburgh 举行。",
-     "summary_en": "The Dragonfly team recaps a week at M&M 2026 in Milwaukee and gives the first public preview of Dragonfly 3D World 2027: new capabilities include Grid-Based SAM, Fast Split, Subvoxel Multi-Mesh, surface roughness analysis, Report Builder, and expanded mesh and CAD tools, plus evening vendor tutorials on deep learning segmentation and 2027 workflows. M&M 2027 is announced for August 2-5, 2027, in Pittsburgh, PA.",
-     "tags": [
-      "会议",
-      "2027",
-      "新版预告"
-     ],
-     "tags_en": [
-      "Conference",
-      "2027",
-      "Release preview"
-     ]
-    },
-    {
-     "category": "应用案例",
-     "category_en": "Application note",
-     "date": "2026-08-28",
-     "source": "Dragonfly 官方博客",
-     "source_en": "Dragonfly official blog",
-     "title": "电池制造的 3D 图像分析：从电极几何测量到生产变异分析",
-     "title_en": "Transforming Battery Manufacturing with 3D Image Processing",
-     "url": "https://dragonfly.comet.tech/en/blog/ct-image-processing-battery-manufacturing",
-     "summary": "官方应用指南介绍了如何用 Dragonfly 3D World 分析电池 CT 数据：AI 辅助分割定位电极层、夹杂与孔隙，精确测量阳极-阴极 overhang 距离，并通过可复用的深度学习模型与宏把单样品检查扩展为跨批次的生产变异分析。文中还介绍了 2027 版专为圆柱电池设计的 Rotational Views 旋转切片和 Report Builder 报告生成功能。",
-     "summary_en": "The official application guide shows how Dragonfly 3D World supports battery CT analysis: AI-assisted segmentation locates electrode layers, inclusions, and voids; anode-cathode overhang distances are measured precisely; and reusable deep-learning models plus macros extend single-sample inspection into cross-batch production-variability analysis. It also introduces 2027's Rotational Views for cylindrical cells and the Report Builder.",
-     "tags": [
-      "电池检测",
-      "深度学习",
-      "重复性工作流"
-     ],
-     "tags_en": [
-      "Battery inspection",
-      "Deep learning",
-      "Repeatable workflows"
-     ]
-    },
-    {
-     "category": "版本前瞻",
-     "category_en": "Release preview",
-     "date": "2026-07-31",
-     "source": "Dragonfly 官方博客",
-     "source_en": "Dragonfly official blog",
-     "title": "官方详解 Dragonfly 3D World 2027 十大新功能",
-     "title_en": "10 New Features Coming to Dragonfly 3D World 2027",
-     "url": "https://dragonfly.comet.tech/en/blog/dragonfly-3d-world-2027-new-features",
-     "summary": "官方逐条拆解了 2027 版的十个亮点：基于 Meta SAM 的 AI 实例分割（一键分离颗粒、孔隙、纤维等）；亚体素多重网格（Subvoxel Multi-Mesh）做可重复孔隙定量；GPU 加速的 Fast Split 秒级分离粘连物体；Rotational Views 旋转切片检视圆柱形结构；表面粗糙度分析、增强的网格与 CAD 工具（含布尔运算与 STEP 导入）、Report Builder 报告生成器，以及免费的 Session Viewer 共享工具。",
-     "summary_en": "The official post walks through ten highlights of the 2027 release: SAM-based AI instance segmentation (one-click separation of grains, pores, fibers); Subvoxel Multi-Mesh for repeatable porosity quantification; GPU-accelerated Fast Split to separate touching objects in seconds; Rotational Views for cylindrical structures; surface roughness analysis; enhanced mesh and CAD tools (Boolean ops, STEP import); the Report Builder; and the free Session Viewer for sharing.",
-     "tags": [
-      "2027",
-      "AI 分割",
-      "功能详解"
-     ],
-     "tags_en": [
-      "2027",
-      "AI segmentation",
-      "Feature tour"
-     ]
-    }
-   ]
-  },
-  {
-   "count": 8,
-   "date": "2026-09-23",
-   "items": [
-    {
-     "category": "学术论文",
-     "date": "2025-10-13",
-     "source": "Frontiers in Dental Medicine",
-     "summary": "研究用 micro-CT 扫描 36 颗经三种方式涂布封闭剂的离体前磨牙，数据导入 Dragonfly 3D World 2024.1 做阈值分割与 ROI Painter 手动修正，再用 Basic Properties 面板自动计算各材料层体积，间接得出封闭剂层孔隙率。结果显示新型压电 Vibrospiral 涂布的孔隙体积百分比最低（3.5%），显著优于 K-file（22.01%）和 Lentulo 螺旋（19.21%）。",
-     "tags": [
-      "根管治疗",
-      "孔隙定量",
-      "micro-CT"
-     ],
-     "title": "Dragonfly 定量根管封闭剂孔隙：新型压电 Vibrospiral 表现最佳",
-     "url": "https://www.frontiersin.org/journals/dental-medicine/articles/10.3389/fdmed.2025.1695090/full"
-    },
-    {
-     "category": "学术论文",
-     "date": "2026-09-11",
-     "source": "Frontiers in Bioengineering and Biotechnology",
-     "summary": "研究将鼠类骨骼的高分辨率 micro-CT 数据按比例放大，探索生成保留骨小梁解剖结构的可打印 3D 模型。作者把原始 .stl 网格载入 Dragonfly 3D World 2024.1，以软件测得的总体积、表面积与长宽高为基准，系统对比了不同网格算法、编码与单位导出条件下的文件体积与网格误差，选定最优导出方案后用 FDM 与 SLA 成功打印出模型。",
-     "tags": [
-      "骨科",
-      "3D 打印",
-      "网格化"
-     ],
-     "title": "从 micro-CT 骨扫描到可打印 3D 骨模型：保留骨小梁保真度的工作流",
-     "url": "https://www.frontiersin.org/journals/bioengineering-and-biotechnology/articles/10.3389/fbioe.2026.1836815/full",
-     "doi": "10.3389/fbioe.2026.1836815"
-    },
-    {
-     "category": "版本前瞻",
-     "date": "2026-09-04",
-     "source": "Metrology and Quality News",
-     "summary": "2027 版主打汽车 CT 检测：基于 Meta SAM 的 AI 实例分割一键分离孔隙、夹杂等目标；新增亚体素多重网格做定量分析，另有 CAD 对比与集成报告。",
-     "tags": [
-      "2027 新版",
-      "AI 分割",
-      "汽车 CT"
-     ],
-     "title": "Dragonfly 3D World 2027 前瞻：AI 实例分割与亚体素测量",
-     "url": "https://metrology.news/dragonfly-3d-world-2027-adds-ai-segmentation-and-advanced-ct-measurement-tools/"
-    },
-    {
-     "category": "应用案例",
-     "date": "2026-01-12",
-     "source": "Dragonfly 官方博客",
-     "summary": "官方应用笔记：AI 分割能检出 Otsu 阈值法漏掉的窄缝状孔隙和低对比度缩松，在新样品上泛化依然可靠。",
-     "tags": [
-      "孔隙率",
-      "深度学习",
-      "铸件检测"
-     ],
-     "title": "AI 增强的铸件孔隙率分析：超越传统阈值分割",
-     "url": "https://dragonfly.comet.tech/en/blog/ai-enhanced-casting-porosity-analysis-in-dragonfly-3d-world"
-    },
-    {
-     "category": "功能介绍",
-     "date": "2026",
-     "source": "Dragonfly 官网",
-     "summary": "亚体素多重网格实现可重复精确测量；名义 vs 实际 CAD 对比一键化；Fast Split GPU 实例分割；报告生成器导出 Word/PDF/HTML。",
-     "tags": [
-      "计量",
-      "CAD 对比",
-      "报告"
-     ],
-     "title": "Dragonfly 新功能一览：多重网格、名义对比与报告生成器",
-     "url": "https://dragonfly.comet.tech/en/what-s-new-in-dragonfly"
-    },
-    {
-     "category": "技术解析",
-     "date": "2026",
-     "source": "Dragonfly 官方博客",
-     "summary": "官方长文：集成 Meta SAM 与 Cellpose-SAM，开箱即用的一键分割减少人工修正，加速标注数据训练专用模型。",
-     "tags": [
-      "CT 分析",
-      "SAM",
-      "Cellpose"
-     ],
-     "title": "为什么 Dragonfly 3D World 引领现代 CT 分析软件市场",
-     "url": "https://dragonfly.comet.tech/en/blog/why-dragonfly-3d-world-leads-the-modern-modern-computed-tomography-ct-analysis-software-market"
-    },
-    {
-     "category": "用户故事",
-     "date": "2026-03-12",
-     "source": "Dragonfly 官方博客",
-     "summary": "马普所生物材料部门负责人谈使用 3D World 的历程与科研影响，生命科学用户值得一看。",
-     "tags": [
-      "生命科学",
-      "用户访谈"
-     ],
-     "title": "实验室访谈：Max Planck 研究所的 Dr. Emeline Raguin",
-     "url": "https://dragonfly.comet.tech/en/blog"
-    },
-    {
-     "category": "版本发布",
-     "date": "2025-11",
-     "source": "Metal Additive Manufacturing",
-     "summary": "2025 版引入 SAM 一键标注、亚体素表面重建、GPU 加速滤波（最高快 100 倍），可对照了解 2027 版演进路线。",
-     "tags": [
-      "2025 版",
-      "GPU 加速",
-      "增材制造"
-     ],
-     "title": "回顾：Dragonfly 3D World 2025 发布——SAM 集成与 GPU 加速",
-     "url": "https://www.metal-am.com/comet-launches-dragonfly-3d-world-2025-with-smart-ai-tools-fast-visualisation/"
-    },
-    {
-     "category": "学术论文",
-     "date": "2026-09-15",
-     "source": "PLOS Biology",
-     "title": "Atlastin-2 介导的内质网膜栓系是黄病毒复制的关键",
-     "url": "https://doi.org/10.1371/journal.pbio.3003556",
-     "summary": "黄病毒在宿主内质网形成的病毒复制细胞器（vROs）中复制。研究用 Dragonfly 3D World 对三维显微图像做分割与可视化，揭示 Atlastin-2 介导的内质网膜栓系对黄病毒复制的关键作用。",
-     "tags": [
-      "病毒学",
-      "显微成像",
-      "三维分割"
-     ]
-    },
-    {
-     "category": "学术论文",
-     "date": "2026-09-01",
-     "source": "Journal of Morphology",
-     "title": "灵长类背鞍孔的演化信号与发育研究",
-     "url": "https://doi.org/10.1002/jmor.70164",
-     "summary": "对 114 例人类与 1468 例 30 属非人灵长类标本的蝶鞍形态做比较研究，文中用 Dragonfly 3D World 处理 micro-CT 三维数据，分析鞍背新描述的背鞍孔的演化信号与发育特征。",
-     "tags": [
-      "形态学",
-      "micro-CT",
-      "灵长类"
-     ]
-    },
-    {
-     "category": "学术论文",
-     "date": "2026-08-28",
-     "source": "Advanced Science",
-     "title": "冻干多模态工作流：同一标本的 micro-CT、组织学与分子检测",
-     "url": "https://doi.org/10.1002/advs.77406",
-     "summary": "针对肝纤维化评估建立冻干多模态工作流，让同一标本依次完成 micro-CT 成像、组织学与分子检测。研究用 Dragonfly 3D World 做 micro-CT 三维重建与定量分析，兼顾无损 3D 成像与下游分析。",
-     "tags": [
-      "肝纤维化",
-      "micro-CT",
-      "多模态"
-     ]
-    },
-    {
-     "category": "学术论文",
-     "date": "2026-08-26",
-     "source": "Nature Communications",
-     "title": "双顶端甲基转移酶调控顶复门寄生虫的运动启动",
-     "url": "https://doi.org/10.1038/s41467-026-77078-y",
-     "summary": "揭示弓形虫等顶复门寄生虫通过双甲基转移酶机制启动运动。研究用 Dragonfly 3D World 对三维显微成像数据做分割与可视化，解析顶端细胞骨架的空间激活过程。",
-     "tags": [
-      "寄生虫学",
-      "显微成像",
-      "三维分割"
-     ]
-    }
-   ],
-   "page": "news/2026-09-23.html"
-  }
- ],
- "site": "Dragonfly 3D World News",
- "updated": "2026-10-07T09:39:00+08:00"
+  ],
+  "site": "Dragonfly 3D World News",
+  "updated": "2026-10-08"
 }
