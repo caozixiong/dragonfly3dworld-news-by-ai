@@ -1,7 +1,7 @@
 {
  "updated": "2026-10-09",
  "site": "Dragonfly 3D World News",
- "count": 24,
+ "count": 27,
  "topics": [
   {
    "key": "life-sciences",
@@ -35,6 +35,156 @@
   }
  ],
  "entries": [
+  {
+   "id": "doi:10.64898/2026.08.10.743404",
+   "title": "官方研究亮点：3D 电子显微镜揭示甲藻染色体的多样形态（FIB-SEM 研究）",
+   "title_en": "Official Publication Spotlight: 3D Electron Microscopy Reveals Diverse Chromosome Morphologies Across Dinoflagellate Species",
+   "summary": "Dragonfly 官网新增研究亮点，推介一篇 bioRxiv 预印本（Lucas Philipp 等，2026 年 8 月）：研究团队用 3D FIB-SEM 分析了 8 种甲藻共 21 个细胞核、2138 条染色体的三维组织，发现各物种染色体形态差异显著（椭球体、棒状、新月形、不规则形及部分螺旋形），F. kawagutii 呈现互联的染色体网络，并在核内首次观察到疑似含 DNA 的环形结构。在 Dragonfly 3D World 中完成了大型 FIB-SEM 数据的 3D 拼接、切片配准、去条纹与平滑处理；通过手动标注切片生成深度学习训练数据，为每个细胞核单独训练 U-Net 模型并应用于整个图像栈；还用 Python 控制台定制了自动裁剪导出单个染色体、分析表面纹脊以及 Voronoi 空间分布模拟等工作流程。预印本 DOI: 10.64898/2026.08.10.743404。",
+   "summary_en": "The official Dragonfly site spotlights a new bioRxiv preprint (Lucas Philipp et al., August 2026): the team used 3D FIB-SEM to analyze chromosome 3D organization in 21 nuclei (2,138 chromosomes) across 8 dinoflagellate species, finding strikingly diverse chromosome morphologies (ellipsoidal, rod-shaped, crescent, irregular, partially helical); F. kawagutii shows an interconnected chromosome network, and suspected DNA-containing toroidal structures were observed inside nuclei for the first time. In Dragonfly 3D World the team performed 3D stitching, slice registration, destriping and smoothing of the large FIB-SEM datasets; generated deep-learning training data by manual slice annotation, trained a dedicated U-Net model per nucleus and applied it to whole stacks; and built custom Python-console workflows such as auto-cropping and exporting individual chromosomes for surface-ridge analysis and Voronoi spatial-distribution simulations. Preprint DOI: 10.64898/2026.08.10.743404.",
+   "url": "https://dragonfly.comet.tech/en/resources/publication-spotlight/3d-electron-microscopy-dinoflagellate-chromosomes",
+   "doi": "10.64898/2026.08.10.743404",
+   "date": "2026-10-09",
+   "digest_date": "2026-10-09",
+   "digest_page": "news/2026-10-09.html",
+   "source": "Dragonfly 官方研究亮点",
+   "source_en": "Dragonfly official publication spotlight",
+   "category": "官方动态",
+   "category_en": "Official update",
+   "tags": [
+    "研究亮点",
+    "甲藻染色体",
+    "FIB-SEM",
+    "深度学习分割"
+   ],
+   "tags_en": [
+    "Publication spotlight",
+    "Dinoflagellate chromosomes",
+    "FIB-SEM",
+    "Deep-learning segmentation"
+   ],
+   "topics": [
+    {
+     "key": "life-sciences",
+     "zh": "生命科学",
+     "en": "Life Sciences"
+    },
+    {
+     "key": "ai-deep-learning",
+     "zh": "AI 与深度学习",
+     "en": "AI & Deep Learning"
+    },
+    {
+     "key": "releases-features",
+     "zh": "版本与功能",
+     "en": "Releases & Features"
+    },
+    {
+     "key": "official",
+     "zh": "官方动态",
+     "en": "Official Updates"
+    }
+   ]
+  },
+  {
+   "id": "doi:10.1038/s41541-026-01430-y",
+   "title": "官方研究亮点：鼻黏膜疫苗与免疫细胞早期互作的 3D 超微结构（FIB-SEM 研究）",
+   "title_en": "Official Publication Spotlight: Visualizing Early Mucosal Vaccine–Immune Cell Interactions in 3D Ultrastructure",
+   "summary": "Dragonfly 官网新增研究亮点，推介发表于 npj Vaccines 的论文（Kanwal 等，荷兰 Radboudumc，2026;11:105）：研究团队在小鼠鼻内接种 OMV 基肺炎链球菌疫苗候选物后 1–72 小时追踪疫苗分布与免疫应答，结合 Airyscan 荧光显微、关联光电显微（CLEM）与体积 FIB-SEM（1284 张图像、每切 5 纳米），发现中性粒细胞是鼻组织中与疫苗颗粒互作的主要免疫细胞。在 Dragonfly 3D World 中，研究人员将分割数据导入进行 3D 可视化处理，把细胞膜、细胞核、囊泡等结构转化为独立 3D 对象并叠加疫苗相关荧光信号，探索完整成像体积内的空间关系，相关结果呈现在论文图 7 中。DOI: 10.1038/s41541-026-01430-y。",
+   "summary_en": "The official Dragonfly site spotlights a new paper in npj Vaccines (Kanwal et al., Radboudumc, Netherlands, 2026;11:105): after intranasal administration of an OMV-based pneumococcal vaccine candidate in mice, the team tracked vaccine distribution and immune responses 1–72 hours post-immunization, combining Airyscan fluorescence microscopy, correlative light-electron microscopy (CLEM) and volume FIB-SEM (1,284 images, 5 nm slices), and found neutrophils to be the main immune cells interacting with vaccine particles in nasal tissue. In Dragonfly 3D World the researchers imported segmented data for 3D visualization, converting membranes, nuclei and vesicles into individual 3D objects and overlaying vaccine-associated fluorescence signals to explore spatial relationships across the full imaged volume — the results appear in the paper's Figure 7. DOI: 10.1038/s41541-026-01430-y.",
+   "url": "https://dragonfly.comet.tech/en/resources/publication-spotlight/fib-sem-3d-visualization-vaccine-immune-cell-interactions",
+   "doi": "10.1038/s41541-026-01430-y",
+   "date": "2026-10-09",
+   "digest_date": "2026-10-09",
+   "digest_page": "news/2026-10-09.html",
+   "source": "Dragonfly 官方研究亮点",
+   "source_en": "Dragonfly official publication spotlight",
+   "category": "官方动态",
+   "category_en": "Official update",
+   "tags": [
+    "研究亮点",
+    "疫苗",
+    "免疫细胞",
+    "3D 可视化"
+   ],
+   "tags_en": [
+    "Publication spotlight",
+    "Vaccine",
+    "Immune cells",
+    "3D visualization"
+   ],
+   "topics": [
+    {
+     "key": "life-sciences",
+     "zh": "生命科学",
+     "en": "Life Sciences"
+    },
+    {
+     "key": "releases-features",
+     "zh": "版本与功能",
+     "en": "Releases & Features"
+    },
+    {
+     "key": "official",
+     "zh": "官方动态",
+     "en": "Official Updates"
+    }
+   ]
+  },
+  {
+   "id": "doi:10.1016/j.tmater.2026.100083",
+   "title": "官方研究亮点：活体 micro-CT 实时追踪造礁珊瑚骨骼构建（4D 成像研究）",
+   "title_en": "Official Publication Spotlight: In Vivo Micro-CT Tracks Coral Skeletal Construction in Real Time (4D Imaging Study)",
+   "summary": "Dragonfly 官网新增研究亮点，推介发表于 Tomography of Materials and Structures 的开放获取论文（南安普顿大学团队，2026）：研究提出一种新颖的 4D 活体 micro-CT 方法，实时追踪造礁珊瑚 Stylophora pistillata 的骨骼构建，对同一珊瑚碎片在 16 天内进行三次扫描，定量测得骨骼体积从 629.09 增至 702.75 立方毫米、平均骨骼厚度从 240 增至 246 微米，并揭示了内部增厚动态。在 Dragonfly 3D World 中，研究人员用自动化配准工具对齐时间序列数据以分辨微米级生长，用深度学习分割从低信噪比的活体快速扫描数据中提取骨骼结构，并用 splitter 功能并排展示原始灰度断层数据与分割结果。DOI: 10.1016/j.tmater.2026.100083。",
+   "summary_en": "The official Dragonfly site spotlights a new open-access paper in Tomography of Materials and Structures (University of Southampton team, 2026): the authors present a novel 4D in vivo micro-CT approach that tracks skeletal construction in the reef-building coral Stylophora pistillata in real time, scanning the same coral fragment three times over 16 days and quantifying skeletal volume growth (629.09 → 702.75 mm³), porosity and mean skeletal thickness (240 → 244 → 246 µm), revealing internal thickening dynamics. In Dragonfly 3D World they used automated registration to align the time series at voxel level to resolve micron-scale growth, deep-learning segmentation to extract skeletal structures from low-SNR fast in vivo scans, and the splitter function to display raw grayscale tomographic data side by side with segmentations. DOI: 10.1016/j.tmater.2026.100083.",
+   "url": "https://dragonfly.comet.tech/en/resources/publication-spotlight/in-vivo-x-ray-computed-microtomography-a-novel-approach-to-assess-coral-skeletal-construction",
+   "doi": "10.1016/j.tmater.2026.100083",
+   "date": "2026-10-09",
+   "digest_date": "2026-10-09",
+   "digest_page": "news/2026-10-09.html",
+   "source": "Dragonfly 官方研究亮点",
+   "source_en": "Dragonfly official publication spotlight",
+   "category": "官方动态",
+   "category_en": "Official update",
+   "tags": [
+    "研究亮点",
+    "珊瑚",
+    "活体 micro-CT",
+    "深度学习分割"
+   ],
+   "tags_en": [
+    "Publication spotlight",
+    "Coral",
+    "In vivo micro-CT",
+    "Deep-learning segmentation"
+   ],
+   "topics": [
+    {
+     "key": "life-sciences",
+     "zh": "生命科学",
+     "en": "Life Sciences"
+    },
+    {
+     "key": "materials-manufacturing",
+     "zh": "材料与制造",
+     "en": "Materials & Manufacturing"
+    },
+    {
+     "key": "ai-deep-learning",
+     "zh": "AI 与深度学习",
+     "en": "AI & Deep Learning"
+    },
+    {
+     "key": "releases-features",
+     "zh": "版本与功能",
+     "en": "Releases & Features"
+    },
+    {
+     "key": "official",
+     "zh": "官方动态",
+     "en": "Official Updates"
+    }
+   ]
+  },
   {
    "id": "doi:10.1016/j.matdes.2025.115256",
    "title": "官方研究亮点：冻融循环下聚酯纤维增强水泥基复合材料的微观结构损伤（micro-CT 研究）",
