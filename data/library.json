@@ -1,7 +1,7 @@
 {
  "updated": "2026-10-09",
  "site": "Dragonfly 3D World News",
- "count": 27,
+ "count": 30,
  "topics": [
   {
    "key": "life-sciences",
@@ -35,6 +35,135 @@
   }
  ],
  "entries": [
+  {
+   "id": "url:https://www.youtube.com/watch?v=mpschswckug",
+   "title": "官方新功能视频：Dragonfly 3D World 2027「与坐标系对齐」",
+   "title_en": "Official feature video: Alignment with Coordinate Systems in Dragonfly 3D World 2027",
+   "summary": "官方「What's new in Dragonfly 3D World 2027」系列再添新片，聚焦 2027 版改进的计量（metrology）功能：与坐标系对齐（Alignment with Coordinate Systems）。2027 版带来更精确、可重复的表面测量、更快的分割与更智能的分类工具，以及新的报告与协作方式，该视频演示了如何通过坐标系对齐实现精确的几何测量。",
+   "summary_en": "The official \"What's new in Dragonfly 3D World 2027\" series adds a new video on the release's improved metrology features: Alignment with Coordinate Systems. The 2027 release promises precise and repeatable surface measurements, faster segmentation, smarter classification tools, and new ways of reporting and collaborating; this video demonstrates how coordinate-system alignment supports precise geometric measurement.",
+   "url": "https://www.youtube.com/watch?v=MPSCHSwckug",
+   "doi": "",
+   "date": "2026-10-09",
+   "digest_date": "2026-10-11",
+   "digest_page": "news/2026-10-11.html",
+   "source": "Dragonfly 官方 YouTube",
+   "source_en": "Dragonfly official YouTube",
+   "category": "官方动态",
+   "category_en": "Official update",
+   "tags": [
+    "2027新功能",
+    "坐标系对齐",
+    "计量"
+   ],
+   "tags_en": [
+    "Dragonfly 3D World 2027",
+    "Alignment with Coordinate Systems",
+    "Metrology"
+   ],
+   "topics": [
+    {
+     "key": "metrology-inspection",
+     "zh": "计量与检测",
+     "en": "Metrology & Inspection"
+    },
+    {
+     "key": "releases-features",
+     "zh": "版本与功能",
+     "en": "Releases & Features"
+    },
+    {
+     "key": "official",
+     "zh": "官方动态",
+     "en": "Official Updates"
+    }
+   ]
+  },
+  {
+   "id": "url:https://www.youtube.com/watch?v=5ihgqtghjxy",
+   "title": "官方新功能视频：Dragonfly 3D World 2027「自动网格配准」",
+   "title_en": "Official feature video: Automatic Mesh Registration in Dragonfly 3D World 2027",
+   "summary": "官方「What's new in Dragonfly 3D World 2027」系列的另一支新视频，演示 2027 版的自动网格配准（Automatic Mesh Registration）功能。作为 2027 版增强的网格与测量工具组合的一部分，该功能让多扫描、多时点或 CAD 与实测网格之间的配准更快、更可重复，是计量与质量检测工作流的重要补充。",
+   "summary_en": "Another new video in the official \"What's new in Dragonfly 3D World 2027\" series, demonstrating Automatic Mesh Registration in the 2027 release. Part of the expanded mesh and measurement toolkit, the feature makes registering multiple scans, time points, or CAD-vs-measured meshes faster and more repeatable — a valuable addition to metrology and quality-inspection workflows.",
+   "url": "https://www.youtube.com/watch?v=5IhGqtgHjXY",
+   "doi": "",
+   "date": "2026-10-09",
+   "digest_date": "2026-10-11",
+   "digest_page": "news/2026-10-11.html",
+   "source": "Dragonfly 官方 YouTube",
+   "source_en": "Dragonfly official YouTube",
+   "category": "官方动态",
+   "category_en": "Official update",
+   "tags": [
+    "2027新功能",
+    "网格配准",
+    "计量"
+   ],
+   "tags_en": [
+    "Dragonfly 3D World 2027",
+    "Mesh registration",
+    "Metrology"
+   ],
+   "topics": [
+    {
+     "key": "metrology-inspection",
+     "zh": "计量与检测",
+     "en": "Metrology & Inspection"
+    },
+    {
+     "key": "releases-features",
+     "zh": "版本与功能",
+     "en": "Releases & Features"
+    },
+    {
+     "key": "official",
+     "zh": "官方动态",
+     "en": "Official Updates"
+    }
+   ]
+  },
+  {
+   "id": "url:https://www.youtube.com/watch?v=drujysdclfm",
+   "title": "官方网络研讨会录像上线：Dragonfly 3D World 2027 新功能速览（9 月 23 日场）",
+   "title_en": "Official webinar recording: What's new in Dragonfly 3D World 2027 (September 2026)",
+   "summary": "9 月 23 日举办的「Dragonfly 3D World 2027 新功能」网络研讨会完整录像已在官方 YouTube 频道上线。研讨会围绕多孔材料分析、复杂数据分割与可复用研究工作流，讲解新一代 3D World 的最新功能，错过直播的观众现可随时回看。",
+   "summary_en": "The full recording of the September 23, 2026 webinar on Dragonfly 3D World 2027's new features is now available on the official Dragonfly YouTube channel. Covering porous-material analysis, complex-dataset segmentation, and repeatable research workflows, the session walks through the highlights of the next-generation 3D World for anyone who missed the live event.",
+   "url": "https://www.youtube.com/watch?v=drUJySdcLfM",
+   "doi": "",
+   "date": "2026-10-07",
+   "digest_date": "2026-10-11",
+   "digest_page": "news/2026-10-11.html",
+   "source": "Dragonfly 官方 YouTube",
+   "source_en": "Dragonfly official YouTube",
+   "category": "官方动态",
+   "category_en": "Official update",
+   "tags": [
+    "网络研讨会",
+    "2027",
+    "新版预告"
+   ],
+   "tags_en": [
+    "Webinar",
+    "Dragonfly 3D World 2027",
+    "Release preview"
+   ],
+   "topics": [
+    {
+     "key": "materials-manufacturing",
+     "zh": "材料与制造",
+     "en": "Materials & Manufacturing"
+    },
+    {
+     "key": "releases-features",
+     "zh": "版本与功能",
+     "en": "Releases & Features"
+    },
+    {
+     "key": "official",
+     "zh": "官方动态",
+     "en": "Official Updates"
+    }
+   ]
+  },
   {
    "id": "doi:10.64898/2026.08.10.743404",
    "title": "官方研究亮点：3D 电子显微镜揭示甲藻染色体的多样形态（FIB-SEM 研究）",
