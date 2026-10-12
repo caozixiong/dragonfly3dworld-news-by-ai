@@ -1,7 +1,7 @@
 {
- "updated": "2026-10-09",
+ "updated": "2026-10-12",
  "site": "Dragonfly 3D World News",
- "count": 30,
+ "count": 31,
  "topics": [
   {
    "key": "life-sciences",
@@ -35,6 +35,44 @@
   }
  ],
  "entries": [
+  {
+   "id": "url:https://wileyindustrynews.com/en/news/inspect-award-2026-here-are-the-winners",
+   "title": "Inspect Award 2026：Dragonfly 3D World 获人工智能类别第二名",
+   "title_en": "Inspect Award 2026: Dragonfly 3D World Takes 2nd Place in the Artificial Intelligence Category",
+   "summary": "工业图像处理与光学测量领域权威奖项 Inspect Award 2026 名单揭晓：Dragonfly 3D World 在人工智能类别中获得第二名。奖项由 inspect 杂志读者与专家评审团从 40 个提名产品中评选，颁奖仪式于 10 月 6 日在斯图加特 Vision 2026 展会上举行。评委会称，该软件支持复杂二维、三维与四维图像数据的分析评估，集成深度学习能力，服务工业检测与分析任务。",
+   "summary_en": "The winners of Inspect Award 2026, one of the most prestigious accolades for industrial image processing and optical metrology, were honored at the Vision 2026 trade show in Stuttgart, with Dragonfly 3D World taking second place in the Artificial Intelligence category. Selected by inspect readers together with an expert jury from 40 nominated products, the software was recognized for its analysis and evaluation of complex 2D, 3D and 4D image data with integrated deep-learning capabilities for industrial inspection.",
+   "url": "https://wileyindustrynews.com/en/news/inspect-award-2026-here-are-the-winners",
+   "doi": "",
+   "date": "2026-10-07",
+   "digest_date": "2026-10-12",
+   "digest_page": "news/2026-10-12.html",
+   "source": "Wiley Industry News（inspect）",
+   "source_en": "Wiley Industry News (inspect)",
+   "category": "行业奖项",
+   "category_en": "Industry award",
+   "tags": [
+    "行业奖项",
+    "人工智能",
+    "工业检测"
+   ],
+   "tags_en": [
+    "Inspect Award 2026",
+    "Artificial intelligence",
+    "Industrial inspection"
+   ],
+   "topics": [
+    {
+     "key": "ai-deep-learning",
+     "zh": "AI 与深度学习",
+     "en": "AI & Deep Learning"
+    },
+    {
+     "key": "metrology-inspection",
+     "zh": "计量与检测",
+     "en": "Metrology & Inspection"
+    }
+   ]
+  },
   {
    "id": "url:https://www.youtube.com/watch?v=mpschswckug",
    "title": "官方新功能视频：Dragonfly 3D World 2027「与坐标系对齐」",
