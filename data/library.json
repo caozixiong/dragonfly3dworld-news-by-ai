@@ -1,7 +1,7 @@
 {
  "updated": "2026-10-12",
  "site": "Dragonfly 3D World News",
- "count": 31,
+ "count": 32,
  "topics": [
   {
    "key": "life-sciences",
@@ -35,6 +35,72 @@
   }
  ],
  "entries": [
+  {
+   "id": "doi:10.31399/asm.cp.istfa2026p0587",
+   "title": "ISTFA 2026 论文：在 Dragonfly 3D World 中实现 X 射线 CT 数据的数字矫形与分层可视化",
+   "title_en": "ISTFA 2026 Paper: Digital De-warping of X-ray CT Data for Layer-Aligned Visualization, Implemented in Dragonfly 3D World",
+   "summary": "先进微电子封装的翘曲会在 X 射线 CT 数据中引入几何畸变，导致各层混叠、难以判读。本研究在 Dragonfly 3D World 软件中实现了一套数字矫形工作流：基于径向基函数（RBF）的曲面拟合生成形变场，再对体数据做体积变换，得到平面化的 CT 数据以便逐层对齐分析。以倒装芯片针栅阵列（FCPGA）封装为例，该工作流显著改善了各封装层的分离与判读效果。",
+   "summary_en": "Warpage in advanced microelectronic packages introduces geometric distortion in X-ray CT datasets, mixing layers and limiting interpretability. This work implements a digital de-warping workflow in Dragonfly 3D World software: radial-basis-function (RBF) surface fitting generates a deformation field that is applied to the volume, producing planarized CT data for layer-aligned analysis. Demonstrated on flip-chip pin grid array (FCPGA) packages, the workflow markedly improves isolation and interpretation of individual package layers.",
+   "url": "https://doi.org/10.31399/asm.cp.istfa2026p0587",
+   "doi": "10.31399/asm.cp.istfa2026p0587",
+   "date": "2026-09-30",
+   "digest_date": "2026-10-13",
+   "digest_page": "news/2026-10-13.html",
+   "source": "ISTFA 2026 会议论文集（ASM International）",
+   "source_en": "ISTFA 2026 Proceedings (ASM International)",
+   "category": "学术论文",
+   "category_en": "Research paper",
+   "tags": [
+    "微电子封装",
+    "CT 数据矫形",
+    "ISTFA 2026"
+   ],
+   "tags_en": [
+    "Microelectronics packaging",
+    "CT de-warping",
+    "ISTFA 2026"
+   ],
+   "topics": [
+    {
+     "key": "official",
+     "zh": "官方动态",
+     "en": "Official Updates"
+    }
+   ]
+  },
+  {
+   "id": "doi:10.1371/journal.pbio.3003556",
+   "title": "PLOS Biology：Atlastin-2 介导的内质网膜系留对黄病毒复制至关重要",
+   "title_en": "PLOS Biology: Atlastin-2-Mediated ER Membrane Tethering Is Critical for Flavivirus Replication",
+   "summary": "黄病毒（登革、寨卡等）每年造成约四亿人感染，其基因组复制依赖宿主内质网中的病毒复制细胞器（vRO）。本研究发现 Atlastin-2 介导的内质网膜系留是 vRO 形成与黄病毒复制的关键机制。作者结合电子断层成像，在 Dragonfly 3D World 软件（Comet Technologies Canada）中对 vRO 进行了人工分割与三维重构，以解析膜重塑结构。",
+   "summary_en": "Flaviviruses (dengue, Zika and relatives) cause roughly 400 million human infections per year, replicating inside viral replication organelles (vROs) derived from host endoplasmic reticulum. The study shows Atlastin-2-mediated ER membrane tethering is critical for vRO biogenesis and flavivirus replication. Using electron tomography, the authors manually segmented and reconstructed vROs in 3D with Dragonfly 3D World software (Comet Technologies Canada) to characterize the membrane-remodeling structures.",
+   "url": "https://doi.org/10.1371/journal.pbio.3003556",
+   "doi": "10.1371/journal.pbio.3003556",
+   "date": "2026-09-15",
+   "digest_date": "2026-10-13",
+   "digest_page": "news/2026-10-13.html",
+   "source": "PLOS Biology",
+   "source_en": "PLOS Biology",
+   "category": "学术论文",
+   "category_en": "Research paper",
+   "tags": [
+    "生命科学",
+    "电子断层成像",
+    "三维分割"
+   ],
+   "tags_en": [
+    "Life sciences",
+    "Electron tomography",
+    "3D segmentation"
+   ],
+   "topics": [
+    {
+     "key": "life-sciences",
+     "zh": "生命科学",
+     "en": "Life Sciences"
+    }
+   ]
+  },
   {
    "id": "url:https://wileyindustrynews.com/en/news/inspect-award-2026-here-are-the-winners",
    "title": "Inspect Award 2026：Dragonfly 3D World 获人工智能类别第二名",
@@ -390,48 +456,6 @@
      "zh": "AI 与深度学习",
      "en": "AI & Deep Learning"
     },
-    {
-     "key": "releases-features",
-     "zh": "版本与功能",
-     "en": "Releases & Features"
-    },
-    {
-     "key": "official",
-     "zh": "官方动态",
-     "en": "Official Updates"
-    }
-   ]
-  },
-  {
-   "id": "doi:10.31399/asm.cp.istfa2026p0587",
-   "title": "微电子封装 CT 数字去翘曲：Dragonfly 实现 RBF 曲面拟合的层对齐可视化工作流",
-   "title_en": "Digital De-warping of X-ray CT Data for Layer-Aligned Visualization in Advanced Microelectronic Packages",
-   "summary": "英特尔的 Jose A. Perez Vacalla 与 Comet Technologies 的 Luke Hunter、Scott Eckley、Hubert Taieb、Zixiong Cao、Vineeth Bastin 合作，针对先进微电子封装翘曲造成的 X 射线 CT 数据几何畸变，提出了在 Dragonfly 3D World 软件中实现的数字去翘曲工作流：采用径向基函数（RBF）曲面拟合、变形场生成与体数据变换，将 CT 数据平面化，实现精确的层对齐分析。在倒装芯片针栅阵列（FCPGA）封装上的应用表明，该方法有效消除了跨层混合，显著提升了电源走线与互连等布线特征的可见度，为后续分割、特征提取与结构解读提供了更可靠的预处理步骤，同时强调了足够的体素分辨率的重要性。",
-   "summary_en": "Jose A. Perez Vacalla (Intel) together with Luke Hunter, Scott Eckley, Hubert Taieb, Zixiong Cao, and Vineeth Bastin (Comet Technologies) present a digital de-warping workflow implemented in Dragonfly 3D World software to address geometric distortion in X-ray CT datasets of warped advanced microelectronic packages. Using radial basis function (RBF)-based surface fitting, deformation field generation, and volumetric transformation, the workflow planarizes CT volumes for accurate layer-aligned analysis. Applied to flip-chip pin grid array (FCPGA) packages, it eliminated cross-layer mixing and markedly improved the visibility of routing features such as power rails and interconnects, establishing an effective preprocessing step for more reliable segmentation, feature extraction, and downstream structural interpretation while emphasizing the importance of adequate voxel resolution.",
-   "url": "https://doi.org/10.31399/asm.cp.istfa2026p0587",
-   "doi": "10.31399/asm.cp.istfa2026p0587",
-   "date": "2026-10-04",
-   "digest_date": "2026-10-01",
-   "digest_page": "news/2026-10-01.html",
-   "source": "ISTFA 2026 会议论文集（ASM International）",
-   "source_en": "ISTFA 2026 Conference Proceedings (ASM International)",
-   "category": "学术论文",
-   "category_en": "Research paper",
-   "tags": [
-    "微电子封装",
-    "X-ray CT",
-    "去翘曲",
-    "层对齐",
-    "RBF 曲面拟合"
-   ],
-   "tags_en": [
-    "Microelectronic packaging",
-    "X-ray CT",
-    "De-warping",
-    "Layer alignment",
-    "RBF surface fitting"
-   ],
-   "topics": [
     {
      "key": "releases-features",
      "zh": "版本与功能",
