@@ -1,6 +1,35 @@
 {
  "days": [
   {
+   "date": "2026-10-14",
+   "count": 1,
+   "page": "news/2026-10-14.html",
+   "items": [
+    {
+     "title": "AZoM 报道：Dragonfly 3D World 2027 正式发布",
+     "title_en": "AZoM: Dragonfly 3D World 2027 Officially Released",
+     "url": "https://www.azom.com/news.aspx?newsID=65915",
+     "source": "AZoM（材料科学新闻网）",
+     "source_en": "AZoM",
+     "date": "2026-10-13",
+     "category": "行业新闻",
+     "category_en": "Industry news",
+     "summary": "Comet Technologies Canada 宣布 Dragonfly 3D World 2027（2027.1 版本）正式发布，官方称之为该软件迄今最全面的版本之一：AI 分割方面新增基于网格的 SAM 自动实例分割与增强的 Cellpose-SAM 集成，另有新的 2.5D/3D 图像分类以及 Fast Split、Smart Erode 分割工具；测量与分析方面新增亚体素多重网格孔隙分析、基于 ISO 标准的三维表面粗糙度分析，以及布尔运算、CAD 导入、自动网格配准等网格与 CAD 工具，内置 Report Builder 可直接导出 PDF/HTML 报告，Session Viewer 首次作为免费独立下载提供。该版本同时调整授权策略：亚体素多重网格、表面粗糙度分析、增强报告功能等为完整许可证（Full License）专属，学术许可证项目继续面向学术研究免费。",
+     "summary_en": "Comet Technologies Canada has announced the official release of Dragonfly 3D World 2027 (version 2027.1), described as one of the software's most comprehensive releases yet: AI segmentation gains grid-based SAM automated instance segmentation and an enhanced Cellpose-SAM integration, alongside new 2.5D/3D image classification plus Fast Split and Smart Erode tools; measurement and analysis gain subvoxel multi-mesh porosity analysis, ISO-based 3D surface roughness analysis, and mesh/CAD tools including Boolean operations, CAD import and automatic mesh registration, while the built-in Report Builder exports PDF/HTML reports and Session Viewer is available for the first time as a free standalone download. The release also updates licensing: subvoxel multi-mesh, surface roughness analysis and advanced reporting are exclusive to Full Licenses, while the Academic License program remains free for academic research.",
+     "tags": [
+      "Dragonfly 3D World 2027",
+      "AI 分割",
+      "CT 测量"
+     ],
+     "tags_en": [
+      "Dragonfly 3D World 2027",
+      "AI segmentation",
+      "CT measurement"
+     ]
+    }
+   ]
+  },
+  {
    "date": "2026-10-13",
    "count": 2,
    "page": "news/2026-10-13.html",
