@@ -1,7 +1,7 @@
 {
  "updated": "2026-10-12",
  "site": "Dragonfly 3D World News",
- "count": 33,
+ "count": 34,
  "topics": [
   {
    "key": "life-sciences",
@@ -35,6 +35,59 @@
   }
  ],
  "entries": [
+  {
+   "id": "url:https://comet.tech/dragonfly/blog/dragonfly-3d-world-2027-automotive",
+   "title": "官方新版应用详解：Dragonfly 3D World 2027 汽车工业 CT 检测",
+   "title_en": "What's New in Dragonfly 3D World 2027 for Automotive CT Inspection",
+   "summary": "官方博文详解了 Dragonfly 3D World 2027 面向汽车工业 CT 检测的新能力：基于 Meta SAM 的 AI 实例分割可一键分离气孔、夹杂、焊缝缺陷与电池颗粒；Subvoxel Multi-Mesh 提供亚体素精度的可重复孔隙定量；新增网格与 CAD 互操作工具（含布尔运算与 STEP 导入）、Report Builder 报告生成器，以及 GPU 加速的 Fast Split / Smart Erode 秒级分离粘连物体。产品经理 Zixiong Cao 强调新实例分割工作流让用户几乎无需数据准备即可开始识别与测量目标。",
+   "summary_en": "The official post details Dragonfly 3D World 2027's capabilities for automotive CT inspection: SAM-based AI instance segmentation that separates pores, inclusions, weld defects, and battery particles with a single click; Subvoxel Multi-Mesh for repeatable, subvoxel-accurate porosity quantification; new mesh and CAD interoperability tools (Boolean operations, STEP import); the Report Builder; and GPU-accelerated Fast Split / Smart Erode that separates touching objects in seconds. Product Manager Zixiong Cao notes the new instance segmentation workflow lets users begin identifying and measuring objects almost immediately, with minimal data preparation.",
+   "url": "https://comet.tech/dragonfly/blog/dragonfly-3d-world-2027-automotive",
+   "doi": "",
+   "date": "2026-07-31",
+   "digest_date": "2026-10-18",
+   "digest_page": "news/2026-10-18.html",
+   "source": "Dragonfly 官方博客（Comet Technologies）",
+   "source_en": "Dragonfly official blog (Comet Technologies)",
+   "category": "官方动态",
+   "category_en": "Official update",
+   "tags": [
+    "汽车工业",
+    "CT 检测",
+    "2027"
+   ],
+   "tags_en": [
+    "Automotive",
+    "CT inspection",
+    "2027"
+   ],
+   "topics": [
+    {
+     "key": "materials-manufacturing",
+     "zh": "材料与制造",
+     "en": "Materials & Manufacturing"
+    },
+    {
+     "key": "ai-deep-learning",
+     "zh": "AI 与深度学习",
+     "en": "AI & Deep Learning"
+    },
+    {
+     "key": "metrology-inspection",
+     "zh": "计量与检测",
+     "en": "Metrology & Inspection"
+    },
+    {
+     "key": "releases-features",
+     "zh": "版本与功能",
+     "en": "Releases & Features"
+    },
+    {
+     "key": "official",
+     "zh": "官方动态",
+     "en": "Official Updates"
+    }
+   ]
+  },
   {
    "id": "url:https://www.azom.com/news.aspx?newsid=65915",
    "title": "AZoM 报道：Dragonfly 3D World 2027 正式发布",
