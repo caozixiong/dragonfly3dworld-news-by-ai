@@ -14,6 +14,11 @@
   python3 publish_cnblogs.py --html-file news/2026-09-23.html --dry-run   # 只打印清洗后的HTML，不发布
   python3 publish_cnblogs.py --delete <postid>   # 删除文章(用于清理测试文章)
 
+失败自动重试（用户 2026-10-17 立规矩：每次博客园发布失败，自动在两天内重试）：
+  发布失败时把该日期记入 .cnblogs_failed.json（首次失败时间、次数、最后错误），
+  成功时清除对应记录。重试由 bin/retry_cnblogs.py 执行（每日任务步骤 7 开头先跑它，
+  48 小时内未成功则标记过期、需人工处理），不要手动删失败队列来“假装成功”。
+
 凭据文件 (默认 ~/workspace/dragonfly-news/.cnblogs.json，权限 600，不进 git)：
   {"username": "你的博客园用户名", "token": "在博客设置里生成的访问令牌"}
 """
@@ -23,6 +28,7 @@ import json
 import os
 import re
 import sys
+import time
 import urllib.request
 import xmlrpc.client
 from html.parser import HTMLParser
@@ -134,6 +140,57 @@ def load_config(path):
     return username, blog, token
 
 
+# --- 失败队列（自动重试用） -------------------------------------------
+def _load_json_file(path):
+    try:
+        with open(path, encoding="utf-8") as f:
+            data = json.load(f)
+        return data if isinstance(data, dict) else {}
+    except (OSError, ValueError):
+        return {}
+
+
+def _save_json_file(path, data):
+    tmp = path + ".tmp"
+    with open(tmp, "w", encoding="utf-8") as f:
+        json.dump(data, f, ensure_ascii=False, indent=2)
+    os.replace(tmp, path)
+    # 写入后校验（防静默 JSON 损坏）
+    with open(path, encoding="utf-8") as f:
+        json.load(f)
+
+
+def record_failure(failed_file, date_key, html_file, title, error):
+    """记入/更新失败队列。同一日期多次失败只累积次数，不重置首次失败时间。"""
+    if not date_key:
+        return
+    failed = _load_json_file(failed_file)
+    now = int(time.time())
+    prev = failed.get(date_key) or {}
+    failed[date_key] = {
+        "date": date_key,
+        "html_file": os.path.abspath(html_file) if html_file else "",
+        "title": title or "",
+        "first_failed_at": prev.get("first_failed_at") or now,
+        "last_failed_at": now,
+        "attempts": int(prev.get("attempts") or 0) + 1,
+        "last_error": str(error)[:500],
+    }
+    _save_json_file(failed_file, failed)
+    print(f"failed-recorded: {date_key} 已记入失败队列（第 {failed[date_key]['attempts']} 次，"
+          f"首次失败 {time.strftime('%Y-%m-%d %H:%M:%S', time.localtime(failed[date_key]['first_failed_at']))}），"
+          f"将在 48 小时内自动重试")
+
+
+def clear_failure(failed_file, date_key):
+    if not date_key:
+        return
+    failed = _load_json_file(failed_file)
+    if date_key in failed:
+        del failed[date_key]
+        _save_json_file(failed_file, failed)
+
+
 class CnblogsRPC:
     """走 urllib 发 XML-RPC（urllib 认 http(s)_proxy 环境变量，xmlrpc.client 不认）。"""
 
@@ -176,6 +233,9 @@ def main():
     ap.add_argument("--state-file", default=os.path.join(
         os.path.dirname(DEFAULT_CONFIG), ".cnblogs_synced.json"),
         help="已同步记录（日期 -> postid），用于防重复发布")
+    ap.add_argument("--failed-file", default=os.path.join(
+        os.path.dirname(DEFAULT_CONFIG), ".cnblogs_failed.json"),
+        help="发布失败队列（日期 -> 失败记录），用于 48 小时内自动重试")
     ap.add_argument("--force", action="store_true",
                     help="忽略已同步记录，强制重新发布")
     args = ap.parse_args()
@@ -202,6 +262,8 @@ def main():
             synced = json.load(f)
     if date_key and not args.force and not args.dry_run and date_key in synced:
         print(f"skip: {date_key} 已同步到博客园（postid {synced[date_key].get('postid')}），用 --force 可重发")
+        # 已同步说明之前失败已补上，清除残留失败记录
+        clear_failure(args.failed_file, date_key)
         return
 
     with open(args.html_file, encoding="utf-8") as f:
@@ -225,10 +287,17 @@ def main():
     cats = [c.strip() for c in args.categories.split(",") if c.strip()]
     if cats:
         post["categories"] = cats
-    postid = rpc.call("metaWeblog.newPost", args.blogid, username, token, post, True)
+    try:
+        postid = rpc.call("metaWeblog.newPost", args.blogid, username, token, post, True)
+    except Exception as e:
+        # 发布失败：记入失败队列（48 小时内由 retry_cnblogs.py 自动重试），然后非零退出
+        record_failure(args.failed_file, date_key, args.html_file, title, e)
+        print(f"publish FAILED: {date_key} {title} 错误：{e}")
+        raise
     # 博客园文章实际 URL 形如 https://www.cnblogs.com/{blog}/p/{postid}（无 .html 后缀）
     print("published postid:", postid)
     print(f"https://www.cnblogs.com/{blog}/p/{postid}")
+    clear_failure(args.failed_file, date_key)
     if date_key:
         synced[date_key] = {"postid": str(postid),
                             "url": f"https://www.cnblogs.com/{blog}/p/{postid}"}
