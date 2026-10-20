@@ -1,6 +1,101 @@
 {
  "days": [
   {
+   "date": "2026-10-20",
+   "count": 4,
+   "page": "news/2026-10-20.html",
+   "items": [
+    {
+     "title": "官方正式发布：Dragonfly 3D World 2027",
+     "title_en": "Officially Released: Dragonfly 3D World 2027",
+     "url": "https://comet.tech/dragonfly/blog/dragonfly-3d-world-2027-release",
+     "doi": "",
+     "source": "Dragonfly 官方博客（Comet Technologies）",
+     "source_en": "Dragonfly official blog (Comet Technologies)",
+     "date": "2026-10-09",
+     "category": "官方动态",
+     "category_en": "Official update",
+     "summary": "官方博客宣布 Dragonfly 3D World 2027 正式发布，版本 2027.1 是迄今功能最全面的一次更新：基于 Meta SAM 的 Grid-Based SAM 全自动实例分割、增强的 Cellpose-SAM 集成、2.5D/3D 图像分类、Fast Split 与 Smart Erode 秒级分离粘连物体；全新的 Subvoxel Multi-Mesh 支持亚体素精度的单个部件识别、测量与表征，孔隙定量可重复；基于 ISO 标准的表面粗糙度分析可直接从 CT 网格评价表面纹理；网格布尔运算、CAD 导入与扫描到 CAD 自动配准；软件内置 Report Builder 报告生成器（PDF/HTML 导出，完整版可导出 Word）；免费独立的 Session Viewer 让无许可证的同事也能交互浏览 3D 结果。授权策略同步调整：学术版继续免费，Subvoxel Multi-Mesh、表面粗糙度分析等新能力为完整版专属。",
+     "summary_en": "The official blog announces Dragonfly 3D World 2027: version 2027.1 is one of the software's most comprehensive releases yet, featuring Grid-Based SAM automated instance segmentation, enhanced Cellpose-SAM integration, 2.5D/3D image classification, and Fast Split / Smart Erode for separating touching objects in seconds; the new Subvoxel Multi-Mesh for identifying, measuring, and characterizing individual components at subvoxel resolution with repeatable porosity quantification; ISO-based Surface Roughness Analysis directly from CT-derived meshes; mesh Boolean operations, CAD import, and automatic scan-to-CAD registration; the built-in Report Builder (PDF/HTML export, Word export for Full License users); and the free standalone Session Viewer for sharing interactive 3D results with colleagues who have no license. Licensing is updated in parallel: the Academic License remains free, while Subvoxel Multi-Mesh and Surface Roughness Analysis are exclusive to the Full License.",
+     "tags": [
+      "官方发布",
+      "2027",
+      "AI 分割"
+     ],
+     "tags_en": [
+      "Release announcement",
+      "2027",
+      "AI segmentation"
+     ]
+    },
+    {
+     "title": "重组人 SLPI 表面功能化：促进钛种植体早期骨结合与生物力学固定",
+     "title_en": "Recombinant Human SLPI Surface Functionalization Enhances Early Osseointegration and Biomechanical Fixation of Titanium Implants",
+     "url": "https://doi.org/10.3390/jfb17040205",
+     "doi": "10.3390/jfb17040205",
+     "source": "Journal of Functional Biomaterials",
+     "source_en": "Journal of Functional Biomaterials",
+     "date": "2026-04-20",
+     "category": "学术论文",
+     "category_en": "Research paper",
+     "summary": "研究团队用重组人分泌型白细胞蛋白酶抑制剂（SLPI）对钛种植体表面做功能化涂层，micro-CT 扫描种植体周围新生骨并在 Dragonfly 3D World 中定量骨体积分数（%BV/TV）：植入 4 周时 SLPI 组为百分之二十点六四，显著高于未处理钛对照组的百分之十一点七三（接近两倍）；8 周时两组骨量均升高但差异消失，说明涂层主要加速早期骨结合。组织形态学证实涂层组新生骨更多更连续；心肌肌钙蛋白 I 无显著升高，涂层安全性良好。",
+     "summary_en": "The team functionalized titanium implant surfaces with recombinant human SLPI (secretory leukocyte protease inhibitor) and quantified peri-implant new bone via micro-CT, with %BV/TV analyzed in Dragonfly 3D World: at 4 weeks postimplantation the SLPI group reached 20.64%, significantly higher than the untreated titanium control at 11.73% (nearly double); by 8 weeks both groups had risen and the difference disappeared, indicating the coating mainly accelerates early osseointegration. Histomorphology confirmed more continuous new bone in the coated group; cardiac troponin I showed no significant elevation, confirming coating safety.",
+     "tags": [
+      "生物医学",
+      "micro-CT",
+      "骨结合"
+     ],
+     "tags_en": [
+      "Biomedical",
+      "micro-CT",
+      "Osseointegration"
+     ]
+    },
+    {
+     "title": "micro-CT 揭秘中生代甲虫：巴西 Crato 组发现新科 Cratocupedidae",
+     "title_en": "Unearthing Mesozoic Beetles via Micro-CT: New Family Cratocupedidae from Brazil's Crato Formation",
+     "url": "https://doi.org/10.1111/syen.70061",
+     "doi": "10.1111/syen.70061",
+     "source": "Systematic Entomology",
+     "source_en": "Systematic Entomology",
+     "date": "2026-07-02",
+     "category": "学术论文",
+     "category_en": "Research paper",
+     "summary": "研究团队对巴西下白垩统 Crato 组保存的古甲虫化石做显微 CT 扫描，在 Dragonfly 3D World 2025.1 中完成三维重建，可视化了被沉积物基质掩盖的精细形态。基于简约法与贝叶斯推断的系统发育分析支持建立新灭绝科 Cratocupedidae，同时报道了 Ommatidae 科与 Notocupes 属在冈瓦纳大陆西部的首次记录，填补了中生代甲虫演化拼图的重要空白。",
+     "summary_en": "The team micro-CT-scanned fossil beetles from the Lower Cretaceous Crato Formation of Brazil, completing 3D reconstructions in Dragonfly 3D World 2025.1 to visualize fine details hidden by the sediment matrix. Phylogenetic analyses (parsimony and Bayesian inference) support erecting the new extinct family Cratocupedidae, along with the first records of Ommatidae and Notocupes from western Gondwana, filling a major gap in the Mesozoic beetle evolution puzzle.",
+     "tags": [
+      "古生物学",
+      "micro-CT"
+     ],
+     "tags_en": [
+      "Paleontology",
+      "micro-CT"
+     ]
+    },
+    {
+     "title": "Micro-CT 扫描足迹：无损探索体积性足迹形成过程",
+     "title_en": "Micro-CT Scanning Tracks: A Means for Non-Destructively Exploring Volumetric Track Formation",
+     "url": "https://doi.org/10.3390/fossils4020014",
+     "doi": "10.3390/fossils4020014",
+     "source": "Fossils",
+     "source_en": "Fossils",
+     "date": "2026-06-01",
+     "category": "学术论文",
+     "category_en": "Research paper",
+     "summary": "通过 Bruker Skyscan 1273 对两种底质（松软/极松软）下的压痕模拟实验做显微 CT 扫描（130 kV、92 μm 分辨率，约 30 分钟，特意控制时长以防沉积物水分蒸发），在 Dragonfly 3D World 2025.1 中用阈值分割划分黏土与砂区、用手动涂刷工具划分“足部”感兴趣区，实现了体积性足迹形成过程的无损三维可视化，为沉积过程研究提供了新方法。",
+     "summary_en": "The authors micro-CT-scanned indentation experiments in two substrate consistencies (soft / very soft) with a Bruker Skyscan 1273 (130 kV, 92 μm resolution, ~30 min, deliberately kept short to prevent sediment moisture evaporation) and segmented clay, sand, and 'foot' ROIs in Dragonfly 3D World 2025.1 using intensity-based thresholding and the manual paint tool, achieving non-destructive 3D visualization of volumetric track formation.",
+     "tags": [
+      "古生物学",
+      "micro-CT"
+     ],
+     "tags_en": [
+      "Paleontology",
+      "micro-CT"
+     ]
+    }
+   ]
+  },
+  {
    "date": "2026-10-18",
    "count": 1,
    "page": "news/2026-10-18.html",
@@ -821,5 +916,5 @@
   }
  ],
  "site": "Dragonfly 3D World News",
- "updated": "2026-10-12"
+ "updated": "2026-10-20"
 }
