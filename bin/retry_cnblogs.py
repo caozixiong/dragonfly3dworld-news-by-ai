@@ -25,9 +25,11 @@ import time
 
 WORKDIR = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.dirname(WORKDIR)
-DEFAULT_FAILED = os.path.join(ROOT, ".cnblogs_failed.json")
-DEFAULT_SYNCED = os.path.join(ROOT, ".cnblogs_synced.json")
-DEFAULT_EXPIRED = os.path.join(ROOT, ".cnblogs_failed_expired.json")
+# 状态文件放仓库外（NEWS_STATE_DIR，默认 /workspace/news-state）；令牌由 publish_cnblogs.py 从 CNBLOGS_TOKEN 读取
+STATE_DIR = os.environ.get("NEWS_STATE_DIR", "/workspace/news-state")
+DEFAULT_FAILED = os.path.join(STATE_DIR, ".cnblogs_failed.json")
+DEFAULT_SYNCED = os.path.join(STATE_DIR, ".cnblogs_synced.json")
+DEFAULT_EXPIRED = os.path.join(STATE_DIR, ".cnblogs_failed_expired.json")
 PUBLISH_SCRIPT = os.path.join(WORKDIR, "publish_cnblogs.py")
 
 
@@ -41,6 +43,7 @@ def load_dict(path):
 
 
 def save_dict(path, data):
+    os.makedirs(os.path.dirname(os.path.abspath(path)), exist_ok=True)
     tmp = path + ".tmp"
     with open(tmp, "w", encoding="utf-8") as f:
         json.dump(data, f, ensure_ascii=False, indent=2)
@@ -55,7 +58,7 @@ def main():
     ap.add_argument("--state-file", default=DEFAULT_SYNCED)
     ap.add_argument("--expired-file", default=DEFAULT_EXPIRED)
     ap.add_argument("--config", default=None,
-                    help="透传给 publish_cnblogs.py 的 --config（默认用其默认凭据文件）")
+                    help="透传给 publish_cnblogs.py 的 --config（非机密配置，默认 cnblogs.config.json）")
     ap.add_argument("--max-age-hours", type=float, default=48,
                     help="首次失败起多少小时内重试（默认 48，即两天）")
     ap.add_argument("--dry-run", action="store_true")

@@ -19,8 +19,12 @@
   成功时清除对应记录。重试由 bin/retry_cnblogs.py 执行（每日任务步骤 7 开头先跑它，
   48 小时内未成功则标记过期、需人工处理），不要手动删失败队列来“假装成功”。
 
-凭据文件 (默认 ~/workspace/dragonfly-news/.cnblogs.json，权限 600，不进 git)：
-  {"username": "你的博客园用户名", "token": "在博客设置里生成的访问令牌"}
+凭据（2026-10-21 起不再放仓库文件）：
+  - 访问令牌：只从环境变量 CNBLOGS_TOKEN 读取（必需）。
+  - 用户名：环境变量 CNBLOGS_USER，否则读非机密配置 cnblogs.config.json 的 username。
+  - 博客名（接口地址用）：环境变量 CNBLOGS_BLOG，否则配置里的 blog（默认 dragonfly-imaging）。
+状态文件（已同步/失败队列）放仓库外：目录由环境变量 NEWS_STATE_DIR 指定，
+  默认 /workspace/news-state（.cnblogs_synced.json / .cnblogs_failed.json）。
 """
 import argparse
 import http.client
@@ -35,7 +39,8 @@ from html.parser import HTMLParser
 from urllib.parse import urljoin
 
 WORKDIR = os.path.dirname(os.path.abspath(__file__))
-DEFAULT_CONFIG = os.path.join(os.path.dirname(WORKDIR), ".cnblogs.json")
+DEFAULT_CONFIG = os.path.join(os.path.dirname(WORKDIR), "cnblogs.config.json")  # 非机密
+STATE_DIR = os.environ.get("NEWS_STATE_DIR", "/workspace/news-state")
 SITE_BASE = "https://caozixiong.github.io/dragonfly3dworld-news-by-ai/"
 
 SKIP_IDS = {"langToggle", "filter"}
@@ -130,13 +135,18 @@ def extract_body(html):
 
 
 def load_config(path):
-    with open(path, encoding="utf-8") as f:
-        cfg = json.load(f)
-    username = cfg.get("username", "").strip()  # MetaWeblog 登录名（认证用）
-    blog = cfg.get("blog", username).strip()    # 博客名（接口地址用）
-    token = cfg.get("token", "").strip()
-    if not username or not token:
-        sys.exit(f"凭据文件 {path} 缺少 username 或 token")
+    """token 只从环境变量 CNBLOGS_TOKEN 读；用户名/博客名可来自环境变量或非机密配置。"""
+    cfg = {}
+    if path and os.path.exists(path):
+        with open(path, encoding="utf-8") as f:
+            cfg = json.load(f)
+    username = (os.environ.get("CNBLOGS_USER") or cfg.get("username", "")).strip()  # MetaWeblog 登录名
+    blog = (os.environ.get("CNBLOGS_BLOG") or cfg.get("blog") or "dragonfly-imaging").strip()
+    token = os.environ.get("CNBLOGS_TOKEN", "").strip()
+    if not token:
+        sys.exit("缺少环境变量 CNBLOGS_TOKEN（博客园访问令牌）")
+    if not username:
+        sys.exit(f"缺少用户名：设置环境变量 CNBLOGS_USER 或在 {path} 中填 username")
     return username, blog, token
 
 
@@ -151,6 +161,7 @@ def _load_json_file(path):
 
 
 def _save_json_file(path, data):
+    os.makedirs(os.path.dirname(os.path.abspath(path)), exist_ok=True)
     tmp = path + ".tmp"
     with open(tmp, "w", encoding="utf-8") as f:
         json.dump(data, f, ensure_ascii=False, indent=2)
@@ -231,10 +242,10 @@ def main():
     ap.add_argument("--dry-run", action="store_true")
     ap.add_argument("--delete")
     ap.add_argument("--state-file", default=os.path.join(
-        os.path.dirname(DEFAULT_CONFIG), ".cnblogs_synced.json"),
+        STATE_DIR, ".cnblogs_synced.json"),
         help="已同步记录（日期 -> postid），用于防重复发布")
     ap.add_argument("--failed-file", default=os.path.join(
-        os.path.dirname(DEFAULT_CONFIG), ".cnblogs_failed.json"),
+        STATE_DIR, ".cnblogs_failed.json"),
         help="发布失败队列（日期 -> 失败记录），用于 48 小时内自动重试")
     ap.add_argument("--force", action="store_true",
                     help="忽略已同步记录，强制重新发布")
@@ -301,8 +312,7 @@ def main():
     if date_key:
         synced[date_key] = {"postid": str(postid),
                             "url": f"https://www.cnblogs.com/{blog}/p/{postid}"}
-        with open(args.state_file, "w", encoding="utf-8") as f:
-            json.dump(synced, f, ensure_ascii=False, indent=2)
+        _save_json_file(args.state_file, synced)
 
 
 if __name__ == "__main__":
