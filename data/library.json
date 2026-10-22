@@ -1,7 +1,7 @@
 {
- "updated": "2026-10-20",
+ "updated": "2026-10-22",
  "site": "Dragonfly 3D World News",
- "count": 38,
+ "count": 39,
  "topics": [
   {
    "key": "life-sciences",
@@ -37,9 +37,47 @@
    "key": "official",
    "zh": "官方动态",
    "en": "Official Updates"
+  },
+  {
+   "key": "other",
+   "zh": "其他",
+   "en": "Other"
   }
  ],
  "entries": [
+  {
+   "id": "doi:10.64898/2026.10.05.756691",
+   "title": "大西洋热液喷口两种新腹足类共生体：对内共生的依赖程度不同",
+   "title_en": "Two New Gastropod Holobionts from Atlantic Hydrothermal Vents Showing Different Levels of Endosymbiosis Dependence",
+   "summary": "Ifremer 等团队研究大西洋中脊热液喷口的两种 Peltospira 螺（P. gargantua 与 P. smaragdina）及其 Sulfurimonas 胞内共生菌。P. smaragdina 标本经 PTA 染色后在法国 SOLEIL 同步辐射 ANATOMIX 线站做 μCT 扫描（体素 3.09 μm / 1.3 μm），重建体数据导入 Dragonfly v2022.2 做预处理、分割与三维重建渲染，再与已发表的 P. gargantua 模型比较。结果显示 P. gargantua 食道腺和心室相对更大、齿舌退化，对共生依赖更强；P. smaragdina 食道腺较小、摄食器官较大，可能为混合营养。",
+   "summary_en": "Teams led by Ifremer characterise two Mid-Atlantic Ridge vent snails, Peltospira gargantua and P. smaragdina, and their intracellular Sulfurimonas symbionts. A PTA-stained P. smaragdina specimen was scanned by synchrotron μCT at SOLEIL's ANATOMIX beamline (3.09 μm / 1.3 μm voxels); the reconstructed volumes were pre-processed, segmented and 3D-rendered in Dragonfly v2022.2, then compared with a published P. gargantua model. P. gargantua has a proportionally larger oesophageal gland and ventricle with a reduced radula, indicating stronger symbiont dependence, while P. smaragdina's smaller gland and larger feeding apparatus point to mixotrophy.",
+   "url": "https://www.biorxiv.org/content/10.64898/2026.10.05.756691v1",
+   "doi": "10.64898/2026.10.05.756691",
+   "date": "2026-10-06",
+   "digest_date": "2026-10-22",
+   "digest_page": "news/2026-10-22.html",
+   "source": "bioRxiv（预印本）",
+   "source_en": "bioRxiv (preprint)",
+   "category": "学术论文",
+   "category_en": "Research paper",
+   "tags": [
+    "海洋生物",
+    "同步辐射 μCT",
+    "三维分割"
+   ],
+   "tags_en": [
+    "Marine biology",
+    "Synchrotron μCT",
+    "3D segmentation"
+   ],
+   "topics": [
+    {
+     "key": "other",
+     "zh": "其他",
+     "en": "Other"
+    }
+   ]
+  },
   {
    "id": "url:https://comet.tech/dragonfly/blog/dragonfly-3d-world-2027-release",
    "title": "官方正式发布：Dragonfly 3D World 2027",
