@@ -1,6 +1,39 @@
 {
  "days": [
   {
+   "date": "2026-10-24",
+   "count": 2,
+   "page": "news/2026-10-24.html",
+   "items": [
+    {
+     "title": "俄罗斯鲟胸鳍棘层状骨的纳米尺度表征：三维 FIB-SEM 研究",
+     "title_en": "Nanoscale Characterization of Microscopically Layered Bone in the Russian Sturgeon Pectoral Fin Spine: A 3D FIB-SEM Study",
+     "url": "https://www.mdpi.com/2076-2615/16/20/3318",
+     "doi": "10.3390/ani16203318",
+     "source": "Animals（MDPI）",
+     "source_en": "Animals (MDPI)",
+     "date": "2026-10-21",
+     "category": "学术论文",
+     "category_en": "Research paper",
+     "summary": "希伯来大学兽医学院团队用 Zeiss Crossbeam 540 FIB-SEM（像素约 10 nm）对俄罗斯鲟（Huso gueldenstaedtii）胸鳍棘的骨单位骨和外周骨做三维成像。图像堆栈导入 Dragonfly 3D World 2022.2 做漂移校正；随后在 Dragonfly 的 Segmentation Wizard 中训练 2D U-Net 模型分割胶原纤维与孔隙，用 Segmentation Comparator 评估（Dice 0.56–0.66），再按特征向量（Eigenvector）各向异性分析绘制钙化胶原纤维束取向图，并对孔隙做 6-连通组件、厚度网格和骨架分析。结果显示：皮质骨单位中纤维取向呈顺/逆时针“扇形”交替，符合板层骨；外周骨虽低倍下看似分层，纳米尺度却以沿棘长轴的单向纤维为主，属平行纤维骨，并伴有成群的孔隙结构。",
+     "summary_en": "A Hebrew University veterinary team imaged osteonal and peripheral bone of the Russian sturgeon (Huso gueldenstaedtii) pectoral fin spine with a Zeiss Crossbeam 540 FIB-SEM (~10 nm pixels). Stacks were drift-corrected in Dragonfly 3D World 2022.2, then segmented with a 2D U-Net trained in Dragonfly's Segmentation Wizard (evaluated with the Segmentation Comparator, Dice 0.56–0.66); Eigenvector-based anisotropy analysis mapped calcified collagen fibril bundle orientation, and voids were analysed with 6-connected components, thickness meshes and skeleton graphs. Dermal osteons show clockwise–anticlockwise fanning consistent with lamellar bone, while the peripheral bone, layered-looking at low magnification, is mainly unidirectional parallel-fibered bone with grouped voids."
+    },
+    {
+     "title": "用于冷冻光电关联显微（cryo-CLEM）的荧光生物传感器",
+     "title_en": "Fluorescent Biosensors for Cryogenic Correlative Light and Electron Microscopy",
+     "url": "https://www.biorxiv.org/content/10.64898/2026.10.15.759416v1",
+     "doi": "10.64898/2026.10.15.759416",
+     "source": "bioRxiv（预印本）",
+     "source_en": "bioRxiv (preprint)",
+     "date": "2026-10-19",
+     "category": "学术论文",
+     "category_en": "Research paper",
+     "summary": "斯坦福大学/SLAC 等团队把钙、pH 和渗透压荧光生物传感器引入冷冻光电关联显微流程，先在低温下标定传感器，再分别用于酿酒酵母、人 U2OS 细胞和细菌 Halothiobacillus neapolitanus。冷冻电子断层（cryo-ET）重建的断层图在 Dragonfly（v2024.1）中用自训练神经网络分割核糖体、细胞壁、羧酶体外壳与内腔，并在 Dragonfly 中手动清理后用 ChimeraX 可视化，把局部生理状态与原位三维结构联系起来。",
+     "summary_en": "Stanford/SLAC-led researchers bring calcium, pH and osmotic-stress fluorescent biosensors into a cryo-CLEM workflow, calibrating them under cryogenic conditions and applying them in Saccharomyces cerevisiae, human U2OS cells and the bacterium Halothiobacillus neapolitanus. Cryo-ET tomograms were segmented in Dragonfly (v2024.1) with a custom-trained neural network (ribosomes, cell wall, carboxysome shells and lumen), manually cleaned in Dragonfly and visualised in ChimeraX, linking local physiology to in situ 3D structure."
+    }
+   ]
+  },
+  {
    "date": "2026-10-22",
    "count": 1,
    "page": "news/2026-10-22.html",
@@ -946,5 +979,5 @@
   }
  ],
  "site": "Dragonfly 3D World News",
- "updated": "2026-10-22"
+ "updated": "2026-10-24"
 }
