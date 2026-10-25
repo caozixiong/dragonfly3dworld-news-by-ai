@@ -1,7 +1,7 @@
 {
- "updated": "2026-10-24",
+ "updated": "2026-10-25",
  "site": "Dragonfly 3D World News",
- "count": 41,
+ "count": 45,
  "topics": [
   {
    "key": "life-sciences",
@@ -45,6 +45,141 @@
   }
  ],
  "entries": [
+  {
+   "id": "url:https://cmm-quarterly.squarespace.com/articles/iteaching-a-3d-image-to-reveal-its-structure",
+   "title": "让三维图像显露结构：Dragonfly 3D World ZEISS 版的机器学习分割",
+   "title_en": "Teaching a 3D Image to Reveal Its Structure",
+   "summary": "CMM Quarterly 刊文（作者 Mark Boucher）介绍 Dragonfly 3D World ZEISS 版的机器学习分割：分析者先标注代表性区域，用 Segmentation Wizard 训练经典机器学习或深度学习模型，再推广到整个数据集。文章以多孔制造零件的 X 射线显微扫描为例，给出准备数据、标注样例、训练预览、纠错再训练、测量孔隙率与连通性的流程，并强调结果必须经专家核验。",
+   "summary_en": "A CMM Quarterly article by Mark Boucher explains machine-learning segmentation in Dragonfly 3D World ZEISS edition: the analyst labels representative regions, trains a classical machine-learning or deep-learning model in the Segmentation Wizard, and applies it to the full dataset. Using an X-ray microscopy scan of a porous manufactured part as the example, it walks through preparing the scan, labeling examples, training and previewing, correcting and retraining, and measuring porosity and connectivity, stressing that results still need expert validation.",
+   "url": "https://cmm-quarterly.squarespace.com/articles/iteaching-a-3d-image-to-reveal-its-structure",
+   "doi": "",
+   "date": "2026-10-22",
+   "digest_date": "2026-10-25",
+   "digest_page": "news/2026-10-25.html",
+   "source": "CMM Quarterly",
+   "source_en": "CMM Quarterly",
+   "category": "技术解析",
+   "category_en": "Technical explainer",
+   "tags": [],
+   "tags_en": [],
+   "topics": [
+    {
+     "key": "life-sciences",
+     "zh": "生命科学",
+     "en": "Life Sciences"
+    },
+    {
+     "key": "materials-manufacturing",
+     "zh": "材料与制造",
+     "en": "Materials & Manufacturing"
+    },
+    {
+     "key": "ai-deep-learning",
+     "zh": "AI 与深度学习",
+     "en": "AI & Deep Learning"
+    }
+   ]
+  },
+  {
+   "id": "doi:10.1002/glia.70241",
+   "title": "鱼和小鼠视锥外节周围的 Müller 胶质—视网膜色素上皮顶端网络",
+   "title_en": "A Müller Glia-Retinal Pigment Epithelium Apical Network Surrounding Cone Outer Segments in Fish and Mouse",
+   "summary": "阿尔伯塔大学与蒙特利尔临床研究所（IRCM）/麦吉尔大学团队用 FIB-SEM 和共聚焦显微成像重新审视视网膜下腔结构，发现 Müller 胶质和视网膜色素上皮（RPE）都伸出长的顶端突起，彼此接触并共同包绕视锥外节，形成此前未被认识的三方界面；这种结构在斑马鱼中很发达，在小鼠中较稀疏但同样存在。斑马鱼 FIB-SEM 数据（6×6×10 nm 体素、1750 层）在 Dragonfly 3D World 2024.1 中用内置 Stack Alignment 对齐，每隔 10–20 层手动分割，再用 Z 向自动插值并人工修正，完成三维重建。",
+   "summary_en": "Researchers at the University of Alberta and IRCM/McGill used FIB-SEM and confocal imaging to revisit the subretinal space, showing that Müller glia and the retinal pigment epithelium (RPE) extend long apical processes that contact each other and together ensheath cone outer segments, a previously unrecognized tripartite interface that is elaborate in zebrafish and sparser but present in mouse. The zebrafish FIB-SEM stack (6×6×10 nm voxels, 1,750 slices) was aligned with the built-in Stack Alignment in Dragonfly 3D World 2024.1, manually segmented every 10–20th section, then completed with automatic Z interpolation and manual correction.",
+   "url": "https://doi.org/10.1002/glia.70241",
+   "doi": "10.1002/glia.70241",
+   "date": "2026-10-21",
+   "digest_date": "2026-10-25",
+   "digest_page": "news/2026-10-25.html",
+   "source": "Glia（Wiley）",
+   "source_en": "Glia (Wiley)",
+   "category": "学术论文",
+   "category_en": "Research paper",
+   "tags": [],
+   "tags_en": [],
+   "topics": [
+    {
+     "key": "life-sciences",
+     "zh": "生命科学",
+     "en": "Life Sciences"
+    },
+    {
+     "key": "releases-features",
+     "zh": "版本与功能",
+     "en": "Releases & Features"
+    }
+   ]
+  },
+  {
+   "id": "doi:10.1002/jmor.70187",
+   "title": "真皮骨的承重功能适应：俄罗斯鲟胸鳍棘",
+   "title_en": "Functional Adaptations for Load-Bearing in a Dermal Bone: The Pectoral Fin Spine of the Russian Sturgeon (Huso gueldenstaedtii)",
+   "summary": "希伯来大学兽医学院团队从结构（光镜、偏光、micro-CT、SEM）、成分（FTIR、TGA、骨矿密度）和力学（三点弯曲、微压痕）三方面表征俄罗斯鲟胸鳍棘，发现它由真皮骨单位骨和平行纤维骨构成，结构高度有序、韧性高，可同时承担运动和防护功能，内部还有相互连通的神经血管管道网络。micro-CT 数据在 Dragonfly 2022.2 中用分割向导训练加手动修正分割管道网络并生成阈值网格测管径，用 Bone Wizard 测胸鳍棘和取样骨条的孔隙率，并分割骨细胞陷窝。（与 10 月 24 日收录的同一团队 FIB-SEM 论文是姊妹研究。）",
+   "summary_en": "A Hebrew University veterinary team characterized the Russian sturgeon pectoral fin spine by structure (light, polarized, micro-CT, SEM), composition (FTIR, TGA, BMD) and mechanics (3-point bending, microindentation): it is built from dermal osteonal and parallel-fibered bone, highly organized and tough, suited to both locomotion and protection, with an interconnected neurovascular canal network. Micro-CT data were segmented in Dragonfly 2022.2 (Segment Wizard training plus manual refinement) to mesh the canal network and measure diameters, the Bone Wizard gave spine and beam porosity, and osteocyte lacunae were segmented. (A companion to the same team's FIB-SEM paper listed on Oct 24.)",
+   "url": "https://doi.org/10.1002/jmor.70187",
+   "doi": "10.1002/jmor.70187",
+   "date": "2026-10-21",
+   "digest_date": "2026-10-25",
+   "digest_page": "news/2026-10-25.html",
+   "source": "Journal of Morphology（Wiley）",
+   "source_en": "Journal of Morphology (Wiley)",
+   "category": "学术论文",
+   "category_en": "Research paper",
+   "tags": [],
+   "tags_en": [],
+   "topics": [
+    {
+     "key": "life-sciences",
+     "zh": "生命科学",
+     "en": "Life Sciences"
+    },
+    {
+     "key": "materials-manufacturing",
+     "zh": "材料与制造",
+     "en": "Materials & Manufacturing"
+    },
+    {
+     "key": "releases-features",
+     "zh": "版本与功能",
+     "en": "Releases & Features"
+    }
+   ]
+  },
+  {
+   "id": "doi:10.1117/12.3118546",
+   "title": "用分层成像、倾斜射线照相和缺陷自动识别对玻璃基板及玻璃通孔做 X 射线检测",
+   "title_en": "X-ray inspection of glass substrates and through-glass vias using laminography, tilted radiography, and automated defect recognition",
+   "summary": "D. Stickler 与 K. Hormann 的应用研究比较了 2D 射线照相、倾斜射线照相（2.5D）和计算分层成像（3DCL）在玻璃基板与玻璃通孔（TGV）检测中的表现，讨论束能量、放大倍率、成像几何和探测器特性对缺孔、残留玻璃、微裂纹、空洞、金属化不完整和分层等缺陷可见度的影响。摘要指出，文中还讨论了在 Dragonfly 3D World 中做分割以及缺陷自动识别流程，用于缺陷的规模化定位与定量。",
+   "summary_en": "An application study by D. Stickler and K. Hormann compares 2D radiography, tilted radiography (2.5D) and computed laminography (3DCL) for inspecting glass substrates and through-glass vias (TGVs), examining how beam energy, magnification, geometry and detector characteristics affect visibility of defects such as missing holes, residual glass, micro-cracks, voids, incomplete metallization and delamination. Per the abstract, segmentation in Dragonfly 3D World and automated defect recognition workflows are discussed for scalable defect localization and quantification.",
+   "url": "https://doi.org/10.1117/12.3118546",
+   "doi": "10.1117/12.3118546",
+   "date": "2026-09-24",
+   "digest_date": "2026-10-25",
+   "digest_page": "news/2026-10-25.html",
+   "source": "Photomask Japan 2026（SPIE 会议论文集）",
+   "source_en": "Photomask Japan 2026 (SPIE Proceedings)",
+   "category": "学术论文",
+   "category_en": "Research paper",
+   "tags": [],
+   "tags_en": [],
+   "topics": [
+    {
+     "key": "materials-manufacturing",
+     "zh": "材料与制造",
+     "en": "Materials & Manufacturing"
+    },
+    {
+     "key": "metrology-inspection",
+     "zh": "计量与检测",
+     "en": "Metrology & Inspection"
+    },
+    {
+     "key": "official",
+     "zh": "官方动态",
+     "en": "Official Updates"
+    }
+   ]
+  },
   {
    "id": "doi:10.3390/ani16203318",
    "title": "俄罗斯鲟胸鳍棘层状骨的纳米尺度表征：三维 FIB-SEM 研究",
