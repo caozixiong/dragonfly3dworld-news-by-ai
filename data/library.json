@@ -1,7 +1,7 @@
 {
- "updated": "2026-10-25",
+ "updated": "2026-10-26",
  "site": "Dragonfly 3D World News",
- "count": 45,
+ "count": 52,
  "topics": [
   {
    "key": "life-sciences",
@@ -45,6 +45,201 @@
   }
  ],
  "entries": [
+  {
+   "id": "doi:10.1007/s44418-026-00016-w",
+   "title": "中世纪银丝饰件高分辨率中子断层成像中富汞鎏金比例的蒙特卡罗约束",
+   "title_en": "Monte Carlo bounds on Hg-rich amalgam gilding in high-resolution neutron tomography of medieval filigree",
+   "summary": "澳大利亚核科学与技术组织（ANSTO）与米兰比可卡大学等团队把 13 世纪 Chiaravalle 十字架银丝饰件碎片的中子 CT 与 SEM–EDS 及 Geant4 模拟（Dingo 束线模型）结合：模拟的银丝与焊点有效衰减系数与中子 CT 测值一致，并在所选端元组合下给出富汞鎏金区域面积比例约 24.3% 的保守模型上限。重建体数据在 Dragonfly（ORS，v2022.2）中可视化，用 Otsu 阈值加形态学操作分割银丝、焊点和残余鎏金，在 30 个 ROI 上提取衰减值，并导出 STL 网格供 Geant4 使用。",
+   "summary_en": "ANSTO and University of Milano-Bicocca researchers combined neutron CT of a filigree fragment from the 13th-century Chiaravalle Cross with SEM–EDS and Geant4 simulations of the Dingo beamline. Simulated attenuation for the wire and solder joint matched the nCT values, and for the selected endmember pair the model gives a conservative upper bound of about 24.3% on the Hg-rich gilding area fraction. The reconstructed volume was visualised in Dragonfly (ORS, v2022.2), where wire, solder and residual gilding were segmented with Otsu thresholds and morphological operations, attenuation was sampled in 30 ROIs, and STL meshes were exported for Geant4.",
+   "url": "https://link.springer.com/article/10.1007/s44418-026-00016-w",
+   "doi": "10.1007/s44418-026-00016-w",
+   "date": "2026-10-23",
+   "digest_date": "2026-10-26",
+   "digest_page": "news/2026-10-26.html",
+   "source": "Discover Physics（Springer Nature）",
+   "source_en": "Discover Physics (Springer Nature)",
+   "category": "学术论文",
+   "category_en": "Research paper",
+   "tags": [],
+   "tags_en": [],
+   "topics": [
+    {
+     "key": "life-sciences",
+     "zh": "生命科学",
+     "en": "Life Sciences"
+    },
+    {
+     "key": "releases-features",
+     "zh": "版本与功能",
+     "en": "Releases & Features"
+    }
+   ]
+  },
+  {
+   "id": "doi:10.3897/fr.29.202952",
+   "title": "基于德国东北部吕根岛上白垩统一件保存极佳标本重新评估异常海蛇尾属 Astrosombra",
+   "title_en": "Re-assessment of the aberrant brittle star genus Astrosombra (Echinodermata, Ophiuroidea), based on an exceptionally preserved specimen from the Upper Cretaceous of Rügen, north-east Germany",
+   "summary": "卢森堡国家自然历史博物馆、柏林自然博物馆等团队描述了白垩纪海蛇尾 Astrosombra rammsteinensis 的首件关节完整标本，并据此支持把该属归入 Ophiopsilidae。标本盘部 micro-CT（各向同性体素 35.6 µm）在 Dragonfly 2022.1（Object Research Systems）中以体渲染方式可视化。",
+   "summary_en": "Researchers from the Luxembourg National Museum of Natural History, the Museum für Naturkunde Berlin and others describe the first articulated specimen of the Cretaceous brittle star Astrosombra rammsteinensis, supporting the genus's placement in Ophiopsilidae. Micro-CT of the disc (35.6 µm isotropic voxels) was visualised with volume renderings in Dragonfly 2022.1 (Object Research Systems).",
+   "url": "https://fr.pensoft.net/article/202952/",
+   "doi": "10.3897/fr.29.202952",
+   "date": "2026-10-22",
+   "digest_date": "2026-10-26",
+   "digest_page": "news/2026-10-26.html",
+   "source": "Fossil Record（Pensoft）",
+   "source_en": "Fossil Record (Pensoft)",
+   "category": "学术论文",
+   "category_en": "Research paper",
+   "tags": [],
+   "tags_en": [],
+   "topics": [
+    {
+     "key": "geoscience-archaeology",
+     "zh": "地球科学与考古",
+     "en": "Geoscience & Archaeology"
+    }
+   ]
+  },
+  {
+   "id": "doi:10.21203/rs.3.rs-11145106/v1",
+   "title": "红外化学活检：对完整骨骼进行无损成分评估",
+   "title_en": "Infrared Chemical Biopsy for Non-Destructive Compositional Assessment of Intact Bone",
+   "summary": "史蒂文斯理工学院团队提出“红外化学活检”：用光纤近红外光谱直接在人髂骨外侧面采集谱图，再取空间配对的经髂骨环钻活检，做 micro-CT 和压缩试验，把完整部位的成分信息与三维结构和力学行为对应起来。活检的 micro-CT 重建数据在 Dragonfly 3D World（Object Research Systems）中分割并可视化皮质壳和下方的骨小梁结构。",
+   "summary_en": "A Stevens Institute of Technology team introduces Infrared Chemical Biopsy: fiber-optic near-infrared spectra are taken directly from the lateral surface of the human ilium, then a spatially matched transiliac trephine biopsy is characterised by micro-CT and compression testing, linking intact-site composition with 3D structure and mechanics. The biopsy's reconstructed micro-CT volume was processed in Dragonfly 3D World (Object Research Systems) to segment and visualise the cortical shell and the underlying trabecular architecture.",
+   "url": "https://www.researchsquare.com/article/rs-11145106/v1",
+   "doi": "10.21203/rs.3.rs-11145106/v1",
+   "date": "2026-10-21",
+   "digest_date": "2026-10-26",
+   "digest_page": "news/2026-10-26.html",
+   "source": "Research Square（预印本）",
+   "source_en": "Research Square (preprint)",
+   "category": "学术论文",
+   "category_en": "Research paper",
+   "tags": [],
+   "tags_en": [],
+   "topics": [
+    {
+     "key": "life-sciences",
+     "zh": "生命科学",
+     "en": "Life Sciences"
+    },
+    {
+     "key": "metrology-inspection",
+     "zh": "计量与检测",
+     "en": "Metrology & Inspection"
+    }
+   ]
+  },
+  {
+   "id": "doi:10.64898/2026.10.13.758998",
+   "title": "优化鬣蜥脑的神经对比度并减少组织收缩：缓冲 Lugol 碘与磷钨酸用于增强对比 µCT 的比较",
+   "title_en": "Optimising neural contrast and minimising tissue shrinkage in dragon lizard brains: buffered Lugol's iodine versus phosphotungstic acid for contrast-enhanced µCT",
+   "summary": "拉筹伯大学与墨尔本大学团队在 1.25%、2.5%、5% 三种浓度下比较缓冲 Lugol 碘与水溶液磷钨酸（PTA）对 Jacky 鬣蜥（Amphibolurus muricatus）脑的 µCT 增强效果：缓冲 Lugol 碘最快 4 天即可完全染透，白质/灰质对比明显更好；PTA 约需 3 周，且脑-颅腔占比低 13.3%，脑组织收缩约多 20%。重建数据导入 Dragonfly 3D World 2025.1（Comet Technologies Canada），用于数据对齐、用 Point set 工具取点测灰度，以及手动分割脑、脑室和颅内模并计算体积。",
+   "summary_en": "La Trobe University and University of Melbourne researchers compared buffered Lugol's iodine with aqueous phosphotungstic acid (PTA) at 1.25%, 2.5% and 5% for µCT of Jacky dragon (Amphibolurus muricatus) brains. Buffered Lugol's stained the brain fully in as little as four days and gave clearly better white–grey matter contrast, while PTA needed about three weeks, showed 13.3% lower brain-to-endocast occupancy and roughly 20% more brain tissue shrinkage. Reconstructed volumes were imported into Dragonfly 3D World 2025.1 (Comet Technologies Canada) to align datasets, sample grey values with the Point set tool, and manually segment the brain, ventricles and endocast for volume measurements.",
+   "url": "https://www.biorxiv.org/content/10.64898/2026.10.13.758998v1.full",
+   "doi": "10.64898/2026.10.13.758998",
+   "date": "2026-10-20",
+   "digest_date": "2026-10-26",
+   "digest_page": "news/2026-10-26.html",
+   "source": "bioRxiv（预印本）",
+   "source_en": "bioRxiv (preprint)",
+   "category": "学术论文",
+   "category_en": "Research paper",
+   "tags": [],
+   "tags_en": [],
+   "topics": [
+    {
+     "key": "releases-features",
+     "zh": "版本与功能",
+     "en": "Releases & Features"
+    }
+   ]
+  },
+  {
+   "id": "doi:10.3389/fendo.2026.1932381",
+   "title": "髋部结构分析中固定皮质骨比例假设会对股骨颈形态估计产生随性别和年龄变化的系统误差",
+   "title_en": "The fixed cortical fraction assumption in Hip Structure Analysis produces systematic, sex- and age- dependent errors in femoral neck morphology estimates",
+   "summary": "密歇根大学骨科团队利用 62 例尸体股骨近端的 nanoCT 数据检验髋部结构分析（HSA）中固定 60% 皮质骨比例的假设，发现它会给股骨颈形态估计带来随性别和年龄变化的系统误差。各体数据在 Dragonfly（Comet Technologies）中旋转 15° 以校正前倾角，并用自编 Dragonfly 插件把骨体素投影生成 pseudoDXA 图像。",
+   "summary_en": "A University of Michigan orthopaedic surgery team used nanoCT volumes of 62 cadaveric proximal femurs to test the fixed 60% cortical-fraction assumption in Hip Structure Analysis (HSA), showing that it produces systematic sex- and age-dependent errors in femoral neck morphology estimates. Each volume was rotated 15° in Dragonfly (Comet Technologies) to account for anteversion, and pseudoDXA images were generated by projecting bone voxels with a custom Dragonfly plug-in.",
+   "url": "https://www.frontiersin.org/journals/endocrinology/articles/10.3389/fendo.2026.1932381/full",
+   "doi": "10.3389/fendo.2026.1932381",
+   "date": "2026-10-08",
+   "digest_date": "2026-10-26",
+   "digest_page": "news/2026-10-26.html",
+   "source": "Frontiers in Endocrinology",
+   "source_en": "Frontiers in Endocrinology",
+   "category": "学术论文",
+   "category_en": "Research paper",
+   "tags": [],
+   "tags_en": [],
+   "topics": [
+    {
+     "key": "life-sciences",
+     "zh": "生命科学",
+     "en": "Life Sciences"
+    }
+   ]
+  },
+  {
+   "id": "doi:10.64898/2026.10.02.756314",
+   "title": "扩展的 Lpt 通路把拟杆菌表面脂蛋白输出与外膜囊泡生成耦合起来",
+   "title_en": "An Expanded Lpt Pathway Couples Surface Lipoprotein Export to Outer Membrane Vesicle Biogenesis in Bacteroides",
+   "summary": "华盛顿大学医学院牵头的团队鉴定出此前未被表征的蛋白 LptZ，它是拟杆菌表面暴露脂蛋白转运与外膜囊泡（OMV）生成之间的关键环节；lptZ 突变体的冷冻电子断层图像显示成串囊泡仍拴在外膜上，呈现 OMV 形成被阻滞的中间阶段。断层数据导入 Dragonfly 后，用 Segmentation Wizard 训练深度学习模型完成分割，再人工修正并用 Smooth Mesh 平滑表面。",
+   "summary_en": "A Washington University School of Medicine-led team identified LptZ, a previously uncharacterized protein, as a key link between surface-exposed lipoprotein export and outer membrane vesicle (OMV) biogenesis in Bacteroides; cryo-electron tomography of the lptZ mutant showed chains of vesicles still tethered to the outer membrane, an arrested stage of OMV formation. Tomograms were imported into Dragonfly and segmented with a deep-learning model trained in the Segmentation Wizard, then corrected manually and polished with the Smooth Mesh tool.",
+   "url": "https://www.biorxiv.org/content/10.64898/2026.10.02.756314v1.full",
+   "doi": "10.64898/2026.10.02.756314",
+   "date": "2026-10-05",
+   "digest_date": "2026-10-26",
+   "digest_page": "news/2026-10-26.html",
+   "source": "bioRxiv（预印本）",
+   "source_en": "bioRxiv (preprint)",
+   "category": "学术论文",
+   "category_en": "Research paper",
+   "tags": [],
+   "tags_en": [],
+   "topics": [
+    {
+     "key": "ai-deep-learning",
+     "zh": "AI 与深度学习",
+     "en": "AI & Deep Learning"
+    },
+    {
+     "key": "releases-features",
+     "zh": "版本与功能",
+     "en": "Releases & Features"
+    }
+   ]
+  },
+  {
+   "id": "doi:10.64898/2026.09.23.753964",
+   "title": "首个转基因头足类动物的建立",
+   "title_en": "Generation of a transgenic cephalopod",
+   "summary": "哥伦比亚大学 Zuckerman 研究所与霍华德·休斯医学研究所（Axel 实验室）报告了稳定转基因的侏儒乌贼（Ascarosepion bandense），可普遍表达核定位红色荧光蛋白 mScarlet；CRISPR 敲入以及 Sleeping Beauty、Minos 转座子都成功建系，其中 Minos 效率最高。转基因成体脑经 EZ Clear 透明化后做光片显微成像，数据用 Dragonfly 3D World 可视化。",
+   "summary_en": "Columbia University's Zuckerman Institute and HHMI (Axel lab) report stable transgenic dwarf cuttlefish (Ascarosepion bandense) that ubiquitously express nuclear-localized mScarlet; lines were established with CRISPR knock-in and with the Sleeping Beauty and Minos transposons, Minos being the most efficient. Brains of transgenic adults were cleared with EZ Clear and imaged by light-sheet microscopy, and the data were visualised in Dragonfly 3D World.",
+   "url": "https://www.biorxiv.org/content/10.64898/2026.09.23.753964v1.full",
+   "doi": "10.64898/2026.09.23.753964",
+   "date": "2026-09-28",
+   "digest_date": "2026-10-26",
+   "digest_page": "news/2026-10-26.html",
+   "source": "bioRxiv（预印本）",
+   "source_en": "bioRxiv (preprint)",
+   "category": "学术论文",
+   "category_en": "Research paper",
+   "tags": [],
+   "tags_en": [],
+   "topics": [
+    {
+     "key": "life-sciences",
+     "zh": "生命科学",
+     "en": "Life Sciences"
+    },
+    {
+     "key": "releases-features",
+     "zh": "版本与功能",
+     "en": "Releases & Features"
+    }
+   ]
+  },
   {
    "id": "url:https://cmm-quarterly.squarespace.com/articles/iteaching-a-3d-image-to-reveal-its-structure",
    "title": "让三维图像显露结构：Dragonfly 3D World ZEISS 版的机器学习分割",
