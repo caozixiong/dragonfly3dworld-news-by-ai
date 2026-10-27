@@ -1,7 +1,7 @@
 {
- "updated": "2026-10-26",
+ "updated": "2026-10-27",
  "site": "Dragonfly 3D World News",
- "count": 52,
+ "count": 53,
  "topics": [
   {
    "key": "life-sciences",
@@ -45,6 +45,41 @@
   }
  ],
  "entries": [
+  {
+   "id": "doi:10.1111/jmi.70193",
+   "title": "基于神经网络与 MC X-ray 蒙特卡罗模拟的 20 kV 均质多元素块体样品定量分析方法",
+   "title_en": "A neural network-based Monte Carlo X-ray (MC X-ray) approach for quantitative analysis of homogeneous multi-element bulk samples at 20 kV",
+   "summary": "麦吉尔大学采矿与材料工程系与 Dragonfly（Comet Group，蒙特利尔）合作，用蒙特卡罗程序 MC X-ray 在 20 kV 条件下模拟约 3000 组 EDS 谱图及对应元素质量分数，训练多层感知机（MLP）直接从整条谱图预测成分，实现无需物理标样的 SEM-EDS 定量分析。在 11 种经认证的标准矿物上验证，RMSE 为 0.0056–0.0179，R² 为 0.9873–0.9981，质量分数不低于 0.05 的元素平均绝对百分比误差 4.41%，在消费级笔记本上约 15 分钟完成；质量分数低于 0.05 的微量元素仍不可靠。论文指出 MC X-ray 已集成进图像分析平台 Dragonfly，并可借 Dragonfly 的 Python 扩展用一个脚本批量生成训练数据，后续将利用 Dragonfly MC X-ray 模块的几何配置扩展到薄膜、多层等复杂样品。",
+   "summary_en": "McGill University's Department of Mining and Materials Engineering and Dragonfly (Comet Group, Montréal) used the MC X-ray Monte Carlo program to simulate about 3,000 EDS spectra with matching elemental weight fractions at 20 kV and trained a multilayer perceptron to predict composition from the full spectrum, enabling standards-free SEM-EDS quantification. Validated on 11 certified mineral standards, it gave RMSE of 0.0056–0.0179 and R² of 0.9873–0.9981, with a 4.41% mean absolute percentage error for elements at weight fractions of at least 0.05, in about 15 minutes on a consumer laptop; trace elements below 0.05 remain unreliable. The paper notes that MC X-ray has been integrated into the Dragonfly image analysis platform, whose Python extension generates large training datasets from a single script, and plans to use the Dragonfly MC X-ray module's geometry options to extend the method to thin films and multilayer samples.",
+   "url": "https://onlinelibrary.wiley.com/doi/full/10.1111/jmi.70193",
+   "doi": "10.1111/jmi.70193",
+   "date": "2026-10-24",
+   "digest_date": "2026-10-27",
+   "digest_page": "news/2026-10-27.html",
+   "source": "Journal of Microscopy（Wiley）",
+   "source_en": "Journal of Microscopy (Wiley)",
+   "category": "学术论文",
+   "category_en": "Research paper",
+   "tags": [],
+   "tags_en": [],
+   "topics": [
+    {
+     "key": "life-sciences",
+     "zh": "生命科学",
+     "en": "Life Sciences"
+    },
+    {
+     "key": "materials-manufacturing",
+     "zh": "材料与制造",
+     "en": "Materials & Manufacturing"
+    },
+    {
+     "key": "ai-deep-learning",
+     "zh": "AI 与深度学习",
+     "en": "AI & Deep Learning"
+    }
+   ]
+  },
   {
    "id": "doi:10.1007/s44418-026-00016-w",
    "title": "中世纪银丝饰件高分辨率中子断层成像中富汞鎏金比例的蒙特卡罗约束",
