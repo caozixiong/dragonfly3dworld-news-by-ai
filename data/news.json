@@ -1,6 +1,82 @@
 {
  "days": [
   {
+   "date": "2026-10-28",
+   "count": 3,
+   "page": "news/2026-10-28.html",
+   "items": [
+    {
+     "title": "鲎的伤口愈合与再生：对三叶虫损伤化石的可能启示",
+     "title_en": "Healing and regeneration in horseshoe crab, with possible application to trilobite injuries",
+     "url": "https://www.elspub.com/doi/10.55092/cle20260013",
+     "doi": "10.55092/cle20260013",
+     "source": "Continent and Life Evolution（ELSP）",
+     "source_en": "Continent and Life Evolution (ELSP)",
+     "date": "2026-10-22",
+     "category": "学术论文",
+     "category_en": "Research paper",
+     "summary": "西北大学（西安）大陆演化与早期生命国家重点实验室等团队以鲎作为三叶虫的现生替身做截肢实验，观察蜕皮后伤口的愈合与再生，用来解读三叶虫化石上的损伤痕迹。伤口组织经 5% 磷钨酸（PTA）染色后在蔡司 Xradia 520 上做显微 CT 扫描，CT 数据在 Dragonfly 4.0 中做三维体渲染。",
+     "summary_en": "A team led by Northwest University's State Key Laboratory of Continental Evolution and Early Life (Xi'an) amputated appendages of juvenile horseshoe crabs as a living proxy for trilobites and followed wound healing and regeneration after molting, to help interpret injuries seen on trilobite fossils. Wound tissue stained with 5% phosphotungstic acid (PTA) was scanned by micro-CT on a ZEISS Xradia 520, and the CT data were processed in Dragonfly 4.0 for 3D volume rendering.",
+     "tags": [
+      "古生物学",
+      "显微 CT",
+      "体渲染"
+     ],
+     "tags_en": [
+      "Palaeontology",
+      "Micro-CT",
+      "Volume rendering"
+     ]
+    },
+    {
+     "title": "用废弃煤燃烧灰与废玻璃混合烧结制备轻骨料：煤灰化学与矿物组成的影响",
+     "title_en": "Production of lightweight aggregate (LWA) by sintering blend of waste coal combustion ash (WCCA) and waste glass (WG): understanding the effect of WCCA chemical and mineralogical composition",
+     "url": "https://link.springer.com/article/10.1617/s11527-026-03311-1",
+     "doi": "10.1617/s11527-026-03311-1",
+     "source": "Materials and Structures（Springer）",
+     "source_en": "Materials and Structures (Springer)",
+     "date": "2026-10-21",
+     "category": "学术论文",
+     "category_en": "Research paper",
+     "summary": "德雷塞尔大学用六种废弃煤灰与 0–50% 废玻璃在 1100 °C 烧结轻骨料，发现煤灰的 Fe₂O₃、烧失量、非晶相含量高且莫来石少时，25% 废玻璃即可成型，否则需约 50%。骨料在蔡司 Xradia 620 Versa 上以 12 µm 体素扫描，用 Dragonfly 软件建立三维模型并分析孔隙，结合 K-means 聚类与 Otsu 分割区分固相和孔隙，并与商用膨胀玻璃、膨胀黏土骨料对比孔结构。",
+     "summary_en": "Drexel University sintered lightweight aggregates at 1100 °C from six waste coal combustion ashes blended with 0–50% waste glass, finding that ashes with higher Fe₂O₃, loss on ignition and amorphous content and less mullite formed sound aggregates with only 25% glass, while others needed about 50%. The aggregates were scanned on a ZEISS Xradia 620 Versa at 12 µm voxel size, and Dragonfly software was used to build 3D models and analyze porosity, with K-means clustering plus Otsu segmentation separating solid and pore phases for comparison with commercial expanded glass and expanded clay aggregates.",
+     "tags": [
+      "建筑材料",
+      "孔隙分析",
+      "X 射线 CT"
+     ],
+     "tags_en": [
+      "Construction materials",
+      "Porosity analysis",
+      "X-ray CT"
+     ]
+    },
+    {
+     "title": "石蜡/剑麻复合相变纤维对 3D 打印混凝土流变与传热行为的影响",
+     "title_en": "Effects of Paraffin/Sisal Composite Phase Change Fibers on the Rheological and Heat-Transfer Behaviors of 3D-Printed Concrete",
+     "url": "https://www.mdpi.com/1996-1944/19/20/4326",
+     "doi": "10.3390/ma19204326",
+     "source": "Materials（MDPI）",
+     "source_en": "Materials (MDPI)",
+     "date": "2026-10-14",
+     "category": "学术论文",
+     "category_en": "Research paper",
+     "summary": "东南大学把自制的石蜡/剑麻复合相变纤维掺入 3D 打印混凝土，研究其流变和传热：相变纤维组导热更低、表面升温更慢，且 X、Y、Z 方向传热不同。试件用 YXLON 工业 CT 扫描，三维重建后在 Dragonfly（2024.1 版）中用深度学习分割区分纤维、浆体和孔隙（灰度阈值法难以分开纤维与孔隙），再把体积切成 512 个 5 mm 立方单元统计纤维体积分数和取向，显示相变纤维分散更均匀、打印件中纤维沿打印方向排列。",
+     "summary_en": "Southeast University added self-made paraffin/sisal composite phase change fibers to 3D-printed concrete and studied rheology and heat transfer: the phase-change-fiber mix showed lower thermal conductivity, slower surface temperature rise and direction-dependent heat transfer along X, Y and Z. Specimens were scanned with a YXLON industrial CT, and after 3D reconstruction Dragonfly (version 2024.1) deep-learning segmentation separated fibers, paste and pores, which grayscale thresholding could not distinguish; the volume was then split into 512 cubes of 5 mm to measure fiber volume fraction and orientation, showing more uniform dispersion of phase change fibers and fiber alignment along the printing direction in printed specimens.",
+     "tags": [
+      "3D 打印混凝土",
+      "深度学习分割",
+      "纤维分布"
+     ],
+     "tags_en": [
+      "3D-printed concrete",
+      "Deep-learning segmentation",
+      "Fiber distribution"
+     ]
+    }
+   ]
+  },
+  {
    "date": "2026-10-27",
    "count": 1,
    "page": "news/2026-10-27.html",
@@ -1156,5 +1232,5 @@
   }
  ],
  "site": "Dragonfly 3D World News",
- "updated": "2026-10-27"
+ "updated": "2026-10-28"
 }
