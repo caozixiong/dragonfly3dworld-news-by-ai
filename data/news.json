@@ -1,6 +1,220 @@
 {
  "days": [
   {
+   "date": "2026-10-29",
+   "count": 9,
+   "page": "news/2026-10-29.html",
+   "items": [
+    {
+     "title": "Dragonfly 3D World 2027：学术许可与完整许可的区别",
+     "title_en": "Dragonfly 3D World 2027: Understanding Academic and Full Licenses",
+     "url": "https://comet.tech/dragonfly/blog/dragonfly-academic-vs-full-license",
+     "doi": null,
+     "source": "Comet Dragonfly 官方博客",
+     "source_en": "Comet Dragonfly official blog",
+     "date": "2026-10-28",
+     "category": "官方动态",
+     "category_en": "Official update",
+     "summary": "官方博客说明 3D World 2027 的两种许可：学术许可（原 FreeD）继续免费提供给符合条件的非商业科研和教学用户，期限一年、可每年免费续期，2027 版新增 Grid-Based SAM 与 Cellpose-SAM 实例分割、Fast Split 和 Smart Erode 分离粘连对象、旋转视图以及卡尺、标量箭头等标注测量工具；完整许可为付费的年度或永久授权，独有 Subvoxel Multi-Mesh、表面粗糙度分析和高级报告生成器选项，这些功能在学术版中可见但呈灰色不可用。学术许可在软件内 Help > Request Academic License 申请，现有学术用户可免费升级到 2027 版，免费学术许可受地区分销协议限制。",
+     "summary_en": "The official blog explains the two 3D World 2027 licenses. The Academic License (formerly FreeD) stays free for eligible non-commercial research and teaching, runs one year and renews annually at no charge, and in 2027 adds Grid-Based SAM and Cellpose-SAM instance segmentation, Fast Split and Smart Erode for separating touching objects, Rotational Views, and Caliper and Scalar Arrow annotations. The paid Full License (annual or perpetual) adds Subvoxel Multi-Mesh, Surface Roughness Analysis and advanced Report Builder options, which appear grayed out in the Academic version. Academic licenses are requested in the software via Help > Request Academic License, existing academic users can upgrade to 2027 at no cost, and free academic licenses are subject to regional restrictions.",
+     "tags": [
+      "官方博客",
+      "许可",
+      "3D World 2027"
+     ],
+     "tags_en": [
+      "Official blog",
+      "Licensing",
+      "3D World 2027"
+     ]
+    },
+    {
+     "title": "气液界面矿化过程中的非经典 Mullins-Sekerka 失稳",
+     "title_en": "Non-classical Mullins-Sekerka instability during mineralization at gas-liquid interfaces",
+     "url": "https://www.nature.com/articles/s41598-026-76568-9",
+     "doi": "10.1038/s41598-026-76568-9",
+     "source": "Scientific Reports",
+     "source_en": "Scientific Reports",
+     "date": "2026-10-26",
+     "category": "学术论文",
+     "category_en": "Research paper",
+     "summary": "于利希研究中心（FZ Jülich）等团队用三维 FIB-SEM 断层成像、定量表面分析和反应输运模拟，研究 CO₂ 气泡生长界面上的重晶石矿化，发现界面虽多孔、多晶且受孔隙空间约束，扩散驱动的失稳依然存在，但模式选择发生改变，属于非经典 Mullins-Sekerka 情形。FIB-SEM 断层数据用 Dragonfly 3D World 重建，孔体积也由 Dragonfly 测定后用于孔径分布分析。",
+     "summary_en": "A team led by Forschungszentrum Jülich combined 3D FIB-SEM tomography, quantitative surface analysis and reactive transport modelling to study barite mineralization on growing CO₂ bubble interfaces, showing that diffusion-driven instability persists on a porous, polycrystalline, pore-confined interface but with modified mode selection, a non-classical Mullins-Sekerka regime. The FIB-SEM tomogram was reconstructed in Dragonfly 3D World, and pore volumes determined in Dragonfly were used for pore size distribution analysis.",
+     "tags": [
+      "地球化学",
+      "FIB-SEM",
+      "孔隙分析"
+     ],
+     "tags_en": [
+      "Geochemistry",
+      "FIB-SEM",
+      "Porosity analysis"
+     ]
+    },
+    {
+     "title": "原位电化学液池 TEM 揭示锯齿形 Pt₃Fe 纳米线的结构演变与元素重分布",
+     "title_en": "Coupled structural evolution and elemental redistribution in zigzag Pt3Fe nanowires revealed by in situ electrochemical liquid-cell TEM",
+     "url": "https://www.researchsquare.com/article/rs-11050251/v1",
+     "doi": "10.21203/rs.3.rs-11050251/v1",
+     "source": "Research Square（预印本）",
+     "source_en": "Research Square (preprint)",
+     "date": "2026-10-09",
+     "category": "学术论文",
+     "category_en": "Research paper",
+     "summary": "布鲁克海文国家实验室与劳伦斯伯克利国家实验室等团队用原位电化学液池 TEM、原位 X 射线吸收谱、电子断层和静电模拟，追踪弱碱性析氢反应中锯齿形 Pt₃Fe 纳米线的演变：高曲率处出现凸起和富 Pt 纳米颗粒，Fe 被选择性脱除。电子断层显示纳米线是厚约 6 nm 的薄片状而非此前认为的螺旋状；断层数据的可视化和分割使用 Dragonfly 2025.1（ORS）。",
+     "summary_en": "Teams from Brookhaven and Lawrence Berkeley National Laboratories used in situ electrochemical liquid-cell TEM, in situ X-ray absorption spectroscopy, electron tomography and electrostatic simulations to track zigzag Pt₃Fe nanowires during the hydrogen evolution reaction in weakly alkaline conditions, observing protrusions and Pt-rich nanoparticles forming at high-curvature sites along with selective Fe removal. Electron tomography showed the nanowires are thin plates about 6 nm thick rather than spirals; the tomography data were visualized and segmented in Dragonfly 2025.1 (ORS).",
+     "tags": [
+      "电催化",
+      "电子断层",
+      "原位 TEM"
+     ],
+     "tags_en": [
+      "Electrocatalysis",
+      "Electron tomography",
+      "In situ TEM"
+     ]
+    },
+    {
+     "title": "深分支捕食性原生生物的适应性运动与摄食策略",
+     "title_en": "Adaptive motility and feeding strategies of deep-branching predatory protists",
+     "url": "https://www.biorxiv.org/content/10.64898/2026.10.08.757618v1.full",
+     "doi": "10.64898/2026.10.08.757618",
+     "source": "bioRxiv（预印本）",
+     "source_en": "bioRxiv (preprint)",
+     "date": "2026-10-09",
+     "category": "学术论文",
+     "category_en": "Research paper",
+     "summary": "埃克塞特大学 Living Systems Institute 与巴黎萨克雷大学等团队用高分辨单细胞追踪和空间统计，比较海洋 Jakoba libera 与淡水 Reclinomonas americana 等古虫类鞭毛虫的运动和摄食：前者主动觅食，后者是严格的滤食者，猎物多少对两者游动的影响方向相反。全息断层和膨胀显微（U-ExM）图像的三维重建在 Dragonfly 3D World（Comet Technologies Canada）中完成。",
+     "summary_en": "The University of Exeter's Living Systems Institute, Université Paris-Saclay and colleagues used high-resolution single-cell tracking and spatial statistics to compare excavate flagellates such as marine Jakoba libera and freshwater Reclinomonas americana, finding the former is an active forager and the latter a strict filter feeder, with prey availability affecting their swimming in opposite ways. 3D reconstructions of holo-tomography and expansion microscopy (U-ExM) images were made in Dragonfly 3D World (Comet Technologies Canada).",
+     "tags": [
+      "原生生物",
+      "三维重建",
+      "膨胀显微"
+     ],
+     "tags_en": [
+      "Protists",
+      "3D reconstruction",
+      "Expansion microscopy"
+     ]
+    },
+    {
+     "title": "常压下生长 ScB₂ 晶体，用作 AlGaN 功率电子衬底",
+     "title_en": "Enabling the Ambient Pressure Growth of ScB2 Crystals for AlGaN Power Electronics",
+     "url": "https://arxiv.org/abs/2609.36493",
+     "doi": "10.48550/arXiv.2609.36493",
+     "source": "arXiv（预印本）",
+     "source_en": "arXiv (preprint)",
+     "date": "2026-09-29",
+     "category": "学术论文",
+     "category_en": "Research paper",
+     "summary": "研究团队在激光加热光学浮区炉中用移动溶剂法在常压下生长出超高温陶瓷 ScB₂ 单晶，富 B 自助熔剂生长的晶锭在初始成核区后为单畴、无晶界，表明 ScB₂ 可作为富 Al 的 AlGaN 功率微电子的晶格匹配衬底候选。晶锭用 Bruker SkyScan 1172 显微 CT 扫描，数据用 Dragonfly 2021.1（ORS）分析。",
+     "summary_en": "The team grew single-crystal ScB₂, an ultrahigh-temperature ceramic, at ambient pressure in a laser-heated optical floating zone furnace using the travelling solvent method; boules grown from B-rich self-flux were single-domain and free of grain boundaries after the initial nucleation region, making ScB₂ a lattice-matched substrate candidate for Al-rich AlGaN power electronics. A boule was scanned on a Bruker SkyScan 1172 micro-CT, and the data were analyzed in Dragonfly 2021.1 (ORS).",
+     "tags": [
+      "晶体生长",
+      "显微 CT",
+      "功率电子"
+     ],
+     "tags_en": [
+      "Crystal growth",
+      "Micro-CT",
+      "Power electronics"
+     ]
+    },
+    {
+     "title": "可规模化自组装超材料中的手性反转与巨光学活性",
+     "title_en": "Chirality Inversion and Giant Optical Activity in Scalable Self-Assembled Metamaterials",
+     "url": "https://arxiv.org/abs/2610.18116",
+     "doi": "10.48550/arXiv.2610.18116",
+     "source": "arXiv（预印本）",
+     "source_en": "arXiv (preprint)",
+     "date": "2026-10-13",
+     "category": "学术论文",
+     "category_en": "Research paper",
+     "summary": "研究团队把金属纳米颗粒和生物来源的甲壳素纳米晶共组装成分级螺旋超材料，获得强等离激元光学活性（不对称因子达 0.55），并可通过调节螺距在不改变模板手性的情况下反转光学手性，金纳米颗粒还能从干膜中回收再分散。FIB-SEM 断层图像的堆栈对齐与分割，以及每个金双锥颗粒的位置和取向提取，均在 Dragonfly（ORS）中完成。",
+     "summary_en": "The team co-assembled metallic nanoparticles with bio-sourced chitin nanocrystals into hierarchical helicoidal metamaterials with strong plasmonic optical activity (dissymmetry factor up to 0.55), and by tuning the helical pitch inverted the optical handedness without changing the template's handedness; the gold nanoparticles can also be recovered from dry films and redispersed. FIB-SEM tomography stack alignment and segmentation, and extraction of each gold bipyramid's position and orientation, were done in Dragonfly (ORS).",
+     "tags": [
+      "手性超材料",
+      "FIB-SEM",
+      "颗粒取向"
+     ],
+     "tags_en": [
+      "Chiral metamaterials",
+      "FIB-SEM",
+      "Particle orientation"
+     ]
+    },
+    {
+     "title": "用 X 射线相衬断层成像研究猪模型中的纹身颗粒",
+     "title_en": "Investigating tattoo particles in the porcine model using X-ray phase-contrast tomography",
+     "url": "https://www.researchsquare.com/article/rs-10878872/v1",
+     "doi": "10.21203/rs.3.rs-10878872/v1",
+     "source": "Research Square（预印本）",
+     "source_en": "Research Square (preprint)",
+     "date": "2026-10-28",
+     "category": "学术论文",
+     "category_en": "Research paper",
+     "summary": "研究团队结合同步辐射单光栅相衬显微 CT、Zernike 相衬纳米 CT 和 TEM，研究 28 天猪模型纹身皮肤和一例对红色颜料过敏的人体活检，追踪颜料团聚体在皮肤各层中的三维分布和第 7、14、28 天的免疫反应；体积定量只回收了预期 TiO₂ 含量的 6.4%，显示显微 CT 的局限。表皮、真皮、皮下层的分割使用 Dragonfly 3D World 2025（Comet Technologies Canada）。",
+     "summary_en": "The team combined synchrotron single-grid phase-contrast micro-CT, Zernike phase-contrast nano-CT and TEM to study tattooed skin in a 28-day porcine model and a human biopsy with an allergic reaction to a red pigment, tracking the 3D distribution of pigment agglomerates across skin layers and the immune response at days 7, 14 and 28; volume quantification recovered only 6.4% of the expected TiO₂, showing a limit of micro-CT. Epidermis, dermis and hypodermis were segmented in Dragonfly 3D World 2025 (Comet Technologies Canada).",
+     "tags": [
+      "皮肤病学",
+      "相衬 CT",
+      "纹身颜料"
+     ],
+     "tags_en": [
+      "Dermatology",
+      "Phase-contrast CT",
+      "Tattoo pigments"
+     ]
+    },
+    {
+     "title": "骨-种植体界面的骨整合动态：接触成骨与远距成骨",
+     "title_en": "Osseointegration dynamics at bone-implant interface: contact and distant osteogenesis",
+     "url": "https://mbj.episciences.org/en/articles/19246/download",
+     "doi": "10.46298/mbj.19246",
+     "source": "Multidisciplinary Biomechanics Journal（法国生物力学学会 2026 年会）",
+     "source_en": "Multidisciplinary Biomechanics Journal (Société de Biomécanique 2026 congress)",
+     "date": "2026-10-27",
+     "category": "学术论文",
+     "category_en": "Research paper",
+     "summary": "巴黎萨克雷大学 CentraleSupélec 与 CNRS 团队把带骨腔的 TiAl6V4 种植体植入兔胫骨 7 周和 13 周，用 SEM 背散射图像观察新生骨：腔内骨分数在两周期间增加 42%，同时见到接触成骨和远距成骨，新生骨中的骨管和骨细胞陷窝都比成熟骨大。图像在 Dragonfly（Comet Technologies Canada）中用 Otsu 自动阈值把骨与骨管、骨细胞陷窝分开并做定量。",
+     "summary_en": "CentraleSupélec (Université Paris-Saclay) and CNRS implanted TiAl6V4 implants with a bone chamber in rabbit tibiae for 7 and 13 weeks and examined new bone with SEM backscattered imaging: bone fraction in the chamber rose 42% between the two time points, both contact and distant osteogenesis were seen, and canals and osteocyte lacunae were larger in new bone than in mature bone. Bone was segmented from canals and osteocyte lacunae with automatic Otsu thresholding in Dragonfly (Comet Technologies Canada).",
+     "tags": [
+      "骨整合",
+      "种植体",
+      "图像分割"
+     ],
+     "tags_en": [
+      "Osseointegration",
+      "Implants",
+      "Image segmentation"
+     ]
+    },
+    {
+     "title": "从重建到解读：可零设置部署的 X 射线断层多相分割模型",
+     "title_en": "From reconstruction to interpretation: zero-setup deployable model for multi-phase segmentation of X-ray tomography data",
+     "url": "https://www.nature.com/articles/s41598-026-75615-9",
+     "doi": "10.1038/s41598-026-75615-9",
+     "source": "Scientific Reports",
+     "source_en": "Scientific Reports",
+     "date": "2026-10-22",
+     "category": "学术论文",
+     "category_en": "Research paper",
+     "summary": "劳伦斯伯克利国家实验室先进光源（ALS）与辛辛那提大学提出一种同步辐射 X 射线断层多相分割框架，用可复用的衰减和形态掩膜类别加预训练语义分割网络，不需要提示、调参或重新训练就能对新数据给出初步分割，用四块 A100 GPU 分割 500 层 2560×2560 体数据用时 67.1 秒。据同一团队的预印本（arXiv:2607.12175）方法部分，训练用的真值掩膜由商业软件 Dragonfly（ORS）通过阈值和最大连通域等操作制作。",
+     "summary_en": "The Advanced Light Source at Lawrence Berkeley National Laboratory and the University of Cincinnati present a framework for multi-phase segmentation of synchrotron X-ray tomography that combines reusable attenuation- and morphology-based mask categories with a pretrained semantic segmentation network, giving first-pass segmentations of new data without prompting, tuning or retraining; a 500-slice 2560×2560 volume took 67.1 s on four A100 GPUs. According to the methods of the team's preprint (arXiv:2607.12175), ground-truth masks for training were prepared in the commercial software Dragonfly (ORS) using thresholding and largest-connected-component operations.",
+     "tags": [
+      "深度学习分割",
+      "同步辐射 CT",
+      "真值标注"
+     ],
+     "tags_en": [
+      "Deep-learning segmentation",
+      "Synchrotron CT",
+      "Ground-truth annotation"
+     ]
+    }
+   ]
+  },
+  {
    "date": "2026-10-28",
    "count": 3,
    "page": "news/2026-10-28.html",
@@ -1232,5 +1446,5 @@
   }
  ],
  "site": "Dragonfly 3D World News",
- "updated": "2026-10-28"
+ "updated": "2026-10-29"
 }
