@@ -1,7 +1,7 @@
 {
- "updated": "2026-10-29",
+ "updated": "2026-10-30",
  "site": "Dragonfly 3D World News",
- "count": 65,
+ "count": 66,
  "topics": [
   {
    "key": "life-sciences",
@@ -45,6 +45,49 @@
   }
  ],
  "entries": [
+  {
+   "id": "doi:10.1016/j.xnsj.2026.100955",
+   "title": "预凝固硫酸钙二水合物/羟基磷灰石骨移植增量材料在兔腰椎后外侧融合模型中的评估",
+   "title_en": "Evaluation of a Pre-set Calcium Sulphate Dihydrate/Hydroxyapatite Bone Graft Extender in a Rabbit Posterolateral Spinal Fusion Model",
+   "summary": "瑞典隆德大学与立陶宛健康科学大学在 26 只兔的 L4–L5 后外侧腰椎融合模型中，评估 XERAFUSE 预凝固硫酸钙二水合物/羟基磷灰石颗粒按 1:1 与自体骨合用作为骨移植增量材料的效果。离体 micro-CT（30 µm 体素）在 Dragonfly 3D World 1.14.4.1 中做定量形态学和三维可视化：先用 1900–6500 HU 全局阈值分出矿化组织，再用 Dragonfly 的 Segmentation Wizard（训练分类器）把融合区分为骨组织和残余材料，两名评估者独立标注，结果差异小于 15%，并用「Bone」预设生成三维重建。12 周时增量材料组骨体积 850 ± 68.4 mm³，显著高于单用自体骨组的 468.9 ± 105.3 mm³；融合块中材料占比从 4 周的 41.3% 降到 12 周的 28.1%。作者致谢 Comet Technologies（加拿大）提供 Dragonfly 非商业许可。",
+   "summary_en": "Lund University (Sweden) and the Lithuanian University of Health Sciences evaluated XERAFUSE pre-set calcium sulphate dihydrate/hydroxyapatite granules, co-implanted 1:1 with autograft as a bone graft extender, in an L4–L5 posterolateral lumbar fusion model in 26 rabbits. Ex vivo micro-CT (30 µm voxels) was analyzed and visualized in Dragonfly 3D World 1.14.4.1: a 1900–6500 HU global threshold isolated mineralized tissue, then Dragonfly's Segmentation Wizard (a trained classifier) separated the fusion mass into bone and residual biomaterial, with two independent evaluators agreeing within 15%, and 3D reconstructions were made with the \"Bone\" preset. At 12 weeks bone volume in the extender group was 850 ± 68.4 mm³ versus 468.9 ± 105.3 mm³ with autograft alone, and the material fraction of the fusion mass fell from 41.3% at 4 weeks to 28.1% at 12 weeks. The authors thank Comet Technologies (Canada) for a non-commercial Dragonfly license.",
+   "url": "https://www.nassopenaccess.org/article/S2666-5484(26)00109-5/fulltext",
+   "doi": "10.1016/j.xnsj.2026.100955",
+   "date": "2026-10-05",
+   "digest_date": "2026-10-30",
+   "digest_page": "news/2026-10-30.html",
+   "source": "North American Spine Society Journal（NASSJ，Elsevier）",
+   "source_en": "North American Spine Society Journal (NASSJ, Elsevier)",
+   "category": "学术论文",
+   "category_en": "Research paper",
+   "tags": [
+    "脊柱融合",
+    "显微 CT",
+    "Segmentation Wizard"
+   ],
+   "tags_en": [
+    "Spinal fusion",
+    "Micro-CT",
+    "Segmentation Wizard"
+   ],
+   "topics": [
+    {
+     "key": "life-sciences",
+     "zh": "生命科学",
+     "en": "Life Sciences"
+    },
+    {
+     "key": "materials-manufacturing",
+     "zh": "材料与制造",
+     "en": "Materials & Manufacturing"
+    },
+    {
+     "key": "ai-deep-learning",
+     "zh": "AI 与深度学习",
+     "en": "AI & Deep Learning"
+    }
+   ]
+  },
   {
    "id": "url:https://comet.tech/dragonfly/blog/dragonfly-academic-vs-full-license",
    "title": "Dragonfly 3D World 2027：学术许可与完整许可的区别",
