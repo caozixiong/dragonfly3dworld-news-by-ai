@@ -1,7 +1,7 @@
 {
- "updated": "2026-11-01",
+ "updated": "2026-11-02",
  "site": "Dragonfly 3D World News",
- "count": 72,
+ "count": 75,
  "topics": [
   {
    "key": "life-sciences",
@@ -45,6 +45,125 @@
   }
  ],
  "entries": [
+  {
+   "id": "url:https://www.youtube.com/watch?v=qdjmaic5wx4",
+   "title": "冻结颗粒堆积体内部：颗粒、冰和空气的三维 micro-CT 视频",
+   "title_en": "Inside a Frozen Particle Packing: Particles, Ice and Air in 3D (Micro-CT)",
+   "summary": "Amirali Khosrozadeh 发布的 YouTube 视频：一份冻结的玻璃珠堆积体经 X 射线 micro-CT 扫描后在 Dragonfly 中分割和标记，重建结果分出三相：把样品粘结在一起的冰、每一颗玻璃珠，以及困在小孔隙里的空气。视频说明，冻结颗粒材料中固体颗粒、冰和空气同时存在并相互作用，研究其变形、融化和破坏需要耦合固体力学、传热和相变的多物理场模拟。",
+   "summary_en": "A YouTube video by Amirali Khosrozadeh: a frozen packing of glass beads scanned with X-ray micro-CT and segmented and labelled in Dragonfly, separating three phases: the ice that bonds the sample, every individual glass bead, and the air trapped in small pores. The video notes that solid particles, ice and air coexist and interact in frozen granular materials, so studying how they deform, melt and break calls for multiphysics simulation coupling solid mechanics, heat transfer and phase change.",
+   "url": "https://www.youtube.com/watch?v=qdJmAIC5WX4",
+   "doi": "",
+   "date": "2026-11-02",
+   "digest_date": "2026-11-02",
+   "digest_page": "news/2026-11-02.html",
+   "source": "YouTube · AmirAli Khosrozadeh",
+   "source_en": "YouTube · AmirAli Khosrozadeh",
+   "category": "应用案例",
+   "category_en": "Application note",
+   "tags": [
+    "显微 CT",
+    "冻土与颗粒材料",
+    "多相分割"
+   ],
+   "tags_en": [
+    "Micro-CT",
+    "Frozen granular materials",
+    "Multiphase segmentation"
+   ],
+   "topics": [
+    {
+     "key": "materials-manufacturing",
+     "zh": "材料与制造",
+     "en": "Materials & Manufacturing"
+    },
+    {
+     "key": "releases-features",
+     "zh": "版本与功能",
+     "en": "Releases & Features"
+    }
+   ]
+  },
+  {
+   "id": "doi:10.1002/ajpa.70375",
+   "title": "咬合面起伏和牙齿磨耗可预测圈养狒狒的髓腔体积",
+   "title_en": "Occlusal Relief and Dental Wear Predict Pulp Chamber Volume in Captive Baboons",
+   "summary": "宾夕法尼亚大学、麦吉尔大学、西班牙 CENIEH 和芝加哥洛约拉大学团队研究了西南国家灵长类研究中心 46 只成年狒狒的 M1–M3 磨牙，检验髓腔体积、牙齿磨耗和牙面形貌之间的关系。下颌骨在 Bruker SkyScan 1273 上做 micro-CT 扫描（体素约 35–39 μm），髓腔体积在 Dragonfly（Object Research Systems）中测量：在正交切片视图里用灰度阈值加人工修正，把髓腔从周围牙本质中分割出来。结果显示校正后的髓腔体积随“磨耗年龄”、牙本质暴露比例和 Krueger-Scott 评分增加而减小，牙面形貌指标中只有起伏指数（RFI）在各颗磨牙上都与髓腔体积相关。",
+   "summary_en": "Teams at the University of Pennsylvania, McGill University, CENIEH (Spain) and Loyola University Chicago studied M1–M3 molars from 46 adult baboons of the Southwest National Primate Research Center to test how pulp chamber volume covaries with dental wear and dental topography. Mandibles were scanned on a Bruker SkyScan 1273 micro-CT (voxel size about 35–39 μm), and pulp chamber volume was measured in Dragonfly (Object Research Systems), segmenting the pulp from surrounding dentin by grayscale thresholding with manual refinement in orthogonal slice views. Corrected pulp volume decreased with wear age, dentin exposure ratio and Krueger-Scott scores, and relief index (RFI) was the only topography measure associated with pulp volume across molars.",
+   "url": "https://doi.org/10.1002/ajpa.70375",
+   "doi": "10.1002/ajpa.70375",
+   "date": "2026-10-30",
+   "digest_date": "2026-11-02",
+   "digest_page": "news/2026-11-02.html",
+   "source": "American Journal of Biological Anthropology",
+   "source_en": "American Journal of Biological Anthropology",
+   "category": "学术论文",
+   "category_en": "Research paper",
+   "tags": [
+    "显微 CT",
+    "牙齿形态",
+    "灵长类"
+   ],
+   "tags_en": [
+    "Micro-CT",
+    "Dental morphology",
+    "Primates"
+   ],
+   "topics": [
+    {
+     "key": "life-sciences",
+     "zh": "生命科学",
+     "en": "Life Sciences"
+    }
+   ]
+  },
+  {
+   "id": "url:https://is.muni.cz/publication/2594798",
+   "title": "捷克 Mladeč 中更新世棋斑游蛇脑颅形态：一项 CT 研究",
+   "title_en": "Braincase morphology of the Middle Pleistocene dice snake (Natrix tessellata) from Mladeč: a computed tomography study",
+   "summary": "马萨里克大学的 Dohnal 和 Ivanov 研究了捷克 Mladeč 洞穴中更新世（Saalian 复合期，可能为 MIS 9e）出土的一件保存异常完整的棋斑游蛇（Natrix tessellata）化石脑颅。标本用 Phoenix v|tome|x S240 做 micro-CT 扫描，在 Dragonfly 3D World 2025.1 中处理，再用 MeshLab 生成各颅骨元素的三维模型并与现生欧洲支系和希腊支系对比。顶骨和副蝶骨的形态显示该化石属于如今只分布在希腊西部的希腊支系，说明这一支系在中更新世的分布范围比现在广得多。",
+   "summary_en": "Dohnal and Ivanov (Masaryk University) describe an unusually well-preserved, almost complete braincase of a fossil dice snake (Natrix tessellata) from the Middle Pleistocene (Saalian Complex, probably MIS 9e) of the Mladeč Caves, Czech Republic. The braincase was scanned with a Phoenix v|tome|x S240 micro-CT and processed in Dragonfly 3D World 2025.1, then 3D models of the cranial elements were built in MeshLab and compared with extant individuals of the Europe and Greece clades. The morphology of the parietal and parabasisphenoid assigns the fossil to the Greece clade, now restricted to western Greece, indicating a much wider Middle Pleistocene range for this lineage.",
+   "url": "https://is.muni.cz/publication/2594798",
+   "doi": "",
+   "date": "2026-10-22",
+   "digest_date": "2026-11-02",
+   "digest_page": "news/2026-11-02.html",
+   "source": "第 25 届捷克–斯洛伐克–波兰古生物学会议（会议摘要，马萨里克大学）",
+   "source_en": "25th Czech–Slovak–Polish Paleontological Conference (abstract, Masaryk University)",
+   "category": "学术论文",
+   "category_en": "Research paper",
+   "tags": [
+    "显微 CT",
+    "古生物",
+    "爬行动物化石"
+   ],
+   "tags_en": [
+    "Micro-CT",
+    "Paleontology",
+    "Reptile fossils"
+   ],
+   "topics": [
+    {
+     "key": "life-sciences",
+     "zh": "生命科学",
+     "en": "Life Sciences"
+    },
+    {
+     "key": "geoscience-archaeology",
+     "zh": "地球科学与考古",
+     "en": "Geoscience & Archaeology"
+    },
+    {
+     "key": "releases-features",
+     "zh": "版本与功能",
+     "en": "Releases & Features"
+    },
+    {
+     "key": "official",
+     "zh": "官方动态",
+     "en": "Official Updates"
+    }
+   ]
+  },
   {
    "id": "doi:10.1186/s11671-026-04923-w",
    "title": "多功能复合磁性颗粒联合静磁场通过 SLC2A1 介导的 HIF-1 和 PI3K/AKT 通路治疗感染性骨缺损",
