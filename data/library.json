@@ -1,7 +1,7 @@
 {
- "updated": "2026-11-02",
+ "updated": "2026-11-03",
  "site": "Dragonfly 3D World News",
- "count": 75,
+ "count": 79,
  "topics": [
   {
    "key": "life-sciences",
@@ -45,6 +45,153 @@
   }
  ],
  "entries": [
+  {
+   "id": "url:https://cmm-quarterly.squarespace.com/articles/from-microscopy-images-to-measurable-3d-structures",
+   "title": "从显微图像到可测量的三维结构：Dragonfly 3D World ZEISS 版介绍",
+   "title_en": "From Microscopy Images to Measurable 3D Structures",
+   "summary": "CMM Quarterly 的 Mark Boucher 撰文介绍 Dragonfly 3D World ZEISS 版如何处理 X 射线显微镜和 FIB-SEM 等 2D、3D 及时间序列数据：体渲染与多平面视图、不同尺度数据的配准和拼接，滤波、阈值、形态学等图像处理和机器学习分割，可选的深度学习模块，以及体积、表面积、孔隙率、连通性和迂曲度等定量测量，并支持用 Python（NumPy、SciPy）编写脚本实现可重复流程。文中也提醒，结果仍取决于扫描质量和分割是否可靠。",
+   "summary_en": "Mark Boucher of CMM Quarterly explains how Dragonfly 3D World ZEISS edition handles 2D, 3D and time-dependent data from X-ray microscopy and FIB-SEM: volume rendering and multiplanar views, registering and stitching data from different scales, filtering, thresholding, morphology and machine-learning segmentation, an optional deep-learning module, and measurements such as volume, surface area, porosity, connectivity and tortuosity, with Python scripting (NumPy, SciPy) for repeatable workflows. The article notes that results still depend on scan quality and reliable segmentation.",
+   "url": "https://cmm-quarterly.squarespace.com/articles/from-microscopy-images-to-measurable-3d-structures",
+   "doi": "",
+   "date": "2026-11-03",
+   "digest_date": "2026-11-03",
+   "digest_page": "news/2026-11-03.html",
+   "source": "CMM Quarterly（Mark Boucher）",
+   "source_en": "CMM Quarterly (Mark Boucher)",
+   "category": "技术解析",
+   "category_en": "Technical explainer",
+   "tags": [
+    "X 射线显微镜",
+    "FIB-SEM",
+    "定量分析"
+   ],
+   "tags_en": [
+    "X-ray microscopy",
+    "FIB-SEM",
+    "Quantitative analysis"
+   ],
+   "topics": [
+    {
+     "key": "life-sciences",
+     "zh": "生命科学",
+     "en": "Life Sciences"
+    },
+    {
+     "key": "materials-manufacturing",
+     "zh": "材料与制造",
+     "en": "Materials & Manufacturing"
+    },
+    {
+     "key": "ai-deep-learning",
+     "zh": "AI 与深度学习",
+     "en": "AI & Deep Learning"
+    }
+   ]
+  },
+  {
+   "id": "url:https://www.youtube.com/watch?v=h3d5nbwekpu",
+   "title": "【Dragonfly】3D 图像数据从读入到保存：三维图像分析基本操作（日语视频）",
+   "title_en": "Dragonfly basics: from loading to saving 3D image data (Japanese video)",
+   "summary": "日本 MAXNET（株式会社マックスネット）频道发布的约 5 分钟日语入门视频，以 Dragonfly 2027.1 演示三维图像数据从读入到保存的基本流程：界面的看法、显示操作、亮度调整和裁剪所需区域，面向第一次使用的用户。",
+   "summary_en": "A roughly five-minute Japanese tutorial from the MAXNET channel (Imaging Compass) that walks first-time users through the basic Dragonfly 2027.1 workflow from loading to saving 3D image data: reading the interface, display controls, brightness adjustment and cropping the region of interest.",
+   "url": "https://www.youtube.com/watch?v=H3D5nBwEkPU",
+   "doi": "",
+   "date": "2026-11-02",
+   "digest_date": "2026-11-03",
+   "digest_page": "news/2026-11-03.html",
+   "source": "YouTube · Imaging Compass by MAXNET",
+   "source_en": "YouTube · Imaging Compass by MAXNET",
+   "category": "功能介绍",
+   "category_en": "Tutorial",
+   "tags": [
+    "入门教程",
+    "Dragonfly 2027.1",
+    "日语"
+   ],
+   "tags_en": [
+    "Getting started",
+    "Dragonfly 2027.1",
+    "Japanese"
+   ],
+   "topics": [
+    {
+     "key": "releases-features",
+     "zh": "版本与功能",
+     "en": "Releases & Features"
+    }
+   ]
+  },
+  {
+   "id": "doi:10.21203/rs.3.rs-10814722/v1",
+   "title": "序贯螯合、连续螯合与 Triton® 一体化冲洗方案清除根管内堆积硬组织碎屑的效果比较：一项 micro-CT 研究",
+   "title_en": "Comparative Efficacy of Sequential Chelation, Continuous Chelation, and Triton® All-In-One Irrigation Protocols for Removing Accumulated Hard-Tissue Debris: A Micro-CT Study",
+   "summary": "研究用 36 颗离体单根管人牙，平均分成三组，分别用 NaOCl 后接 EDTA、Triton® All-In-One、NaOCl 混合 Dual Rinse® HEDP 冲洗，根管预备前后各做一次 micro-CT（各向同性 8.92 µm）。前后数据导入 Dragonfly 3D World（Comet Technologies Canada）做三维配准，再用半自动分割和专用阈值区分根管空间、牙本质和堆积的硬组织碎屑并计算体积。三组残留碎屑中位体积分别为 0.38、0.41 和 0.31 mm³，差异无统计学意义，没有一种方案能完全避免碎屑堆积。",
+   "summary_en": "Thirty-six extracted single-canal human teeth were split into three groups irrigated with NaOCl followed by EDTA, Triton® All-In-One, or NaOCl mixed with Dual Rinse® HEDP, with micro-CT scans (8.92 µm isotropic) before and after canal preparation. Pre- and post-treatment datasets were registered in 3D in Dragonfly 3D World (Comet Technologies Canada), and canal space, dentin and accumulated hard-tissue debris were separated by semiautomated segmentation with dedicated thresholds to compute volumes. Median residual debris volumes were 0.38, 0.41 and 0.31 mm³; the differences were not significant, and no protocol fully prevented debris accumulation.",
+   "url": "https://www.researchsquare.com/article/rs-10814722/v1",
+   "doi": "10.21203/rs.3.rs-10814722/v1",
+   "date": "2026-11-01",
+   "digest_date": "2026-11-03",
+   "digest_page": "news/2026-11-03.html",
+   "source": "Research Square（预印本）",
+   "source_en": "Research Square (preprint)",
+   "category": "学术论文",
+   "category_en": "Research paper",
+   "tags": [
+    "显微 CT",
+    "牙髓病学",
+    "图像配准"
+   ],
+   "tags_en": [
+    "Micro-CT",
+    "Endodontics",
+    "Image registration"
+   ],
+   "topics": [
+    {
+     "key": "life-sciences",
+     "zh": "生命科学",
+     "en": "Life Sciences"
+    }
+   ]
+  },
+  {
+   "id": "doi:10.18452/39565",
+   "title": "四足动物头骨简化：一项宏观演化研究（柏林洪堡大学博士论文）",
+   "title_en": "Skull Simplification in Tetrapoda: A Macroevolutionary Approach (HU Berlin doctoral thesis)",
+   "summary": "Kim Julia Kean 的柏林洪堡大学博士论文研究四足动物演化中头骨顶部骨块的减少与愈合。其中一章挑选 16 件早期四足动物化石（离片椎类和壳椎类），先在柏林自然博物馆用 Comet YXLON FF85 做 CT 扫描，再到欧洲同步辐射装置（ESRF）BM05 线站做相衬同步辐射 micro-CT，重点扫描颞区等最可能发生骨缝愈合的部位；CT 和同步辐射数据都在 Dragonfly 3D World 2024.1（Comet Technologies Canada）中做可视化分析。",
+   "summary_en": "Kim Julia Kean's doctoral thesis at Humboldt-Universität zu Berlin examines the loss and fusion of skull-roof bones across tetrapod evolution. One chapter selects 16 early tetrapod fossils (temnospondyls and lepospondyls), CT-scans them on a Comet YXLON FF85 at the Museum für Naturkunde Berlin and then by propagation phase-contrast synchrotron micro-CT at ESRF beamline BM05, focusing on regions such as the temporal series where suture closure is most likely; both CT and synchrotron data were visualised in Dragonfly 3D World 2024.1 (Comet Technologies Canada).",
+   "url": "https://edoc.hu-berlin.de/18452/40242",
+   "doi": "10.18452/39565",
+   "date": "2026-10-30",
+   "digest_date": "2026-11-03",
+   "digest_page": "news/2026-11-03.html",
+   "source": "柏林洪堡大学 edoc 文献库（博士论文）",
+   "source_en": "Humboldt-Universität zu Berlin edoc server (doctoral thesis)",
+   "category": "学术论文",
+   "category_en": "Research paper",
+   "tags": [
+    "同步辐射 CT",
+    "古生物",
+    "头骨演化"
+   ],
+   "tags_en": [
+    "Synchrotron CT",
+    "Paleontology",
+    "Skull evolution"
+   ],
+   "topics": [
+    {
+     "key": "geoscience-archaeology",
+     "zh": "地球科学与考古",
+     "en": "Geoscience & Archaeology"
+    },
+    {
+     "key": "releases-features",
+     "zh": "版本与功能",
+     "en": "Releases & Features"
+    }
+   ]
+  },
   {
    "id": "url:https://www.youtube.com/watch?v=qdjmaic5wx4",
    "title": "冻结颗粒堆积体内部：颗粒、冰和空气的三维 micro-CT 视频",
