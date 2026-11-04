@@ -1,6 +1,36 @@
 {
  "days": [
   {
+   "date": "2026-11-04",
+   "count": 1,
+   "page": "news/2026-11-04.html",
+   "items": [
+    {
+     "title": "Dragonfly Notebook：在 Dragonfly 里直接运行 Jupyter 笔记本的开源插件",
+     "title_en": "Dragonfly Notebook: an open-source plugin for running Jupyter-style notebooks inside Dragonfly",
+     "url": "https://github.com/Didziokas/Dragonfly-Notebook",
+     "doi": "",
+     "source": "GitHub · Marius Didziokas",
+     "source_en": "GitHub · Marius Didziokas",
+     "date": "2026-11-03",
+     "category": "工具发布",
+     "category_en": "Tool release",
+     "summary": "Marius Didziokas 在 GitHub 以 MIT 许可证开源了 Dragonfly Notebook 插件，可在 Dragonfly 里以 Jupyter 方式运行 Python 单元：把通道、ROI 和 MultiROI 作为 numpy 数组导入，再把结果作为 Dragonfly 对象发布回场景，并能读写分割结果的测量属性。笔记本在独立进程和自带的 IPython 内核中运行，执行时 Dragonfly 界面不卡顿，支持停止按钮和实时输出；文件为标准 .ipynb，可选独立 Python 环境并用 pip 安装包。目前要求 Windows 上的 Dragonfly 2025.1，安装后在 Utilities > Plugins 菜单中启动。",
+     "summary_en": "Marius Didziokas has released Dragonfly Notebook on GitHub under the MIT licence, letting users run Jupyter-style Python cells inside Dragonfly: channels, ROIs and MultiROIs are imported as numpy arrays, results are published back to the scene as Dragonfly objects, and measured properties of a segmentation can be read and written. The notebook runs in its own process with a private IPython kernel, so the Dragonfly GUI stays responsive with a Stop button and live output; files are plain .ipynb, and optional private Python environments support pip installs. It currently requires Dragonfly 2025.1 on Windows and is launched from Utilities > Plugins after installation.",
+     "tags": [
+      "插件",
+      "Python",
+      "Jupyter"
+     ],
+     "tags_en": [
+      "Plugin",
+      "Python",
+      "Jupyter"
+     ]
+    }
+   ]
+  },
+  {
    "date": "2026-11-03",
    "count": 4,
    "page": "news/2026-11-03.html",
@@ -1732,5 +1762,5 @@
   }
  ],
  "site": "Dragonfly 3D World News",
- "updated": "2026-11-03"
+ "updated": "2026-11-04"
 }
