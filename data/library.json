@@ -1,7 +1,7 @@
 {
- "updated": "2026-11-04",
+ "updated": "2026-11-08",
  "site": "Dragonfly 3D World News",
- "count": 80,
+ "count": 93,
  "topics": [
   {
    "key": "life-sciences",
@@ -45,6 +45,500 @@
   }
  ],
  "entries": [
+  {
+   "id": "doi:10.1371/journal.pone.0359832",
+   "title": "含毫米级裂纹浅层黄土的初始破坏形态：工业 CT 三维成像",
+   "title_en": "Initial failure morphology of shallow loess containing millimeter-scale cracks: Insights from CT 3d imaging",
+   "summary": "广东工业大学赵璐清、周翠英与长安大学彭建兵等用工业 CT 研究含人工毫米级裂纹黄土试样的初始破坏形态。预处理后的 CT 图像在 Dragonfly（Comet Technologies Canada）中做三维重建；再用软件内高度封装的 2.5D U-Net 插件（5 层编码器–解码器、初始 64 个滤波器、三连续切片输入、64×64 补丁、Ors Dice Loss、Adadelta 优化、训练 100 步）分割黄土基质、裂纹和孔隙。",
+   "summary_en": "Luqing Zhao and Cuiying Zhou at Guangdong University of Technology, with Jianbing Peng at Chang'an University and colleagues, used industrial CT to study the initial failure morphology of loess specimens containing artificial millimeter-scale cracks. After pre-processing, three-dimensional reconstructions were generated in Dragonfly (Comet Technologies Canada). A highly encapsulated 2.5D U-Net plugin in the software (5-layer encoder–decoder, 64 initial filters, three consecutive input slices, 64×64 patches, Ors Dice Loss, Adadelta, 100 training steps) was trained to separate loess matrix, cracks and pores.",
+   "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0359832",
+   "doi": "10.1371/journal.pone.0359832",
+   "date": "2026-11-05",
+   "digest_date": "2026-11-08",
+   "digest_page": "news/2026-11-08.html",
+   "source": "PLoS ONE · 广东工业大学 / 长安大学",
+   "source_en": "PLoS ONE · Guangdong University of Technology / Chang'an University",
+   "category": "学术论文",
+   "category_en": "Research paper",
+   "tags": [
+    "工业 CT",
+    "黄土",
+    "2.5D U-Net"
+   ],
+   "tags_en": [
+    "Industrial CT",
+    "Loess",
+    "2.5D U-Net"
+   ],
+   "topics": [
+    {
+     "key": "life-sciences",
+     "zh": "生命科学",
+     "en": "Life Sciences"
+    },
+    {
+     "key": "materials-manufacturing",
+     "zh": "材料与制造",
+     "en": "Materials & Manufacturing"
+    }
+   ]
+  },
+  {
+   "id": "doi:10.1038/s41556-026-02118-0",
+   "title": "Tau 单体与纤维通过不同细胞机制逃逸小胶质细胞清除",
+   "title_en": "Tau monomers and fibrils escape microglial clearance via distinct cellular mechanisms",
+   "summary": "Genentech 等研究 tau 单体与纤维逃逸人源诱导多能干细胞来源小胶质细胞清除的不同机制。断层分割与可视化使用 DragonFly（https://dragonfly.comet.tech）：先滤波增强对比并手动标注二维补丁，建立一个通用模型后再对每个断层微调，分割结果导出到 ChimeraX，断层切片则用 IMOD 显示。",
+   "summary_en": "Researchers at Genentech and collaborators study how tau monomers and fibrils escape clearance by human iPSC-derived microglia through distinct cellular mechanisms. Tomogram segmentation was performed in DragonFly (https://dragonfly.comet.tech): tomograms were filtered to enhance contrast for manual annotation of two-dimensional patches, an initial universal model was trained and then retrained on each tomogram, and segmentations were exported to ChimeraX, with tomographic slices visualized in IMOD.",
+   "url": "https://www.nature.com/articles/s41556-026-02118-0",
+   "doi": "10.1038/s41556-026-02118-0",
+   "date": "2026-11-05",
+   "digest_date": "2026-11-08",
+   "digest_page": "news/2026-11-08.html",
+   "source": "Nature Cell Biology · Genentech 等",
+   "source_en": "Nature Cell Biology · Genentech and collaborators",
+   "category": "学术论文",
+   "category_en": "Research paper",
+   "tags": [
+    "冷冻电子断层",
+    "神经退行",
+    "断层分割"
+   ],
+   "tags_en": [
+    "Cryo-ET",
+    "Neurodegeneration",
+    "Tomogram segmentation"
+   ],
+   "topics": [
+    {
+     "key": "ai-deep-learning",
+     "zh": "AI 与深度学习",
+     "en": "AI & Deep Learning"
+    }
+   ]
+  },
+  {
+   "id": "doi:10.21203/rs.3.rs-11393438/v1",
+   "title": "增材合金内部型腔的 X 射线 CT 与三坐标测量基准数据集",
+   "title_en": "X-ray tomography and coordinate metrology benchmark for internal cavities in additively manufactured alloys",
+   "summary": "蒙特利尔高等技术学校（ETS）、蒙特利尔综合理工与 Comet Technologies Canada 的 Eric Fournier 合作，发布增材制造 Ti-6Al-4V 和 Inconel 625 内部型腔的 CT–三坐标测量机（CMM）壁厚基准，覆盖毛坯和化学铣削四种情形。基准 CT 表面分割在 Dragonfly 3D World 2025.1 中生成；其中一条深度学习路线使用随该版本发布的专有权重 U-Net 类模型。代码可用性声明写明 CT 重建用 CERA、表面分割用 Dragonfly 3D World 2025.1，软件可从 https://dragonfly.comet.tech/ 获取，符合条件的非商业学术用户可申请免费学术许可。",
+   "summary_en": "Researchers at ÉTS, Polytechnique Montréal and Eric Fournier of Comet Technologies Canada release a CT–CMM wall-thickness benchmark for internal cavities in additively manufactured Ti-6Al-4V and Inconel 625, covering rough and chemically milled states. Benchmark CT surfaces were segmented in Dragonfly 3D World 2025.1; a deep-learning route uses a U-Net-like model with proprietary weights released as part of that version. The code-availability statement says reconstructions were generated in CERA and surface segmentations in Dragonfly 3D World 2025.1, available at https://dragonfly.comet.tech/; eligible non-commercial academic users may apply for a free academic licence.",
+   "url": "https://www.researchsquare.com/article/rs-11393438/v1",
+   "doi": "10.21203/rs.3.rs-11393438/v1",
+   "date": "2026-11-04",
+   "digest_date": "2026-11-08",
+   "digest_page": "news/2026-11-08.html",
+   "source": "Research Square（预印本）· 蒙特利尔高等技术学校 / 蒙特利尔综合理工 / Comet Technologies Canada",
+   "source_en": "Research Square (preprint) · École de technologie supérieure / Polytechnique Montréal / Comet Technologies Canada",
+   "category": "学术论文",
+   "category_en": "Research paper",
+   "tags": [
+    "CT 计量",
+    "增材制造",
+    "表面分割"
+   ],
+   "tags_en": [
+    "CT metrology",
+    "Additive manufacturing",
+    "Surface segmentation"
+   ],
+   "topics": [
+    {
+     "key": "materials-manufacturing",
+     "zh": "材料与制造",
+     "en": "Materials & Manufacturing"
+    },
+    {
+     "key": "ai-deep-learning",
+     "zh": "AI 与深度学习",
+     "en": "AI & Deep Learning"
+    },
+    {
+     "key": "metrology-inspection",
+     "zh": "计量与检测",
+     "en": "Metrology & Inspection"
+    },
+    {
+     "key": "releases-features",
+     "zh": "版本与功能",
+     "en": "Releases & Features"
+    }
+   ]
+  },
+  {
+   "id": "doi:10.64898/2026.11.02.763640",
+   "title": "用三维冷冻体积电镜观察并定量光合丝状蓝藻鱼腥藻",
+   "title_en": "The Application of 3D Cryo-Volume Electron Microscopy to Visualize and Quantify the Photosynthetic Filamentous Cyanobacterium Anabaena",
+   "summary": "丹佛斯植物科学中心 Czymmek 团队用 Thermo Scientific Hydra 等离子聚焦离子束扫描电镜（氩离子铣削与透过透镜探测器成像交替）对两种丝状蓝藻鱼腥藻做整细胞冷冻体积电镜成像。对齐后的图像导入 Dragonfly 3D World 2024.1（Comet Technologies Canada Inc., Montreal）做分割：用 multi-slice pen 手动分割羧酶体、藻青素颗粒和细胞壁，再用 Segmentation Wizard 中预训练的 2.5D（3 切片）U-Net Depth 5 模型（2024.1 与 2025.1）分割类囊体/藻胆体和多聚磷酸盐颗粒；随后把结构转为 multi-ROI 测量体积，用线测量工具测量类囊体厚度与间距，并用 2D animation 与 Movie Maker 导出三维视频。",
+   "summary_en": "A team led by Czymmek at the Donald Danforth Plant Science Center imaged whole cells of two filamentous Anabaena species by cryo-volume electron microscopy on a Thermo Scientific Hydra plasma FIB-SEM, alternating argon milling with through-lens detector imaging. Aligned stacks were imported into Dragonfly 3D World 2024.1 (Comet Technologies Canada Inc., Montreal): carboxysomes, cyanophycin granules and cell walls were segmented manually with the multi-slice pen, while thylakoids/phycobilisomes and polyphosphate granules were segmented with the pre-trained 2.5D (3-slice) U-Net Depth 5 model in Segmentation Wizard (2024.1 and 2025.1). Structures were converted to a multi-ROI for volume measurements, thylakoid thickness and spacing were taken with the line-measurement tool, and 3D videos were exported with 2D animation and Movie Maker.",
+   "url": "https://www.biorxiv.org/content/10.64898/2026.11.02.763640v1",
+   "doi": "10.64898/2026.11.02.763640",
+   "date": "2026-11-04",
+   "digest_date": "2026-11-08",
+   "digest_page": "news/2026-11-08.html",
+   "source": "bioRxiv（预印本）· 丹佛斯植物科学中心",
+   "source_en": "bioRxiv (preprint) · Donald Danforth Plant Science Center",
+   "category": "学术论文",
+   "category_en": "Research paper",
+   "tags": [
+    "冷冻体积电镜",
+    "蓝藻",
+    "深度学习分割"
+   ],
+   "tags_en": [
+    "Cryo-volume EM",
+    "Cyanobacteria",
+    "Deep-learning segmentation"
+   ],
+   "topics": [
+    {
+     "key": "life-sciences",
+     "zh": "生命科学",
+     "en": "Life Sciences"
+    },
+    {
+     "key": "ai-deep-learning",
+     "zh": "AI 与深度学习",
+     "en": "AI & Deep Learning"
+    },
+    {
+     "key": "releases-features",
+     "zh": "版本与功能",
+     "en": "Releases & Features"
+    }
+   ]
+  },
+  {
+   "id": "doi:10.4071/001c.173593",
+   "title": "全增材堆叠实现可扩展的四层再布线层：无缺陷多层集成演示",
+   "title_en": "Scalable Four-Layer Redistribution Layers via Fully Additive Build-Up: Demonstration of Defect-Free Multilayer Integration",
+   "summary": "瑞典吕勒奥理工大学 Roghayeh Imani、Shailesh Chouhan 和 Jerker Delsing 演示用全增材 Sequential Build-Up Covalent Bonded Metallization（SBU-CBM）工艺在 FR-4 基板上制作四层铜再布线层（RDL），层间以三个交错微孔相连。多层结构的三维表征使用该校的 Zeiss Xradia 620 Versa XCT（20×物镜，80 kV、10 W，LE3 滤波）；三维重建与可视化使用非商业版 Dragonfly software（Object Research Systems, Montreal, Canada）。",
+   "summary_en": "Roghayeh Imani, Shailesh Chouhan and Jerker Delsing at Luleå University of Technology demonstrate a four-layer copper redistribution-layer (RDL) stack on FR-4 made with the fully additive Sequential Build-Up Covalent Bonded Metallization (SBU-CBM) process, with three staggered microvias. Three-dimensional characterization used a Zeiss Xradia 620 Versa XCT at LTU (20× objective, 80 kV and 10 W, LE3 filter); reconstruction and visualization were performed with the non-commercial version of Dragonfly software (Object Research Systems, Montreal, Canada).",
+   "url": "https://imapsource.org/article/173593-scalable-four-layer-redistribution-layers-via-fully-additive-build-up-demonstration-of-defect-free-multilayer-integration",
+   "doi": "10.4071/001c.173593",
+   "date": "2026-11-04",
+   "digest_date": "2026-11-08",
+   "digest_page": "news/2026-11-08.html",
+   "source": "IMAPSource Proceedings · 瑞典吕勒奥理工大学",
+   "source_en": "IMAPSource Proceedings · Luleå University of Technology",
+   "category": "学术论文",
+   "category_en": "Research paper",
+   "tags": [
+    "X 射线 CT",
+    "电子封装",
+    "再布线层"
+   ],
+   "tags_en": [
+    "X-ray CT",
+    "Electronics packaging",
+    "Redistribution layer"
+   ],
+   "topics": [
+    {
+     "key": "releases-features",
+     "zh": "版本与功能",
+     "en": "Releases & Features"
+    }
+   ]
+  },
+  {
+   "id": "doi:10.64898/2026.10.28.761843",
+   "title": "材料诱导的纤维连接蛋白组装使低剂量 BMP-2 能在临界负重骨缺损中再生结构成熟的骨",
+   "title_en": "Material-driven fibronectin assembly enables low-dose BMP-2 to regenerate structurally mature bone in critical-sized load-bearing defects",
+   "summary": "格拉斯哥大学细胞微环境中心等团队用实验室 micro-CT（螺旋扫描，80 kV、69 µA，体素 2 µm）量化 monetite 支架在临界负重骨缺损中的降解、孔隙与成骨。图像重建与三维渲染在 ORS Dragonfly 2022.2（Object Research Systems Inc, Montreal, CA）中完成；团队用自定义深度学习模型（至少手动标注 15 张代表性二维切片）自动分割新生骨、monetite 体积和孔隙，计算缺损区和支架邻近区的骨体积分数（BV/TV），并用分割工具量化骨–支架整合。",
+   "summary_en": "A team including the Centre for the Cellular Microenvironment at the University of Glasgow used laboratory micro-CT (helical scans at 80 kV and 69 µA, 2 µm voxels) to quantify degradation, porosity and bone formation of monetite scaffolds in critical-sized load-bearing defects. Images were reconstructed and rendered in ORS Dragonfly 2022.2 (Object Research Systems Inc, Montreal, CA). Custom deep-learning models, trained on at least 15 manually labelled representative 2D slices, automatically segmented newly formed bone, monetite volume and porosity; bone volume fraction (BV/TV) was calculated in the defect and in the immediate monetite vicinity, and bone–scaffold integration was quantified with the software’s segmentation tools.",
+   "url": "https://www.biorxiv.org/content/10.64898/2026.10.28.761843v1",
+   "doi": "10.64898/2026.10.28.761843",
+   "date": "2026-11-03",
+   "digest_date": "2026-11-08",
+   "digest_page": "news/2026-11-08.html",
+   "source": "bioRxiv（预印本）· 格拉斯哥大学等",
+   "source_en": "bioRxiv (preprint) · University of Glasgow and collaborators",
+   "category": "学术论文",
+   "category_en": "Research paper",
+   "tags": [
+    "显微 CT",
+    "骨再生",
+    "深度学习分割"
+   ],
+   "tags_en": [
+    "Micro-CT",
+    "Bone regeneration",
+    "Deep-learning segmentation"
+   ],
+   "topics": [
+    {
+     "key": "life-sciences",
+     "zh": "生命科学",
+     "en": "Life Sciences"
+    },
+    {
+     "key": "materials-manufacturing",
+     "zh": "材料与制造",
+     "en": "Materials & Manufacturing"
+    },
+    {
+     "key": "ai-deep-learning",
+     "zh": "AI 与深度学习",
+     "en": "AI & Deep Learning"
+    }
+   ]
+  },
+  {
+   "id": "doi:10.64898/2026.11.02.763697",
+   "title": "用冷冻电子断层扫描定位小鼠海马突触的 AMPA 与 NMDA 受体",
+   "title_en": "Mapping AMPA and NMDA receptors at mouse brain hippocampal synapses by cryo-ET",
+   "summary": "Cathy J. Spangler、Eric Gouaux 等用来自马萨诸塞大学陈医学院与俄勒冈健康与科学大学的冷冻电子断层扫描，定位成年小鼠海马突触的 AMPA 与 NMDA 受体。方法写明，需要展示时，actin 和突触后致密物（PSD）特征在 Dragonfly version 2025.1 中手动分割。",
+   "summary_en": "Cathy J. Spangler, Eric Gouaux and colleagues at UMass Chan Medical School and Oregon Health & Science University map AMPA and NMDA receptors at adult mouse hippocampal synapses by cryo-electron tomography. The methods state that actin and postsynaptic-density (PSD) features were segmented manually in Dragonfly version 2025.1 when shown.",
+   "url": "https://www.biorxiv.org/content/10.64898/2026.11.02.763697v1",
+   "doi": "10.64898/2026.11.02.763697",
+   "date": "2026-11-03",
+   "digest_date": "2026-11-08",
+   "digest_page": "news/2026-11-08.html",
+   "source": "bioRxiv（预印本）· 马萨诸塞大学陈医学院 / 俄勒冈健康与科学大学",
+   "source_en": "bioRxiv (preprint) · UMass Chan Medical School / Oregon Health & Science University",
+   "category": "学术论文",
+   "category_en": "Research paper",
+   "tags": [
+    "冷冻电子断层",
+    "突触",
+    "受体定位"
+   ],
+   "tags_en": [
+    "Cryo-ET",
+    "Synapses",
+    "Receptor mapping"
+   ],
+   "topics": [
+    {
+     "key": "releases-features",
+     "zh": "版本与功能",
+     "en": "Releases & Features"
+    }
+   ]
+  },
+  {
+   "id": "doi:10.48550/arxiv.2611.02622",
+   "title": "用物理信息神经网络推导接近 Hashin–Shtrikman 刚度极限的新型各向同性超材料",
+   "title_en": "Derivation of Novel Isotropic Metamaterials at the Hashin-Shtrikman Stiffness Limit Enabled by Physics Informed Neural Networks",
+   "summary": "南洋理工大学 Lai 组用物理信息神经网络设计接近 Hashin–Shtrikman 刚度极限的各向同性闭孔板格超材料，并以 Zeiss Xradia Versa 620（0.4×物镜，160 kV，25 W，每投影曝光 1 s，各向同性体素 15.5 µm）对增材制造样品做 micro-CT，重建使用 Dragonfly 3D World ZEISS software。",
+   "summary_en": "Lai and colleagues at Nanyang Technological University use physics-informed neural networks to design isotropic closed-cell plate-lattice metamaterials near the Hashin–Shtrikman stiffness limit. Additively manufactured samples were scanned on a Zeiss Xradia Versa 620 (0.4× objective, 160 kV, 25 W, 1 s per projection, 15.5 µm isotropic voxels) and reconstructed with Dragonfly 3D World ZEISS software.",
+   "url": "https://arxiv.org/abs/2611.02622",
+   "doi": "10.48550/arXiv.2611.02622",
+   "date": "2026-11-02",
+   "digest_date": "2026-11-08",
+   "digest_page": "news/2026-11-08.html",
+   "source": "arXiv · 南洋理工大学",
+   "source_en": "arXiv · Nanyang Technological University",
+   "category": "学术论文",
+   "category_en": "Research paper",
+   "tags": [
+    "显微 CT",
+    "超材料",
+    "ZEISS 版"
+   ],
+   "tags_en": [
+    "Micro-CT",
+    "Metamaterials",
+    "ZEISS edition"
+   ],
+   "topics": [
+    {
+     "key": "materials-manufacturing",
+     "zh": "材料与制造",
+     "en": "Materials & Manufacturing"
+    },
+    {
+     "key": "ai-deep-learning",
+     "zh": "AI 与深度学习",
+     "en": "AI & Deep Learning"
+    }
+   ]
+  },
+  {
+   "id": "doi:10.1038/s41467-026-78968-x",
+   "title": "密螺旋体鞭毛曲率生成与功能特化的结构基础",
+   "title_en": "Structural basis for curvature generation and functional specialization in spirochete flagella",
+   "summary": "Ghosal 等在 Nature Communications 报道密螺旋体鞭毛曲率生成与功能特化的结构基础。匹配的 bioRxiv 预印本（10.64898/2026.02.04.703737）写明：三维体数据用 Dragonfly software（version 2022.2）分割（文献指向 https://dragonfly.comet.tech/），导入后用内置滤波提高清晰度，手动标注 15–20 张切片训练 2.5D U-Net（5 切片输入），再经迭代训练与必要的手工修正完成分割，并用软件内置功能生成二维图和三维视频。",
+   "summary_en": "Ghosal and colleagues report in Nature Communications the structural basis for curvature generation and functional specialization in spirochete flagella. The matching bioRxiv preprint (10.64898/2026.02.04.703737) states that 3D volumes were segmented in Dragonfly software (version 2022.2), cited to https://dragonfly.comet.tech/: tomograms were filtered after import, 15–20 slices were manually annotated to train a 2.5D U-Net (5-slice input), models were applied after iterative training with manual corrections where needed, and built-in functions generated 2D images and 3D movies.",
+   "url": "https://www.nature.com/articles/s41467-026-78968-x",
+   "doi": "10.1038/s41467-026-78968-x",
+   "date": "2026-10-30",
+   "digest_date": "2026-11-08",
+   "digest_page": "news/2026-11-08.html",
+   "source": "Nature Communications · Ghosal 等",
+   "source_en": "Nature Communications · Ghosal and colleagues",
+   "category": "学术论文",
+   "category_en": "Research paper",
+   "tags": [
+    "冷冻电子断层",
+    "鞭毛",
+    "2.5D U-Net"
+   ],
+   "tags_en": [
+    "Cryo-ET",
+    "Flagella",
+    "2.5D U-Net"
+   ],
+   "topics": [
+    {
+     "key": "ai-deep-learning",
+     "zh": "AI 与深度学习",
+     "en": "AI & Deep Learning"
+    },
+    {
+     "key": "releases-features",
+     "zh": "版本与功能",
+     "en": "Releases & Features"
+    }
+   ]
+  },
+  {
+   "id": "doi:10.1016/j.isci.2026.118037",
+   "title": "熊蜂嗅觉系统的性二态在不同物种间保守",
+   "title_en": "Sexual dimorphisms of the olfactory system are conserved across bumblebee species",
+   "summary": "杜伦大学等团队比较了 6 种欧洲熊蜂野外工蜂和雄蜂的大脑与触角。共聚焦成像的触角叶和全脑在 Dragonfly 3D World（Object Research Systems）中分割：用 ROI Painter 的 Freehand Region 手工勾画每个嗅小球的起止和中部，再以 Z 向插值补全，约 20 个嗅小球后合并为 Multi-ROI，全部完成后用布尔运算 Union 合并，并以 Labeled Class Count 和 Connected Components 分析计数嗅小球并测量体积；全脑体积则用阈值分割加形态学闭运算与平滑得到。结果显示这些物种间嗅觉系统的雌雄差异是保守的。",
+   "summary_en": "A team led from Durham University compared brains and antennae of wild workers and males from six European Bombus species. Confocal stacks of antennal lobes and whole brains were segmented in Dragonfly 3D World (Object Research Systems): each glomerulus was outlined at its start, middle and end with the Freehand Region tool in ROI Painter, completed by Z-interpolation, merged into a Multi-ROI after about 20 glomeruli, then combined with a Boolean Union so glomeruli could be counted (Labeled Class Count) and measured (Connected Components). Whole-brain volume was obtained by thresholding plus morphological close and smooth. The sexual dimorphisms of the olfactory system turned out to be conserved across these species.",
+   "url": "https://doi.org/10.1016/j.isci.2026.118037",
+   "doi": "10.1016/j.isci.2026.118037",
+   "date": "2026-10-28",
+   "digest_date": "2026-11-08",
+   "digest_page": "news/2026-11-08.html",
+   "source": "iScience · 杜伦大学等",
+   "source_en": "iScience · Durham University and collaborators",
+   "category": "学术论文",
+   "category_en": "Research paper",
+   "tags": [
+    "共聚焦显微",
+    "神经解剖",
+    "昆虫"
+   ],
+   "tags_en": [
+    "Confocal microscopy",
+    "Neuroanatomy",
+    "Insects"
+   ],
+   "topics": [
+    {
+     "key": "life-sciences",
+     "zh": "生命科学",
+     "en": "Life Sciences"
+    }
+   ]
+  },
+  {
+   "id": "doi:10.1016/j.compositesa.2026.110374",
+   "title": "热压罐与真空烘箱固化亚麻/环氧复合材料 I 型分层中的损伤机制与断裂过程区演化",
+   "title_en": "Damage mechanisms and fracture-process-zone evolution during Mode I delamination of autoclave- and vacuum-assisted oven-cured flax/epoxy composites",
+   "summary": "芬兰 LUT 大学与卢布尔雅那大学团队比较热压罐和真空辅助烘箱两种工艺固化的亚麻/环氧层合板，结合双悬臂梁（DCB）试验、数字图像相关、声发射和 X 射线 CT（Zeiss Xradia MicroXCT-400）研究 I 型分层。CT 数据在 Dragonfly 2025 中分割，并按位置把孔隙分为纤维腔内腔、纤维间/束间孔隙和纤维–基体界面孔洞三类，用来把孔隙率与分层阻力联系起来。",
+   "summary_en": "Teams from LUT University (Finland) and the University of Ljubljana compared flax/epoxy laminates cured in an autoclave and in a vacuum-assisted oven, combining double cantilever beam (DCB) tests, digital image correlation, acoustic emission and X-ray CT (Zeiss Xradia MicroXCT-400) to study Mode I delamination. Segmentation in Dragonfly 2025 classified voids by location as intra-fibre lumen cavities, inter-fibre/inter-bundle pores and fibre–matrix interfacial voids, so porosity could be related to delamination resistance.",
+   "url": "https://doi.org/10.1016/j.compositesa.2026.110374",
+   "doi": "10.1016/j.compositesa.2026.110374",
+   "date": "2026-10-23",
+   "digest_date": "2026-11-08",
+   "digest_page": "news/2026-11-08.html",
+   "source": "Composites Part A: Applied Science and Manufacturing",
+   "source_en": "Composites Part A: Applied Science and Manufacturing",
+   "category": "学术论文",
+   "category_en": "Research paper",
+   "tags": [
+    "X 射线 CT",
+    "复合材料",
+    "孔隙分割"
+   ],
+   "tags_en": [
+    "X-ray CT",
+    "Composites",
+    "Pore segmentation"
+   ],
+   "topics": [
+    {
+     "key": "materials-manufacturing",
+     "zh": "材料与制造",
+     "en": "Materials & Manufacturing"
+    },
+    {
+     "key": "releases-features",
+     "zh": "版本与功能",
+     "en": "Releases & Features"
+    }
+   ]
+  },
+  {
+   "id": "doi:10.1016/j.matdes.2026.117246",
+   "title": "可降解镁锌丝中的稀释锌合金化：显微组织、力学性能与降解行为",
+   "title_en": "Dilute Zn alloying in biodegradable Mg wires: microstructure, mechanical performance, and degradation behavior",
+   "summary": "研究用直接热挤压制备 Mg-0.4Zn 至 Mg-1.5Zn 可降解镁丝，并比较显微组织、力学性能和降解行为。腐蚀前丝材横截面的三维可视化及颗粒体积分析在 Zeiss Xradia 610 Versa（体素 470 nm）上完成，采集的数据用 Dragonfly software（v. 2025.1）处理：以直方图分割区分丝材、颗粒和背景，再经目视检查后测定颗粒相对丝材的体积分数。",
+   "summary_en": "Dilute Mg–Zn wires (0.4–1.5 wt% Zn) made by direct hot extrusion were compared for microstructure, mechanical performance and degradation. Three-dimensional visualization of the wire cross-section before etching, together with volumetric analysis of particles, was performed on a Zeiss Xradia 610 Versa (470 nm voxels); the data were processed in Dragonfly software (v. 2025.1) by histogram segmentation of wire, particles and background, followed by visual inspection and measurement of the particle volume fraction relative to the wire.",
+   "url": "https://doi.org/10.1016/j.matdes.2026.117246",
+   "doi": "10.1016/j.matdes.2026.117246",
+   "date": "2026-10-18",
+   "digest_date": "2026-11-08",
+   "digest_page": "news/2026-11-08.html",
+   "source": "Materials & Design",
+   "source_en": "Materials & Design",
+   "category": "学术论文",
+   "category_en": "Research paper",
+   "tags": [
+    "X 射线显微镜",
+    "可降解镁合金",
+    "体积分析"
+   ],
+   "tags_en": [
+    "X-ray microscopy",
+    "Biodegradable Mg alloys",
+    "Volumetric analysis"
+   ],
+   "topics": [
+    {
+     "key": "life-sciences",
+     "zh": "生命科学",
+     "en": "Life Sciences"
+    },
+    {
+     "key": "metrology-inspection",
+     "zh": "计量与检测",
+     "en": "Metrology & Inspection"
+    },
+    {
+     "key": "releases-features",
+     "zh": "版本与功能",
+     "en": "Releases & Features"
+    }
+   ]
+  },
+  {
+   "id": "doi:10.7554/elife.112362.1",
+   "title": "早寒武世微生物伪形态中的软躯体化石揭示分节两侧对称动物的黎明",
+   "title_en": "Dawn of segmented bilaterians unveiled by soft-bodied fossils in microbial pseudomorphs from the early Cambrian",
+   "summary": "杨晓光、韩健等报道早寒武世以微生物伪形态保存的分节两侧对称动物软躯体化石。X 射线显微层析数据（含西北大学大陆动力学国家重点实验室，以及日本 SPring-8 对标本 XX59-71 的扫描：23 keV，0.49 µm 各向同性体素）用 Dragonfly 3.5 software 做层析分析并制作三维可视化图片和视频。匹配的 bioRxiv 预印本为 10.64898/2026.06.18.733126。",
+   "summary_en": "Xiaoguang Yang, Jian Han and colleagues report early Cambrian soft-bodied fossils of segmented bilaterians preserved as microbial pseudomorphs. X-ray microtomography data—including scans at the State Key Laboratory of Continental Dynamics, Northwest University, and one specimen (XX59-71) at SPring-8 in Japan (23 keV, 0.49 µm isotropic voxels)—were processed in Dragonfly 3.5 software for tomographic analysis and for making three-dimensional visualization pictures and videos. The matching bioRxiv preprint is 10.64898/2026.06.18.733126.",
+   "url": "https://elifesciences.org/reviewed-preprints/112362",
+   "doi": "10.7554/eLife.112362.1",
+   "date": "2026-06-20",
+   "digest_date": "2026-11-08",
+   "digest_page": "news/2026-11-08.html",
+   "source": "eLife（reviewed preprint）· 杨晓光、韩健等",
+   "source_en": "eLife (reviewed preprint) · Xiaoguang Yang, Jian Han and colleagues",
+   "category": "学术论文",
+   "category_en": "Research paper",
+   "tags": [
+    "X 射线显微层析",
+    "古生物",
+    "寒武纪"
+   ],
+   "tags_en": [
+    "X-ray microtomography",
+    "Paleontology",
+    "Cambrian"
+   ],
+   "topics": [
+    {
+     "key": "geoscience-archaeology",
+     "zh": "地球科学与考古",
+     "en": "Geoscience & Archaeology"
+    }
+   ]
+  },
   {
    "id": "url:https://github.com/didziokas/dragonfly-notebook",
    "title": "Dragonfly Notebook：在 Dragonfly 里直接运行 Jupyter 笔记本的开源插件",
