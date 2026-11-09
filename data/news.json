@@ -1,6 +1,59 @@
 {
   "days": [
     {
+      "date": "2026-11-09",
+      "count": 2,
+      "page": "news/2026-11-09.html",
+      "items": [
+        {
+          "title": "胰腺组织与胰岛分割模型的同步辐射 X 射线数据集（人类非糖尿病与糖尿病）",
+          "title_en": "Synchrotron X-ray Data of non-diseased and diabetic Human Pancreas Tissue and Islet Segmentation Models",
+          "url": "https://www.nature.com/articles/s41597-026-08613-1",
+          "doi": "10.1038/s41597-026-08613-1",
+          "source": "Scientific Data · EMBL 汉堡 / 海德堡大学等",
+          "source_en": "Scientific Data · EMBL Hamburg / Heidelberg University and collaborators",
+          "date": "2026-11-06",
+          "category": "学术论文",
+          "category_en": "Research paper",
+          "summary": "EMBL 汉堡、海德堡大学等团队公开了 32 人 55 个人胰腺组织芯的同步辐射 micro-CT 虚拟组织学数据集（650 nm 体素），胰岛标注用 Dragonfly 3D World v2025.1（Comet Technologies Canada）内置 SAM2 与标注工具完成，并在 Segmentation Wizard 训练 2.5D U-Net 胰岛分割模型，模型随数据一起发布、可在 Dragonfly 3D World 中复用。",
+          "summary_en": "An open synchrotron micro-CT dataset of human pancreas tissue; islet annotations were made with SAM2 and annotation tools in Dragonfly 3D World v2025.1, and dataset-specific 2.5D U-Net models trained in its Segmentation Wizard are released for reuse in Dragonfly.",
+          "tags": [
+            "同步辐射 micro-CT",
+            "胰岛分割",
+            "2.5D U-Net"
+          ],
+          "tags_en": [
+            "Synchrotron micro-CT",
+            "Islet segmentation",
+            "2.5D U-Net"
+          ]
+        },
+        {
+          "title": "隐孢子虫的有性生殖拥有复杂的雄性受精装置，是持续感染所必需的",
+          "title_en": "Cryptosporidium sex employs a complex male fertilization apparatus that is required for continued infection",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.13.757955v1",
+          "doi": "10.64898/2026.10.13.757955",
+          "source": "bioRxiv（预印本）· 宾夕法尼亚大学 / 罗伯特·科赫研究所",
+          "source_en": "bioRxiv (preprint) · University of Pennsylvania / Robert Koch Institute",
+          "date": "2026-10-15",
+          "category": "学术论文",
+          "category_en": "Research paper",
+          "summary": "宾夕法尼亚大学 Striepen 团队与罗伯特·科赫研究所发现隐孢子虫雄配子的复杂受精装置，并证明敲除 HAP2 可阻断受精、治愈感染小鼠；小鼠肠道的连续块面扫描电镜（SBF-SEM）图像栈用 Fiji 或 Dragonfly 3D World v2025.1（Comet Technologies Canada）做配准、AI 去噪和滤波处理。",
+          "summary_en": "Serial block-face SEM stacks of infected mouse intestine were registered, AI-denoised and filtered in Fiji or Dragonfly 3D World v2025.1 in this study of the Cryptosporidium male fertilization apparatus.",
+          "tags": [
+            "SBF-SEM",
+            "隐孢子虫",
+            "图像预处理"
+          ],
+          "tags_en": [
+            "SBF-SEM",
+            "Cryptosporidium",
+            "Image preprocessing"
+          ]
+        }
+      ]
+    },
+    {
       "date": "2026-11-08",
       "count": 13,
       "page": "news/2026-11-08.html",
