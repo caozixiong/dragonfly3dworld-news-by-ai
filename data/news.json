@@ -18,11 +18,15 @@
           "summary": "卢布尔雅那大学（与吕勒奥理工大学合作）的硕士论文用 Zeiss Xradia 620 Versa micro-CT 以 0.73 µm 体素对木塑复合材料成像，并用 Comet Technologies Canada 的 Dragonfly 软件分析纤维与基体的相互作用。",
           "summary_en": "A University of Ljubljana master's thesis (with Luleå University of Technology) imaged wood–plastic composites on a Zeiss Xradia 620 Versa micro-CT at 0.73 µm voxel size and analysed the fibre–matrix interaction with Comet Technologies Canada's Dragonfly software.",
           "tags": [
-            "同步辐射 micro-CT",
-            "胰岛分割",
-            "2.5D U-Net"
+            "micro-CT",
+            "木塑复合材料",
+            "硕士论文"
           ],
-          "tags_en": null
+          "tags_en": [
+            "micro-CT",
+            "Wood–plastic composite",
+            "M.Sc. thesis"
+          ]
         }
       ]
     },
