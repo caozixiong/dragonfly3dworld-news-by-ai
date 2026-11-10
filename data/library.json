@@ -1,7 +1,7 @@
 {
- "updated": "2026-11-08",
+ "updated": "2026-11-10",
  "site": "Dragonfly 3D World News",
- "count": 95,
+ "count": 96,
  "topics": [
   {
    "key": "life-sciences",
@@ -45,6 +45,39 @@
   }
  ],
  "entries": [
+  {
+   "id": "url:https://repozitorij.uni-lj.si/izpisgradiva.php?id=189622",
+   "title": "木材–塑料复合材料（WPC）中纤维与基体相互作用的研究",
+   "title_en": "Investigations into the interaction between fibrous elements and matrix in wood–plastic composite (WPC)",
+   "summary": "卢布尔雅那大学（与吕勒奥理工大学合作）的硕士论文用 Zeiss Xradia 620 Versa micro-CT 以 0.73 µm 体素对木塑复合材料成像，并用 Comet Technologies Canada 的 Dragonfly 软件分析纤维与基体的相互作用。",
+   "summary_en": "A University of Ljubljana master's thesis (with Luleå University of Technology) imaged wood–plastic composites on a Zeiss Xradia 620 Versa micro-CT at 0.73 µm voxel size and analysed the fibre–matrix interaction with Comet Technologies Canada's Dragonfly software.",
+   "url": "https://repozitorij.uni-lj.si/IzpisGradiva.php?id=189622",
+   "doi": null,
+   "date": "2026-10-11",
+   "digest_date": "2026-11-10",
+   "digest_page": "news/2026-11-10.html",
+   "source": "卢布尔雅那大学知识库（硕士论文，Alexander Simić）",
+   "source_en": "University of Ljubljana Repository (M.Sc. thesis, Alexander Simić)",
+   "category": "学术论文",
+   "category_en": "Research paper",
+   "tags": [
+    "同步辐射 micro-CT",
+    "胰岛分割",
+    "2.5D U-Net"
+   ],
+   "tags_en": [
+    "同步辐射 micro-CT",
+    "胰岛分割",
+    "2.5D U-Net"
+   ],
+   "topics": [
+    {
+     "key": "materials-manufacturing",
+     "zh": "材料与制造",
+     "en": "Materials & Manufacturing"
+    }
+   ]
+  },
   {
    "id": "doi:10.1038/s41597-026-08613-1",
    "title": "胰腺组织与胰岛分割模型的同步辐射 X 射线数据集（人类非糖尿病与糖尿病）",
