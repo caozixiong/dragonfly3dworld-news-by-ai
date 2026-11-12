@@ -1,6 +1,59 @@
 {
   "days": [
     {
+      "date": "2026-11-12",
+      "count": 2,
+      "page": "news/2026-11-12.html",
+      "items": [
+        {
+          "title": "超越缺陷检测：X 射线与 CT 在现代无损检测中的作用",
+          "title_en": "Beyond Defect Detection: The Role of X-ray and CT in Modern Non-Destructive Testing",
+          "url": "https://comet.tech/dragonfly/blog/x-ray-ct-non-destructive-testing",
+          "doi": null,
+          "source": "Dragonfly 官方博客（Comet Technologies Canada，Alexandra Sakellariou）",
+          "source_en": "Dragonfly official blog (Comet Technologies Canada, Alexandra Sakellariou)",
+          "date": "2026-11-11",
+          "category": "官方动态",
+          "category_en": "Official update",
+          "summary": "Dragonfly 官方博客介绍工业 X 射线与 CT 如何结合三维图像分析定位、测量缺陷（孔隙、裂纹、焊点），并展示 Dragonfly 3D World 2027 的实例分割（Grid-Based SAM、Cellpose-SAM）、多网格测量、STEP/CAD 偏差图、粗糙度测量和报告生成器。",
+          "summary_en": "The official Dragonfly blog explains how industrial X-ray and CT combined with 3D image analysis locate and measure defects (porosity, cracks, solder joints), showcasing Dragonfly 3D World 2027 instance segmentation (Grid-Based SAM, Cellpose-SAM), multi-mesh measurements, STEP/CAD deviation maps, roughness measurement and Report Builder.",
+          "tags": [
+            "无损检测",
+            "工业 CT",
+            "3D World 2027"
+          ],
+          "tags_en": [
+            "NDT",
+            "Industrial CT",
+            "3D World 2027"
+          ]
+        },
+        {
+          "title": "古埃及猫木乃伊 µCT 研究的配套数据集：Dragonfly 训练的分割神经网络",
+          "title_en": "Trained neural networks and slice analysis material for 'The life and afterlife of an ancient Egyptian cat reconstructed by µCT'",
+          "url": "https://zenodo.org/records/23924409",
+          "doi": "10.5281/zenodo.23924408",
+          "source": "Zenodo（数据集；Demers-Potvin、Jia、Reznikov，麦吉尔大学）",
+          "source_en": "Zenodo (dataset; Demers-Potvin, Jia, Reznikov, McGill University)",
+          "date": "2026-11-03",
+          "category": "学术论文",
+          "category_en": "Research paper",
+          "summary": "麦吉尔大学一篇生物考古论文的配套数据集：用 Dragonfly 3D World 2025.1 训练的神经网络对四只猫标本的 micro-CT 重建进行分割，并附 Dragonfly 团队预训练的 2.5D U-Net 模型。",
+          "summary_en": "Supplementary dataset from McGill University for a bioarchaeology manuscript: neural networks trained in Dragonfly 3D World 2025.1 segment micro-CT reconstructions of four cat specimens, plus a pre-trained 2.5D U-Net from the Dragonfly team.",
+          "tags": [
+            "micro-CT",
+            "深度学习",
+            "生物考古"
+          ],
+          "tags_en": [
+            "micro-CT",
+            "Deep learning",
+            "Bioarchaeology"
+          ]
+        }
+      ]
+    },
+    {
       "date": "2026-11-10",
       "count": 1,
       "page": "news/2026-11-10.html",
@@ -2151,5 +2204,5 @@
     }
   ],
   "site": "Dragonfly 3D World News",
-  "updated": "2026-11-10"
+  "updated": "2026-11-12"
 }
