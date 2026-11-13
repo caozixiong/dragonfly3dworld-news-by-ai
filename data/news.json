@@ -1,6 +1,59 @@
 {
   "days": [
     {
+      "date": "2026-11-13",
+      "count": 2,
+      "page": "news/2026-11-13.html",
+      "items": [
+        {
+          "title": "单个隐孢子虫 rhoptry 依次驱动入侵与宿主-寄生虫界面形成",
+          "title_en": "The single Cryptosporidium rhoptry sequentially drives invasion and host-parasite interface formation",
+          "url": "https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3003933",
+          "doi": "10.1371/journal.pbio.3003933",
+          "source": "PLoS Biology",
+          "source_en": "PLoS Biology",
+          "date": "2026-11-11",
+          "category": "学术论文",
+          "category_en": "Research paper",
+          "summary": "宾夕法尼亚大学、罗伯特·科赫研究所、日内瓦大学和蒙彼利埃的研究者以高分辨率解析隐孢子虫入侵宿主细胞的过程；体积电镜图像堆栈在 Fiji 或 Dragonfly 3D World v2025.1 中配准/滤波，并在 Amira 或 Dragonfly 3D World 中手动分割。",
+          "summary_en": "Researchers at the University of Pennsylvania, Robert Koch Institute, University of Geneva and Montpellier resolve Cryptosporidium host-cell invasion at high resolution; volume EM stacks were registered/filtered in Fiji or Dragonfly 3D World v2025.1 and manually segmented in Amira or Dragonfly 3D World.",
+          "tags": [
+            "体积电镜",
+            "分割",
+            "寄生虫学"
+          ],
+          "tags_en": [
+            "Volume EM",
+            "Segmentation",
+            "Parasitology"
+          ]
+        },
+        {
+          "title": "碳纤维压缩失效中隐藏的层级结构",
+          "title_en": "A hidden hierarchy of compressive failure in carbon fibres",
+          "url": "https://www.researchsquare.com/article/rs-11483311/v1",
+          "doi": "10.21203/rs.3.rs-11483311/v1",
+          "source": "Research Square（预印本）",
+          "source_en": "Research Square (preprint)",
+          "date": "2026-11-10",
+          "category": "学术论文",
+          "category_en": "Research paper",
+          "summary": "布里斯托大学和帝国理工学院的预印本研究碳纤维的压缩失效；FIB-SEM 图像堆栈在 Dragonfly 3D World 2024.1 中用内置 U-Net 深度学习完成分割。",
+          "summary_en": "University of Bristol and Imperial College London preprint on compressive failure in carbon fibres; FIB-SEM image stacks were segmented in Dragonfly 3D World 2024.1 with its built-in U-Net deep learning segmentation.",
+          "tags": [
+            "FIB-SEM",
+            "深度学习",
+            "碳纤维"
+          ],
+          "tags_en": [
+            "FIB-SEM",
+            "Deep learning",
+            "Carbon fibre"
+          ]
+        }
+      ]
+    },
+    {
       "date": "2026-11-12",
       "count": 2,
       "page": "news/2026-11-12.html",
@@ -2204,5 +2257,5 @@
     }
   ],
   "site": "Dragonfly 3D World News",
-  "updated": "2026-11-12"
+  "updated": "2026-11-13"
 }

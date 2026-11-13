@@ -1,7 +1,7 @@
 {
- "updated": "2026-11-12",
+ "updated": "2026-11-13",
  "site": "Dragonfly 3D World News",
- "count": 98,
+ "count": 100,
  "topics": [
   {
    "key": "life-sciences",
@@ -45,6 +45,82 @@
   }
  ],
  "entries": [
+  {
+   "id": "doi:10.1371/journal.pbio.3003933",
+   "title": "单个隐孢子虫 rhoptry 依次驱动入侵与宿主-寄生虫界面形成",
+   "title_en": "The single Cryptosporidium rhoptry sequentially drives invasion and host-parasite interface formation",
+   "summary": "宾夕法尼亚大学、罗伯特·科赫研究所、日内瓦大学和蒙彼利埃的研究者以高分辨率解析隐孢子虫入侵宿主细胞的过程；体积电镜图像堆栈在 Fiji 或 Dragonfly 3D World v2025.1 中配准/滤波，并在 Amira 或 Dragonfly 3D World 中手动分割。",
+   "summary_en": "Researchers at the University of Pennsylvania, Robert Koch Institute, University of Geneva and Montpellier resolve Cryptosporidium host-cell invasion at high resolution; volume EM stacks were registered/filtered in Fiji or Dragonfly 3D World v2025.1 and manually segmented in Amira or Dragonfly 3D World.",
+   "url": "https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3003933",
+   "doi": "10.1371/journal.pbio.3003933",
+   "date": "2026-11-11",
+   "digest_date": "2026-11-13",
+   "digest_page": "news/2026-11-13.html",
+   "source": "PLoS Biology",
+   "source_en": "PLoS Biology",
+   "category": "学术论文",
+   "category_en": "Research paper",
+   "tags": [
+    "体积电镜",
+    "分割",
+    "寄生虫学"
+   ],
+   "tags_en": [
+    "Volume EM",
+    "Segmentation",
+    "Parasitology"
+   ],
+   "topics": [
+    {
+     "key": "life-sciences",
+     "zh": "生命科学",
+     "en": "Life Sciences"
+    },
+    {
+     "key": "releases-features",
+     "zh": "版本与功能",
+     "en": "Releases & Features"
+    }
+   ]
+  },
+  {
+   "id": "doi:10.21203/rs.3.rs-11483311/v1",
+   "title": "碳纤维压缩失效中隐藏的层级结构",
+   "title_en": "A hidden hierarchy of compressive failure in carbon fibres",
+   "summary": "布里斯托大学和帝国理工学院的预印本研究碳纤维的压缩失效；FIB-SEM 图像堆栈在 Dragonfly 3D World 2024.1 中用内置 U-Net 深度学习完成分割。",
+   "summary_en": "University of Bristol and Imperial College London preprint on compressive failure in carbon fibres; FIB-SEM image stacks were segmented in Dragonfly 3D World 2024.1 with its built-in U-Net deep learning segmentation.",
+   "url": "https://www.researchsquare.com/article/rs-11483311/v1",
+   "doi": "10.21203/rs.3.rs-11483311/v1",
+   "date": "2026-11-10",
+   "digest_date": "2026-11-13",
+   "digest_page": "news/2026-11-13.html",
+   "source": "Research Square（预印本）",
+   "source_en": "Research Square (preprint)",
+   "category": "学术论文",
+   "category_en": "Research paper",
+   "tags": [
+    "FIB-SEM",
+    "深度学习",
+    "碳纤维"
+   ],
+   "tags_en": [
+    "FIB-SEM",
+    "Deep learning",
+    "Carbon fibre"
+   ],
+   "topics": [
+    {
+     "key": "ai-deep-learning",
+     "zh": "AI 与深度学习",
+     "en": "AI & Deep Learning"
+    },
+    {
+     "key": "releases-features",
+     "zh": "版本与功能",
+     "en": "Releases & Features"
+    }
+   ]
+  },
   {
    "id": "url:https://comet.tech/dragonfly/blog/x-ray-ct-non-destructive-testing",
    "title": "超越缺陷检测：X 射线与 CT 在现代无损检测中的作用",
