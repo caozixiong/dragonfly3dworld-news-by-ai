@@ -1,7 +1,7 @@
 {
- "updated": "2026-11-13",
+ "updated": "2026-11-14",
  "site": "Dragonfly 3D World News",
- "count": 100,
+ "count": 102,
  "topics": [
   {
    "key": "life-sciences",
@@ -45,6 +45,87 @@
   }
  ],
  "entries": [
+  {
+   "id": "doi:10.64898/2026.11.10.765480",
+   "title": "基于深度学习流程的成人耳蜗螺旋神经节完整三维图谱",
+   "title_en": "A Complete Three-Dimensional Spiral Ganglion Neuron Map in a Human Adult using a Deep Learning Pipeline",
+   "summary": "麻省眼耳医院的研究者根据 421 张连续 H&E 切片，绘制了首份完整的人耳蜗螺旋神经节三维图谱；螺旋神经节细胞核由在 Dragonfly 3D World 2024.1（Comet）中用 Deep Learning Tool 训练的自定义深度学习分割模型检测。",
+   "summary_en": "Mass Eye and Ear researchers build the first complete 3D spiral ganglion neuron map of a human cochlea from 421 consecutive H&E sections; SGN nuclei were detected with a custom deep-learning segmentation model trained in Dragonfly 3D World 2024.1 (Comet) using its Deep Learning Tool.",
+   "url": "https://www.biorxiv.org/content/10.64898/2026.11.10.765480v1",
+   "doi": "10.64898/2026.11.10.765480",
+   "date": "2026-11-11",
+   "digest_date": "2026-11-14",
+   "digest_page": "news/2026-11-14.html",
+   "source": "bioRxiv（预印本）",
+   "source_en": "bioRxiv (preprint)",
+   "category": "学术论文",
+   "category_en": "Research paper",
+   "tags": [
+    "深度学习",
+    "耳蜗",
+    "组织学"
+   ],
+   "tags_en": [
+    "Deep learning",
+    "Cochlea",
+    "Histology"
+   ],
+   "topics": [
+    {
+     "key": "life-sciences",
+     "zh": "生命科学",
+     "en": "Life Sciences"
+    },
+    {
+     "key": "ai-deep-learning",
+     "zh": "AI 与深度学习",
+     "en": "AI & Deep Learning"
+    },
+    {
+     "key": "metrology-inspection",
+     "zh": "计量与检测",
+     "en": "Metrology & Inspection"
+    },
+    {
+     "key": "releases-features",
+     "zh": "版本与功能",
+     "en": "Releases & Features"
+    }
+   ]
+  },
+  {
+   "id": "doi:10.64898/2026.11.07.765032",
+   "title": "MGP 缺失揭示小鼠气道中此前未被认识的黏膜钙化",
+   "title_en": "Matrix Gla Protein deficiency reveals a previously unrecognized mucosal calcification in the mouse airways",
+   "summary": "IMoPA（南锡）和麦吉尔大学的研究者表征了 MGP 缺失小鼠的气管钙化；Zeiss Xradia Versa 520 的 micro-CT 体积数据在 Dragonfly 3D World 中完成配准与拼接，黏膜和软骨钙化用其中的 2.5D U-Net 分割（Comet Technologies Canada 提供学术许可）。",
+   "summary_en": "Researchers at IMoPA (Nancy) and McGill University characterize tracheal calcification in MGP-deficient mice; Zeiss Xradia Versa 520 micro-CT volumes were registered and stitched in Dragonfly 3D World, and mucosal and cartilage calcification was segmented with a 2.5D U-Net in Dragonfly 3D World (academic license from Comet Technologies Canada).",
+   "url": "https://www.biorxiv.org/content/10.64898/2026.11.07.765032v1",
+   "doi": "10.64898/2026.11.07.765032",
+   "date": "2026-11-10",
+   "digest_date": "2026-11-14",
+   "digest_page": "news/2026-11-14.html",
+   "source": "bioRxiv（预印本）",
+   "source_en": "bioRxiv (preprint)",
+   "category": "学术论文",
+   "category_en": "Research paper",
+   "tags": [
+    "micro-CT",
+    "深度学习",
+    "气管钙化"
+   ],
+   "tags_en": [
+    "micro-CT",
+    "Deep learning",
+    "Tracheal calcification"
+   ],
+   "topics": [
+    {
+     "key": "ai-deep-learning",
+     "zh": "AI 与深度学习",
+     "en": "AI & Deep Learning"
+    }
+   ]
+  },
   {
    "id": "doi:10.1371/journal.pbio.3003933",
    "title": "单个隐孢子虫 rhoptry 依次驱动入侵与宿主-寄生虫界面形成",
