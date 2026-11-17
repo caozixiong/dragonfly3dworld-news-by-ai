@@ -1,7 +1,7 @@
 {
- "updated": "2026-11-14",
+ "updated": "2026-11-17",
  "site": "Dragonfly 3D World News",
- "count": 102,
+ "count": 106,
  "topics": [
   {
    "key": "life-sciences",
@@ -45,6 +45,148 @@
   }
  ],
  "entries": [
+  {
+   "id": "url:https://comet.tech/dragonfly/blog/pollen-grain-analysis-cellpose-sam-fast-split",
+   "title": "Dragonfly 3D World 三维花粉粒分析：Cellpose-SAM 3D 与 Fast Split",
+   "title_en": "3D Pollen Grain Analysis with Dragonfly 3D World",
+   "summary": "官方博客介绍一份与 Donald Danforth 植物科学中心合作的新应用说明：在拟南芥和大豆花的 XRM 数据中，用 Dragonfly 3D World 的 Cellpose-SAM 3D 和 Fast Split 工具分离单个花粉粒，进行三维定量分析。",
+   "summary_en": "Official blog on a new application note with the Donald Danforth Plant Science Center: Dragonfly 3D World's Cellpose-SAM 3D and Fast Split tools separate individual pollen grains in XRM datasets of Arabidopsis and soy flowers for quantitative 3D analysis.",
+   "url": "https://comet.tech/dragonfly/blog/pollen-grain-analysis-cellpose-sam-fast-split",
+   "doi": "",
+   "date": "2026-11-16",
+   "digest_date": "2026-11-17",
+   "digest_page": "news/2026-11-17.html",
+   "source": "Dragonfly 官方博客（Comet Technologies Canada）",
+   "source_en": "Dragonfly official blog (Comet Technologies Canada)",
+   "category": "新闻",
+   "category_en": "News",
+   "tags": [
+    "Cellpose-SAM",
+    "XRM",
+    "植物成像"
+   ],
+   "tags_en": [
+    "Cellpose-SAM",
+    "XRM",
+    "Plant imaging"
+   ],
+   "topics": [
+    {
+     "key": "ai-deep-learning",
+     "zh": "AI 与深度学习",
+     "en": "AI & Deep Learning"
+    },
+    {
+     "key": "official",
+     "zh": "官方动态",
+     "en": "Official Updates"
+    }
+   ]
+  },
+  {
+   "id": "doi:10.48550/arxiv.2611.17283",
+   "title": "具有极端热稳定性和环境稳定性的 SiC-BN 复合材料",
+   "title_en": "SiC-BN composites with extreme thermal and environmental stability",
+   "summary": "SiC-BN 复合材料具有极端热稳定性和环境稳定性；Sigray Eclipse XRM 数据在 Dragonfly 3D 软件中处理，用其集成的机器学习分割区分孔隙。",
+   "summary_en": "SiC-BN composites with extreme thermal and environmental stability; Sigray Eclipse XRM data were processed in Dragonfly 3D software, using its integrated machine-learning segmentation to separate pores.",
+   "url": "https://arxiv.org/abs/2611.17283",
+   "doi": "10.48550/arXiv.2611.17283",
+   "date": "2026-11-12",
+   "digest_date": "2026-11-17",
+   "digest_page": "news/2026-11-17.html",
+   "source": "arXiv",
+   "source_en": "arXiv",
+   "category": "学术论文",
+   "category_en": "Research paper",
+   "tags": [
+    "XRM",
+    "机器学习",
+    "孔隙"
+   ],
+   "tags_en": [
+    "XRM",
+    "Machine learning",
+    "Pores"
+   ],
+   "topics": [
+    {
+     "key": "materials-manufacturing",
+     "zh": "材料与制造",
+     "en": "Materials & Manufacturing"
+    },
+    {
+     "key": "ai-deep-learning",
+     "zh": "AI 与深度学习",
+     "en": "AI & Deep Learning"
+    }
+   ]
+  },
+  {
+   "id": "doi:10.1093/aobpla/plag058",
+   "title": "大麦 seg3 突变体萌发加速",
+   "title_en": "seg3 Mutants in Barley (Hordeum vulgare L.) Show Accelerated Germination",
+   "summary": "大麦 seg3 突变体萌发加速的 micro-CT 研究；使用 Dragonfly 3D World（Comet Technologies，v2024.1）划定胚、胚乳、糊粉层和根等 ROI，并做三维体积分析。",
+   "summary_en": "Micro-CT study of barley seg3 mutants showing accelerated germination; Dragonfly 3D World (Comet Technologies, v2024.1) was used to assign ROIs (embryo, endosperm, aleurone, roots) and for 3D volumetric analysis.",
+   "url": "https://doi.org/10.1093/aobpla/plag058",
+   "doi": "10.1093/aobpla/plag058",
+   "date": "2026-11-11",
+   "digest_date": "2026-11-17",
+   "digest_page": "news/2026-11-17.html",
+   "source": "AoB PLANTS（录用稿）",
+   "source_en": "AoB PLANTS (accepted manuscript)",
+   "category": "学术论文",
+   "category_en": "Research paper",
+   "tags": [
+    "micro-CT",
+    "植物",
+    "ROI"
+   ],
+   "tags_en": [
+    "micro-CT",
+    "Plant",
+    "ROI"
+   ],
+   "topics": [
+    {
+     "key": "releases-features",
+     "zh": "版本与功能",
+     "en": "Releases & Features"
+    }
+   ]
+  },
+  {
+   "id": "doi:10.48550/arxiv.2610.31176",
+   "title": "用衍射衬度断层扫描追踪铝合金异常晶粒长大的出现与持续",
+   "title_en": "Tracking the Emergence and Persistence of Abnormal Grain Growth in an Aluminum Alloy using Diffraction-Contrast Tomography",
+   "summary": "用衍射衬度/相位衬度断层扫描研究铝合金异常晶粒长大；第二相颗粒用在 Dragonfly（Comet Technologies Canada，v2022.2）中训练的 CNN 分割。",
+   "summary_en": "Diffraction-contrast/phase-contrast tomography study of abnormal grain growth in an aluminum alloy; second-phase particles were segmented with a CNN trained in Dragonfly (Comet Technologies Canada, v2022.2).",
+   "url": "https://arxiv.org/abs/2610.31176",
+   "doi": "10.48550/arXiv.2610.31176",
+   "date": "2026-10-22",
+   "digest_date": "2026-11-17",
+   "digest_page": "news/2026-11-17.html",
+   "source": "arXiv",
+   "source_en": "arXiv",
+   "category": "学术论文",
+   "category_en": "Research paper",
+   "tags": [
+    "材料科学",
+    "CNN",
+    "断层扫描"
+   ],
+   "tags_en": [
+    "Materials science",
+    "CNN",
+    "Tomography"
+   ],
+   "topics": [
+    {
+     "key": "materials-manufacturing",
+     "zh": "材料与制造",
+     "en": "Materials & Manufacturing"
+    }
+   ]
+  },
   {
    "id": "doi:10.64898/2026.11.10.765480",
    "title": "基于深度学习流程的成人耳蜗螺旋神经节完整三维图谱",
