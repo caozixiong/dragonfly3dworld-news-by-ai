@@ -1,7 +1,7 @@
 {
- "updated": "2026-11-17",
+ "updated": "2026-11-18",
  "site": "Dragonfly 3D World News",
- "count": 106,
+ "count": 107,
  "topics": [
   {
    "key": "life-sciences",
@@ -45,6 +45,44 @@
   }
  ],
  "entries": [
+  {
+   "id": "doi:10.3897/fr.29.206804",
+   "title": "准确判定脊椎动物粪化石的螺旋肠类型：摩洛哥 Kem Kem 白垩纪地层案例",
+   "title_en": "Accurately assigning coprolites to vertebrate spiral intestine types: A case study from the Kem Kem beds (Morocco, Cretaceous)",
+   "summary": "对摩洛哥 Kem Kem 地层 187 件白垩纪脊椎动物粪化石做 micro-CT（RX Solutions 扫描仪），判定其螺旋肠类型；三维渲染和分割在 Dragonfly 2024.1 中完成。",
+   "summary_en": "Micro-CT study (RX Solutions scanner) of 187 Cretaceous vertebrate coprolites from the Kem Kem beds, Morocco, to assign them to spiral-intestine types; 3D rendering and segmentation were done in Dragonfly 2024.1.",
+   "url": "https://doi.org/10.3897/fr.29.206804",
+   "doi": "10.3897/fr.29.206804",
+   "date": "2026-11-16",
+   "digest_date": "2026-11-18",
+   "digest_page": "news/2026-11-18.html",
+   "source": "Fossil Record (Pensoft)",
+   "source_en": "Fossil Record (Pensoft)",
+   "category": "学术论文",
+   "category_en": "Research paper",
+   "tags": [
+    "micro-CT",
+    "古生物",
+    "分割"
+   ],
+   "tags_en": [
+    "micro-CT",
+    "Paleontology",
+    "Segmentation"
+   ],
+   "topics": [
+    {
+     "key": "geoscience-archaeology",
+     "zh": "地球科学与考古",
+     "en": "Geoscience & Archaeology"
+    },
+    {
+     "key": "releases-features",
+     "zh": "版本与功能",
+     "en": "Releases & Features"
+    }
+   ]
+  },
   {
    "id": "url:https://comet.tech/dragonfly/blog/pollen-grain-analysis-cellpose-sam-fast-split",
    "title": "Dragonfly 3D World 三维花粉粒分析：Cellpose-SAM 3D 与 Fast Split",
