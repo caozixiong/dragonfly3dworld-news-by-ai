@@ -1,6 +1,59 @@
 {
  "days": [
   {
+   "date": "2026-11-19",
+   "count": 2,
+   "page": "news/2026-11-19.html",
+   "items": [
+    {
+     "title": "抗短路硫化物固态电池：通过锂去润湿抑制锂渗透",
+     "title_en": "Short-circuit-resistant sulfide solid-state batteries through lithium dewetting",
+     "url": "https://doi.org/10.26434/chemrxiv.15012255/v1",
+     "doi": "10.26434/chemrxiv.15012255/v1",
+     "source": "ChemRxiv（预印本）",
+     "source_en": "ChemRxiv (preprint)",
+     "date": "2026-11-16",
+     "category": "学术论文",
+     "category_en": "Research paper",
+     "summary": "首尔国立大学/现代/斯坦福预印本：钨诱导的锂去润湿可阻止锂渗透和短路；三维样品形貌用 Zeiss Xradia 620 Versa 成像，并在 Dragonfly Pro（v2021.1）中重建与分析。",
+     "summary_en": "Seoul National University / Hyundai / Stanford preprint showing tungsten-induced lithium dewetting stops Li infiltration and short circuits in sulfide solid electrolytes; the 3D pellet morphology was imaged on a Zeiss Xradia 620 Versa and reconstructed/analyzed in Dragonfly Pro (v2021.1).",
+     "tags": [
+      "micro-CT",
+      "电池",
+      "三维重建"
+     ],
+     "tags_en": [
+      "micro-CT",
+      "Batteries",
+      "3D reconstruction"
+     ]
+    },
+    {
+     "title": "超越 DXA：低骨量成人 HR-pQCT 有限元骨刚度的微结构相关因素",
+     "title_en": "Beyond DXA: Microarchitectural correlates of HR-pQCT-based finite element bone stiffness in adults with low bone mass",
+     "url": "https://doi.org/10.1016/j.bonr.2026.101969",
+     "doi": "10.1016/j.bonr.2026.101969",
+     "source": "Bone Reports (Elsevier)",
+     "source_en": "Bone Reports (Elsevier)",
+     "date": "2026-10-31",
+     "category": "学术论文",
+     "category_en": "Research paper",
+     "summary": "对 136 名巴西成人比较 DXA、HR-pQCT 及组合模型对桡骨远端和胫骨有限元刚度的预测；体素有限元模型由 HR-pQCT DICOM 序列在 Dragonfly v2024 中处理构建。",
+     "summary_en": "Cross-sectional study of 136 Brazilian adults comparing DXA, HR-pQCT and combined models for FE-derived stiffness at the distal radius and tibia; voxel-based FE models were built from HR-pQCT DICOM stacks processed in Dragonfly v2024.",
+     "tags": [
+      "HR-pQCT",
+      "骨骼",
+      "有限元"
+     ],
+     "tags_en": [
+      "HR-pQCT",
+      "Bone",
+      "Finite element"
+     ]
+    }
+   ]
+  },
+  {
    "date": "2026-11-18",
    "count": 1,
    "page": "news/2026-11-18.html",
